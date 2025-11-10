@@ -1,0 +1,104 @@
+# Info Consolidada Estudio CILS
+
+## HREF / Navegación
+Inicio: #hero
+Nosotros: #about
+Servicios: #services
+Clientes: #clients
+Blog: #blog
+Contacto: #contact
+Agendar Consulta (CTA): #contact
+WhatsApp: https://wa.me/5492944459796
+Correo: mailto:info@estudiocils.com.ar
+
+## SEO Actual (plantilla corporativa)
+Title: Estudio CILS | Servicios Contables en Bariloche | +10 años de experiencia
+Description: Estudio contable en Bariloche con +10 años de experiencia. Servicios integrales de gestión contable, impositiva, laboral y societaria. Empresas como INVAP confían en nosotros.
+Keywords: estudio contable bariloche, contador bariloche, gestión impositiva, asesoría laboral patagonia, servicios contables
+Canonical: https://estudiocils.com.ar/
+
+## JSON-LD
+@context: https://schema.org
+@type: ProfessionalService
+name: Estudio CILS
+address.streetAddress: Morales 639
+address.addressLocality: San Carlos de Bariloche
+address.addressRegion: Río Negro
+address.addressCountry: AR
+telephone: +54 294 4459796
+email: info@estudiocils.com.ar
+
+## Hero
+Badge: ✨ Más de 10 años en Bariloche y región
+Headline: Tu socio estratégico en gestión contable, impositiva, laboral y societaria
+Subheadline: Soluciones integrales para el crecimiento sostenible de tu empresa en la Patagonia Andina
+CTA Primario: Solicitar Asesoramiento (#contact)
+CTA Secundario: Conocer Servicios (#services)
+Trust: INVAP y +100 empresas confían en nosotros
+
+## Stats
+1: 10+ | Años de experiencia
+2: 100+ | Empresas confían en nosotros
+3: 4 | Áreas especializadas
+4: 24/7 | Soporte disponible
+
+## About
+Badge: Quiénes Somos
+Título: Equipo profesional dinámico y actualizado
+Párrafo 1: Somos un equipo especializado con más de una década de experiencia en Bariloche y la región. Nuestro enfoque es el asesoramiento integral, ajustado a las necesidades específicas de cada cliente.
+Párrafo 2: Priorizamos la calidad y la actualización profesional continua. Cumplimos plazos en todo contexto económico financiero, posicionándonos como referentes en la Patagonia Andina.
+Features: ✓ Altos estándares de calidad en cada servicio | ✓ Sinergia entre áreas para resultados superiores | ✓ Confiabilidad y transparencia en cada asesoramiento
+Pilares: Contable, Impositiva, Laboral, Societaria
+Tabs:
+- Nuestra Misión: Contribuir diariamente a la buena gestión y al desarrollo eficiente y profesionalizado de las empresas locales que confían en nuestro asesoramiento.
+- Nuestra Visión: Posicionarnos como referente a nivel de la Patagonia Andina, generando confianza en empresas del medio para descentralizar respecto de grandes ciudades cuestiones de complejidad profesional.
+- Nuestro Compromiso: Acompañar y contribuir al crecimiento sostenido y de largo plazo de nuestros clientes a través de aportes ideados bajo un proceso de mejora continua.
+- Enfoque de Calidad: Abordaje integral con el aporte de cada una de las áreas del estudio para lograr una sinergia que permita obtener un resultado de calidad superior.
+
+## Servicios (Cards)
+Contable: Cumplimiento de disposiciones legales, informes de gestión y presentación del estado económico-financiero de tu empresa.
+Impositiva: Gestión eficiente de obligaciones fiscales a nivel municipal, provincial, nacional e internacional.
+Laboral: Administración integral de recursos humanos y cumplimiento de normativas laborales vigentes.
+Societaria: Planificación jurídica estratégica, constitución de sociedades y reformas estatutarias.
+
+## Clientes
+Featured: INVAP
+(Placeholder para otros logos)
+
+## Testimonios
+INVAP: Profesionalismo y compromiso en cada asesoramiento. Un socio estratégico fundamental para nuestro crecimiento sostenido. (Autor: Empresa reconocida internacionalmente, ⭐⭐⭐⭐⭐)
+Empresa Regional: Más de 10 años confiando en su expertise. Calidad, cumplimiento y actualización garantizados en cada servicio. (Autor: Cliente corporativo - Sector industrial, ⭐⭐⭐⭐⭐)
+
+## Blog (Ejemplo 1)
+Laboral – Nueva doble indemnización por despidos en 2023 – 15 de marzo, 2023 – Cambios normativos relevantes en materia laboral que impactan en el cálculo de indemnizaciones...
+
+## Contacto
+Headline: Hablemos de tu proyecto
+Texto: Agenda una consulta gratuita y descubre cómo podemos ayudar a tu empresa a crecer de manera eficiente y profesional.
+Dirección: Morales 639, Bariloche, Río Negro, Argentina
+Teléfonos: +54 294 4459796 | +54 294 4427365 | +54 294 4240591
+Email: info@estudiocils.com.ar
+Horarios: Lunes a Viernes: 9:00 - 18:00 hs | Sábados: 9:00 - 13:00 hs
+Quick: WhatsApp (https://wa.me/5492944459796) | LinkedIn (#) | Email (mailto:info@estudiocils.com.ar)
+
+## Footer
+About: Más de 10 años brindando soluciones integrales en gestión contable, impositiva, laboral y societaria.
+Servicios: Contable | Impositiva | Laboral | Societaria
+Empresa: Quiénes somos | Nuestro equipo | Clientes | Blog | Contacto
+Newsletter: Recibe novedades – Enviamos actualizaciones mensuales sobre cambios normativos.
+Bottom Left: © 2024 Estudio CILS. Todos los derechos reservados.
+Bottom Center: Política de Privacidad | Términos y Condiciones
+Bottom Right: Diseñado con ❤️ en Bariloche
+
+## Botones Flotantes
+WhatsApp: https://wa.me/5492944459796
+Scroll Top: habilitado >500px scroll
+
+## Paleta
+primary: #106973 | secondary: #307C86 | accent1: #7AC3B1 | accent2: #A0D4C5 | background: #F8FAFB | text: #2D3748 | textLight: #718096
+
+## Tipografía
+Headings: Montserrat (700,600) | Body: Inter (400,500,600) | Stats: Poppins (700)
+
+## Breakpoints
+sm:640 | md:768 | lg:1024 | xl:1280 | xxl:1440

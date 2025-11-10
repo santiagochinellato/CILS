@@ -1,0 +1,385 @@
+✅ ICON LIBRARY OFICIAL – ESTUDIO CILS (Lucide icons)
+
+Estilo: Outline 2px (default Lucide)
+Color base: #106973
+Color hover: #307C86
+Color acento: #7AC3B1
+
+Todos estos íconos existen en Lucide y tienen disponibilidad en SVG/React.
+
+✅ 1. Iconos por Sección del Sitio
+✅ HEADER / NAVEGACIÓN
+Función	Ícono Lucide sugerido
+Menú mobile	Menu
+Cerrar menú	X
+Flecha navegación	ChevronRight
+Scroll indicator	ArrowDown
+✅ HERO SECTION
+Elemento	Ícono Lucide
+Trust Badge	ShieldCheck, Verified, o BadgeCheck
+Elementos flotantes	Circle, PieChart, LineChart, Dot
+
+Recomiendo los abstractos (Circle, Dot) para un look premium.
+
+✅ SECCIÓN ESTADÍSTICAS (Trust Bar)
+Stat	Ícono Lucide
+Años de experiencia	History / CalendarCheck
+Empresas	Building2 / Building
+Áreas especializadas	Layers
+Soporte 24/7	Clock o Timer
+✅ SECCIÓN QUIÉNES SOMOS
+Elemento	Ícono
+Excelencia profesional	Medal
+Enfoque integral	Layers3
+Compromiso y ética	Handshake
+Misión	Target
+Visión	Eye o Binoculars
+Compromiso	HeartHandshake
+Calidad	Award
+✅ SECCIÓN SERVICIOS (los 4 pilares)
+
+(estos son fundamentales y quedarán en tus cards)
+
+🟦 Contable
+
+TrendingUp
+
+LineChart
+
+BarChart3
+
+NotebookPen
+✅ Recomendado: LineChart
+
+🟧 Impositiva
+
+Receipt
+
+Wallet
+
+Landmark
+✅ Recomendado: Receipt
+
+🟩 Laboral
+
+Users
+
+UserCog
+
+UserCheck
+✅ Recomendado: Users
+
+⚖️ Societaria
+
+Scale
+
+Gavel
+
+FileSignature
+✅ Recomendado: Scale
+
+✅ CLIENTES & TESTIMONIOS
+Elemento	Ícono
+Testimonios	MessageSquare
+Carrusel flechas	ChevronLeft / ChevronRight
+Rating	Star (filled)
+Quote	Quote
+✅ BLOG / NOVEDADES
+Elemento	Ícono
+Categoría contable	BarChart2
+Categoría impositiva	Landmark
+Categoría laboral	Users2
+Categoría societaria	Scale
+Fecha	Calendar
+Leer más	ArrowRight
+✅ CONTACTO
+Elemento	Ícono
+Dirección	MapPin
+Teléfono	Phone
+Email	Mail
+Empresa	Building2
+Form – select servicios	ChevronsUpDown
+WhatsApp flotante	MessageCircle o Send
+LinkedIn	Linkedin
+✅ FOOTER
+Elemento	Ícono
+Redes sociales	Linkedin, Facebook, Instagram
+Newsletter	MailPlus
+Políticas	FileText
+✅ 2. Cómo los integramos (Iteración sugerida en tu Front)
+
+Aquí tenés las próximas 3 iteraciones clave, como lo haría un senior UI/UX:
+
+✅ Iteración 1 — Definir sistema de iconos
+
+Crearemos:
+
+→ 1 archivo único /icons/index.ts
+
+Ejemplo:
+
+import { LineChart, Receipt, Users, Scale, MapPin, Phone, Mail, Calendar } from "lucide-react";
+
+export const icons = {
+  contable: LineChart,
+  impositivo: Receipt,
+  laboral: Users,
+  societaria: Scale,
+  direccion: MapPin,
+  telefono: Phone,
+  email: Mail,
+  fecha: Calendar,
+};
+
+✅ Iteración 2 — Crear un “IconComponent” customizado
+
+Para aplicar colores y tamaños coherentes:
+
+export const Icon = ({ name, size = 24, color = "#106973", className }) => {
+  const LucideIcon = icons[name];
+  return <LucideIcon size={size} color={color} className={className} />;
+};
+
+
+Esto hace tu iconografía 100% consistente.
+
+✅ Iteración 3 — Integrar Framer Motion para microanimaciones
+
+Para hover:
+
+<motion.div
+  whileHover={{ scale: 1.05 }}
+  transition={{ duration: 0.2 }}
+>
+  <Icon name="contable" />
+</motion.div>
+
+
+Para elementos flotantes en el hero:
+
+<motion.div
+  animate={{ y: [0, -6, 0] }}
+  transition={{ duration: 3, repeat: Infinity }}
+>
+  <Circle size={36} color="#A0D4C5" />
+</motion.div>
+
+
+✅ 1) Sistema de Colores para Íconos según Categoría
+export const iconColor = {
+  primary: "#106973",      // base CILS
+  secondary: "#307C86",    // hover
+  accent: "#7AC3B1",       // acento suave
+  accentLight: "#A0D4C5",  // fondos suaves
+  neutral: "#718096",      // textos secundarios
+};
+
+✅ 2) Icon Component v2 (con auto-coloring por contexto)
+
+👉 Esta versión entiende automáticamente qué color usar según el tipo de ícono.
+
+// src/components/ui/Icon.tsx
+import React from "react";
+import { motion } from "framer-motion";
+import { icons, IconName } from "./icons";
+import { iconColor } from "./iconColor";
+
+type IconContext =
+  | "default"
+  | "service"
+  | "stat"
+  | "contact"
+  | "footer"
+  | "accent";
+
+interface IconProps {
+  name: IconName;
+  size?: number;
+  context?: IconContext;
+  className?: string;
+  hover?: boolean;
+}
+
+export const Icon: React.FC<IconProps> = ({
+  name,
+  size = 24,
+  context = "default",
+  className,
+  hover = false,
+}) => {
+  const LucideIcon = icons[name];
+
+  const colorMap = {
+    default: iconColor.primary,
+    service: iconColor.accent,
+    stat: iconColor.primary,
+    contact: iconColor.primary,
+    footer: "#FFFFFF",
+    accent: iconColor.accentLight,
+  };
+
+  const color = colorMap[context];
+
+  const Wrapper = hover ? motion.div : "div";
+
+  return (
+    <Wrapper
+      whileHover={hover ? { scale: 1.05 } : undefined}
+      transition={{ duration: 0.25 }}
+      className={className}
+    >
+      <LucideIcon size={size} color={color} strokeWidth={2} />
+    </Wrapper>
+  );
+};
+
+
+✅ Íconos inteligentes
+✅ Usa color según contexto
+✅ Hover suave
+✅ Stroke uniforme
+✅ Consistente en todo el sitio
+
+✅ 3) Componentes UI listos para producción
+✅ (A) ServiceCard.tsx
+
+Para la sección de Servicios Profesionales.
+
+// src/components/ServiceCard.tsx
+import { Icon } from "./ui/Icon";
+
+interface ServiceCardProps {
+  icon: IconName;
+  title: string;
+  description: string;
+  features?: string[];
+}
+
+export const ServiceCard: React.FC<ServiceCardProps> = ({
+  icon,
+  title,
+  description,
+  features = [],
+}) => {
+  return (
+    <div className="bg-white p-8 rounded-2xl shadow-md hover:-translate-y-2 hover:shadow-xl transition-all duration-300">
+      <div className="mb-6">
+        <Icon name={icon} size={48} context="service" hover />
+      </div>
+
+      <h3 className="text-2xl font-semibold text-[#106973] mb-3">{title}</h3>
+
+      <p className="text-[#718096] mb-6">{description}</p>
+
+      <ul className="space-y-2">
+        {features.map((item, i) => (
+          <li key={i} className="flex items-center gap-2 text-[#2D3748]">
+            <Icon name="check" size={18} context="accent" />
+            {item}
+          </li>
+        ))}
+      </ul>
+
+      <button className="mt-6 text-[#307C86] font-medium hover:underline">
+        Más información →
+      </button>
+    </div>
+  );
+};
+
+
+✅ Hover moderno
+✅ Íconos adaptados
+✅ Estilo totalmente CILS
+✅ Layout limpio
+
+✅ (B) StatCard.tsx
+
+Para la sección de Estadísticas (Trust Bar).
+
+// src/components/StatCard.tsx
+import { Icon } from "./ui/Icon";
+
+interface StatCardProps {
+  icon: IconName;
+  value: string;
+  label: string;
+}
+
+export const StatCard = ({ icon, value, label }: StatCardProps) => {
+  return (
+    <div className="text-center p-6 bg-white rounded-xl shadow">
+      <Icon name={icon} size={40} context="stat" />
+
+      <p className="text-4xl font-bold text-[#106973] mt-4">{value}</p>
+
+      <p className="text-[#718096] mt-1 text-sm">{label}</p>
+    </div>
+  );
+};
+
+
+✅ Perfecto para números animados
+✅ Look premium
+✅ 100% alineado al brand
+
+✅ (C) FeatureItem.tsx
+
+Para listas dentro de “Quiénes Somos”.
+
+// src/components/FeatureItem.tsx
+import { Icon } from "./ui/Icon";
+
+interface FeatureItemProps {
+  icon: IconName;
+  text: string;
+}
+
+export const FeatureItem = ({ icon, text }: FeatureItemProps) => {
+  return (
+    <div className="flex items-center gap-4">
+      <Icon name={icon} size={28} context="accent" />
+      <p className="text-[#2D3748] text-lg">{text}</p>
+    </div>
+  );
+};
+
+
+✅ Minimalista
+✅ Muy elegante
+✅ Ideal para transmitir profesionalismo
+
+✅ 4) Setup para Figma – Icon Grid Exportable
+
+Para que puedas exportar todos los íconos a Figma, crea un archivo llamado:
+
+🔹 /public/icons/icon-grid.json
+
+Con esto:
+
+{
+  "size": 24,
+  "strokeWidth": 2,
+  "icons": [
+    "LineChart",
+    "Receipt",
+    "Users",
+    "Scale",
+    "MapPin",
+    "Phone",
+    "Mail",
+    "History",
+    "Layers",
+    "Building2",
+    "Clock",
+    "Medal",
+    "Layers3",
+    "Handshake",
+    "Award",
+    "MessageSquare",
+    "Quote",
+    "Star",
+    "Calendar",
+    "FileText"
+  ]
+}

@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #106973;
+  --color-secondary: #307C86;
+  --color-accent-1: #7AC3B1;
+  --color-accent-2: #A0D4C5;
+  --color-background: #F8FAFB;
+  --color-white: #FFFFFF;
+  --color-text: #2D3748;
+  --color-text-light: #718096;
+}
+
+.dark {
+  --color-background: #0F1C21;
+  --color-white: #1F2C33;
+  --color-text: #E2E8F0;
+  --color-text-light: #94A3B8;
+}
+
+body { font-feature-settings: "liga" 1, "calt" 1; }
+
+body { background: var(--color-background); color: var(--color-text); }
+
+.dark .section { background: transparent; }
+.dark .glass { background: rgba(31,44,51,0.6); }
+.dark .shadow-card { box-shadow: 0 8px 24px -4px rgba(0,0,0,0.5); }
+.dark .shadow-cardHover { box-shadow: 0 20px 40px -8px rgba(0,0,0,0.55); }
+
+/* Text theming utilities */
+.dark .text-textLight { color: var(--color-text-light); }
+.dark .text-text { color: var(--color-text); }
+
+/* Utility classes */
+.text-gradient-primary { background: linear-gradient(135deg,#A0D4C5,#307C86); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.glass { backdrop-filter: blur(10px); background: rgba(255,255,255,0.6); }
+
+/* Animación para el logo del header */
+.logo-cils-anim {
+  animation: logoCilsFadeIn 1.2s cubic-bezier(0.4,0,0.2,1);
+}
+
+@keyframes logoCilsFadeIn {
+  0% { opacity: 0; transform: translateY(-12px) scale(0.96); }
+  60% { opacity: 1; transform: translateY(0) scale(1.04); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}

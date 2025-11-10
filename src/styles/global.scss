@@ -1,0 +1,21 @@
+/* Global styles and tokens */
+:root {
+  --color-primary: #106973;
+  --color-secondary: #307C86;
+  --color-accent-1: #7AC3B1;
+  --color-accent-2: #A0D4C5;
+  --color-background: #F8FAFB;
+  --color-white: #FFFFFF;
+  --color-text: #2D3748;
+  --color-text-light: #718096;
+}
+
+html, body, #root { height: 100%; }
+body { background: var(--color-background); color: var(--color-text); }
+
+.section { padding: 56px 0; }
+.section--alt { background: var(--color-accent-2); }
+
+.container { width: 100%; max-width: 1120px; padding: 0 24px; margin: 0 auto; }
+
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
