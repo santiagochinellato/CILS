@@ -1,3 +1,5 @@
+// Mantiene el tipo original para no romper comparaciones existentes,
+// pero internamente sólo devolveremos/aplicaremos 'light'.
 export type ThemeMode = 'light' | 'dark';
 
 const STORAGE_KEY = 'theme';
@@ -7,31 +9,29 @@ export function getStoredTheme(): ThemeMode | null {
   return v === 'dark' || v === 'light' ? v : null;
 }
 
+// Siempre preferimos claro.
 export function detectPreferredTheme(): ThemeMode {
-  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    return 'dark';
-  }
   return 'light';
 }
 
-export function applyTheme(mode: ThemeMode) {
+export function applyTheme(_mode: ThemeMode) {
   const root = document.documentElement;
-  if (mode === 'dark') root.classList.add('dark');
-  else root.classList.remove('dark');
+  // Forzamos quitar la clase dark siempre
+  root.classList.remove('dark');
 }
 
 export function initTheme() {
-  const stored = getStoredTheme();
-  const mode = stored ?? detectPreferredTheme();
+  // Ignoramos lo almacenado y la preferencia del sistema; siempre claro.
+  const mode: ThemeMode = 'light';
+  localStorage.setItem(STORAGE_KEY, mode);
   applyTheme(mode);
   return mode;
 }
 
 export function toggleTheme(): ThemeMode {
-  const root = document.documentElement;
-  const willBeDark = !root.classList.contains('dark');
-  const mode: ThemeMode = willBeDark ? 'dark' : 'light';
-  applyTheme(mode);
+  // El toggle ya no cambia a oscuro; mantiene siempre claro.
+  const mode: ThemeMode = 'light';
   localStorage.setItem(STORAGE_KEY, mode);
+  applyTheme(mode);
   return mode;
 }

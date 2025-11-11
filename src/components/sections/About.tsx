@@ -3,12 +3,13 @@ import { siteConfig } from '../../config/site.config';
 import { FeatureItem } from '../../components/FeatureItem';
 import { icons } from '../../components/ui/icons';
 import { ServiceCardSlim } from '../../components/ServiceCardSlim';
+import { Link } from 'react-router-dom';
 
 export const About: React.FC = () => {
   const about = siteConfig.about;
   return (
     <section id="about" className="section">
-      <div className="container grid md:grid-cols-2 gap-10 items-center">
+      <div className="container grid lg:grid-cols-2 gap-10 items-center">
         <div>
           <span className="inline-block px-3 py-1 rounded bg-accent2 text-primary text-sm font-medium">{about.badge}</span>
           <h2 className="mt-4 font-montserrat text-3xl md:text-4xl font-semibold">{about.title}</h2>
@@ -28,10 +29,13 @@ export const About: React.FC = () => {
               return <FeatureItem key={f} icon={icon} text={f.replace(/^✓\s?/, '')} />;
             })}
           </div>
+                <Link to={'/nosotros'} className="mt-4 inline-block text-[#307C86] dark:text-[#7AC3B1] font-medium hover:underline">
+                  Conocer más →
+                </Link>
         </div>
         <div>
           <div className="">
-            <div className="grid grid-cols-2 gap-4 dark:bg-[#1F2C33] p-4 rounded-lg">
+            <div className="grid md:grid-cols-2 gap-4 dark:bg-[#1F2C33] p-4 rounded-lg">
               {about.pillars.map((p) => {
                 // Mapear pilar a icono y descripción corta
                 const key = p.toLowerCase();

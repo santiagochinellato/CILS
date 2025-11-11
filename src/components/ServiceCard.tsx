@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import { Icon } from './ui/Icon';
 import type { IconName } from './ui/icons';
 
@@ -10,23 +10,23 @@ interface ServiceCardProps {
   href?: string;
 }
 
-export const ServiceCard: React.FC<ServiceCardProps> = ({ icon, title, description, features = [], href = '#contact' }) => {
+export const ServiceCard = memo<ServiceCardProps>(({ icon, title, description, features = [], href = '#contact' }) => {
   return (
     <div className="bg-white dark:bg-[#1F2C33] p-8 rounded-2xl shadow-card hover:-translate-y-2 hover:shadow-cardHover transition-all duration-300">
-      <div className="mb-6">
+      <div className="mb-6 flex gap-2 justify-start items-center">
         <Icon name={icon} size={48} context="service" hover />
+      <h3 className="text-2xl font-semibold text-[#106973] dark:text-white">{title}</h3>
       </div>
 
-      <h3 className="text-2xl font-semibold text-[#106973] dark:text-white mb-3">{title}</h3>
 
       <p className="text-[#718096] dark:text-white/70 mb-6">{description}</p>
 
       {features.length > 0 && (
-        <ul className="space-y-2">
+        <ul className="space-y-3">
           {features.map((item, i) => (
-            <li key={i} className="flex items-center gap-2 text-[#2D3748] dark:text-white/90">
+            <li key={i} className="flex justify-start items-start gap-2 text-[#2D3748] dark:text-white/90  ">
               <Icon name="badgeCheck" size={18} context="accent" />
-              {item}
+             <p className='text-sm'> {item}</p>
             </li>
           ))}
         </ul>
@@ -37,4 +37,6 @@ export const ServiceCard: React.FC<ServiceCardProps> = ({ icon, title, descripti
       </a>
     </div>
   );
-};
+});
+
+ServiceCard.displayName = 'ServiceCard';

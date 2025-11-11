@@ -18,8 +18,11 @@ export const ServicesPage: React.FC = () => {
     <>
       <Header />
       <main id="main" className="pt-24">
-        <section className="section"><div className="container"><h1 className="font-montserrat text-3xl md:text-4xl font-semibold text-center">Servicios</h1></div></section>
+        <section className="section"><div className="container">
+            
         <Services />
+            </div>
+            </section>
       </main>
       <Footer />
       <FloatingActions />

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Header } from '../components/layout/Header';
-import { About } from '../components/sections/About';
+import { AboutMore } from '../components/sections/AboutMore';
 import { Team } from '../components/sections/Team';
 import { Footer } from '../components/layout/Footer';
 import { FloatingActions } from '../components/layout/FloatingActions';
@@ -19,7 +19,7 @@ export const AboutPage: React.FC = () => {
     <>
       <Header />
       <main id="main" className="pt-24">
-        <About />
+  <AboutMore />
         <Team />
       </main>
       <Footer />

@@ -1,13 +1,12 @@
-import React, { useMemo } from 'react';
-import { motion, useAnimation } from 'framer-motion';
+import React, { memo, useMemo } from 'react';
+import { motion } from 'framer-motion';
 import { siteConfig } from '../config/site.config';
 
 // Carrusel infinito horizontal simple duplicando elementos.
-export const ClientCarousel: React.FC = () => {
+export const ClientCarousel = memo(() => {
   const clients = siteConfig.clients.filter(c => c.logo);
   // Para bucle continuo duplicamos la lista
   const loopItems = useMemo(() => [...clients, ...clients], [clients]);
-  const controls = useAnimation();
 
   return (
     <div className="relative w-full overflow-hidden">
@@ -43,4 +42,6 @@ export const ClientCarousel: React.FC = () => {
       <div className="pointer-events-none absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-background dark:from-[#0F1C21] to-transparent" />
     </div>
   );
-};
+});
+
+ClientCarousel.displayName = 'ClientCarousel';

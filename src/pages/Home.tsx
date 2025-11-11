@@ -6,7 +6,7 @@ import { About } from '../components/sections/About';
 import { Services } from '../components/sections/Services';
 import { Clients } from '../components/sections/Clients';
 import { Testimonials } from '../components/sections/Testimonials';
-import { Blog } from '../components/sections/Blog';
+import { Novedades } from '../components/sections/Novedades';
 import { Contact } from '../components/sections/Contact';
 import { Footer } from '../components/layout/Footer';
 import { FloatingActions } from '../components/layout/FloatingActions';
@@ -26,7 +26,7 @@ export const Home: React.FC = () => {
         <StatsBar />
         <Clients />
         <Testimonials />
-  <Blog limit={3} />
+        <Novedades limit={3} />
         {/* <Contact /> */}
       </main>
       <Footer />

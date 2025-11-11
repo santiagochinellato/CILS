@@ -9,19 +9,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Inter:wght@400;500;600&family=Poppins:wght@700&display=swap" rel="stylesheet" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-w32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-w16.png" />
   <link rel="canonical" href="https://estudiocils.com.ar/" />
   <meta name="theme-color" content="#106973" />
   <script>
-    (function() {
-      try {
-        var stored = localStorage.getItem('theme');
-        var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        var mode = stored === 'dark' || stored === 'light' ? stored : (prefersDark ? 'dark' : 'light');
-        if (mode === 'dark') document.documentElement.classList.add('dark');
-        else document.documentElement.classList.remove('dark');
-      } catch(e) {}
-    })();
+    // Forzar modo claro desde el principio para evitar FOUC oscuro.
+    try {
+      localStorage.setItem('theme', 'light');
+      document.documentElement.classList.remove('dark');
+    } catch (e) {}
   </script>
   <script type="application/ld+json">
   {
@@ -40,11 +37,10 @@
     "email": "info@estudiocils.com.ar"
   }
   </script>
-  <script type="module" crossorigin src="/assets/index-BZrsOpVc.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-JU69buRu.css">
+  <script type="module" crossorigin src="/assets/index-Dnqj8Wat.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CPSqezPA.css">
 </head>
 <body class="font-inter">
-  <a href="#main" class="sr-only focus:not-sr-only">Saltar al contenido principal</a>
   <div id="root"></div>
 </body>
 </html>

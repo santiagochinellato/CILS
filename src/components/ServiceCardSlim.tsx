@@ -10,7 +10,7 @@ interface ServiceCardSlimProps {
   href?: string;
 }
 
-export const ServiceCardSlim: React.FC<ServiceCardSlimProps> = ({ icon, title, description, href = '/nosotros' }) => {
+export const ServiceCardSlim: React.FC<ServiceCardSlimProps> = ({ icon, title, description, href = '/servicios' }) => {
   return (
     <div className="bg-white dark:bg-[#1F2C33] p-5 rounded-xl shadow-card hover:-translate-y-1 hover:shadow-cardHover transition-all duration-300">
       <div className="mb-4 flex gap-1 items-center justify-start">

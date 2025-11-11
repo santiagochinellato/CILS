@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import { motion } from 'framer-motion';
 import { Icon } from './ui/Icon';
 import type { IconName } from './ui/icons';
@@ -10,7 +10,7 @@ interface StatCardProps {
   index?: number;
 }
 
-export const StatCard: React.FC<StatCardProps> = ({ icon, value, label, index = 0 }) => {
+export const StatCard = memo<StatCardProps>(({ icon, value, label, index = 0 }) => {
   return (
     <motion.div 
       className="flex flex-col gap-1 text-center p-6 bg-white dark:bg-[#1F2C33] rounded-xl shadow hover:shadow-cardHover transition-shadow"
@@ -33,4 +33,6 @@ export const StatCard: React.FC<StatCardProps> = ({ icon, value, label, index = 
       <p className="text-[#718096] dark:text-white/70 mt-1 text-md">{label}</p>
     </motion.div>
   );
-};
+});
+
+StatCard.displayName = 'StatCard';

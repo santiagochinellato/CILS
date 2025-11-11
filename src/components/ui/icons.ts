@@ -19,6 +19,8 @@ import {
   Star,
   ChevronRight,
   ChevronLeft,
+  ChevronDown,
+  ChevronUp,
   ArrowRight,
   Landmark,
   BarChart3,
@@ -38,7 +40,8 @@ import {
   Instagram,
   MessageCircle,
   Sun,
-  Moon
+  Moon,
+  User
 } from 'lucide-react';
 
 export const icons = {
@@ -63,6 +66,8 @@ export const icons = {
   // UI
   chevronRight: ChevronRight,
   chevronLeft: ChevronLeft,
+  chevronDown: ChevronDown,
+  chevronUp: ChevronUp,
   arrowRight: ArrowRight,
   landmark: Landmark,
   barChart3: BarChart3,
@@ -83,6 +88,7 @@ export const icons = {
   whatsapp: MessageCircle,
   star: Star,
   quote: Quote,
+  user: User,
   // Theme
   sun: Sun,
   moon: Moon,

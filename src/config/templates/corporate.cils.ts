@@ -4,14 +4,14 @@ const corporateCils: SiteConfig = {
   nav: [
     { label: 'Inicio', href: '/' },
     { label: 'Nosotros', href: '/nosotros' },
-    { label: 'Equipo', href: '/equipo' },
+
     { label: 'Servicios', href: '/servicios' },
-    { label: 'Clientes', href: '/clientes' },
-    { label: 'Blog', href: '/blog' },
+    { label: 'Novedades', href: '/novedades' },
+    { label: 'Links', href: '/links' },
     { label: 'Contacto', href: '/contacto' }
   ],
   hero: {
-    badge: ' Más de 10 años en Bariloche y región',
+    badge: ' Más de 10 años en Bariloche y en la región',
     title: 'Tu socio estratégico en gestión contable, impositiva, laboral y societaria',
     subtitle: 'Soluciones integrales para el crecimiento sostenible de tu empresa en la Patagonia Andina',
   ctaPrimary: { label: 'Solicitar Asesoramiento', href: '/contacto' },
@@ -41,22 +41,22 @@ const corporateCils: SiteConfig = {
       {
         title: 'Nuestra Misión',
         content:
-          'Contribuir diariamente a la buena gestión y al desarrollo eficiente y profesionalizado de las empresas locales que confían en nuestro asesoramiento.'
+          'Consideramos como nuestra misión el contribuir diariamente a la buena gestión y al desarrollo eficiente y profesionalizado de aquellas tareas que dentro de nuestros pilares se desarrollan en las empresas locales que confían en nuestro asesoramiento.'
       },
       {
-        title: 'Nuestra Visión',
+        title: 'Nuestra Visión y valores',
         content:
-          'Posicionarnos como referente a nivel de la Patagonia Andina, generando confianza en empresas del medio para descentralizar respecto de grandes ciudades cuestiones de complejidad profesional.'
+          'Enmarcados en los valores de Confiabilidad, compromiso y ética que nos guían diariamente en el ejercicio de nuestra vocación, nuestra visión se orienta a lograr posicionarnos como un referente a nivel de la Patagonia Andina generando confianza en empresas del medio para acudir a nosotros, descentralizando respecto de grandes ciudades, cuestiones de complejidad profesional.'
       },
       {
         title: 'Nuestro Compromiso',
         content:
-          'Acompañar y contribuir al crecimiento sostenido y de largo plazo de nuestros clientes a través de aportes ideados bajo un proceso de mejora continua.'
+          'Asumimos diariamente el compromiso de acompañar y contribuir al crecimiento sostenido y de largo plazo de nuestros clientes a través de aportes ideados bajo un proceso de mejora continua que sumen valor para los mismos.'
       },
       {
-        title: 'Enfoque de Calidad',
+        title: 'Nuestro Enfoque de Calidad',
         content:
-          'Abordaje integral con el aporte de cada una de las áreas del estudio para lograr una sinergia que permita obtener un resultado de calidad superior.'
+          'El abordaje de los servicios contratados por el cliente se realiza siempre desde un enfoque integral con el aporte de cada unas de las áreas del estudio para lograr de esa manera una sinergia tal que permita obtener un resultado de calidad mayor que la contribución individual de cada una de ellas..'
       }
     ]
   },
@@ -65,12 +65,15 @@ const corporateCils: SiteConfig = {
       icon: 'contable',
       title: 'Contable',
       description:
-        'Cumplimiento de disposiciones legales, informes de gestión y presentación del estado económico-financiero de tu empresa.',
+        'Conocer el rumbo de los negocios es de vital importancia para su crecimiento y desarrollo, pero mas importante aún es saberlo en el momento oportuno. Este departamento, a cargo de la registración y la presentacion del estado económico financiero de empresas clientes, esta orientado desde una perspectiva de información de calidad para la gestión, al cumplimiento de disposiciones legales y reglamentarias vigentes.',
       features: [
-        'Estados contables completos',
-        'Informes de gestión estratégica',
-        'Análisis financiero detallado',
-        'Auditoría interna'
+        'Estudio y asesoramiento permanente al cliente en la implementación o cambios en reglamentación contable Nacional o Internacional',
+   'Contabilidad Organizada tercerizada',
+   'Armado de Estados contables Anuales o de Periodos Intermedios',
+'Auditoría de Estados contables Anuales o de Periodos Intermedios',
+'Sindicatura Societaria',
+'Proyección contable-financiera o Cash Flow',
+'Certificaciones Contables e Informes en General, verificaciones y controles especiales'
       ],
       href: '#contact'
     },
@@ -78,12 +81,17 @@ const corporateCils: SiteConfig = {
       icon: 'impositivo',
       title: 'Impositiva',
       description:
-        'Gestión eficiente de obligaciones fiscales a nivel municipal, provincial, nacional e internacional.',
+        'A cargo de profesionales experimentados, con visión integradora y orientados al cumplimiento eficiente de la multiplicidad de obligaciones fiscales emanadas de disposiciones legales y reglamentarias a nivel Municipal, Provincial, Nacional e Internacional, esta área trabaja en permanente interacción con el resto de la organización, procurando obtener optimos resultados en beneficio de nuestros clientes.',
       features: [
-        'Planificación tributaria',
-        'Declaraciones juradas',
-        'Asesoramiento fiscal integral',
-        'Optimización impositiva'
+   'Estudio y asesoramiento permanente al cliente referido a implementación o cambios de reglamentación impositiva a nivel provincial, Nacional o Internacional',
+'Liquidación mensual y anual de impuestos Nacionales, provinciales, municipales y convenio multilateral',
+'Armado y Presentación de Declaraciones Juradas Informativas requeridas por organismos fiscales',
+'Armado y Presentación de Declaraciones Juradas de regímenes de retención requeridas por organismos fiscales',
+'Trámites de Inscripción, Modificaciones y Bajas Impositivas',
+'Planificación Fiscal Integral (Tax Planning) Personas físicas, jurídicas y grupos económicos',
+'Gestión de Inspecciones de Organismos fiscales',
+'Auditoría Impositiva'
+
       ],
       href: '#contact'
     },
@@ -91,12 +99,14 @@ const corporateCils: SiteConfig = {
       icon: 'laboral',
       title: 'Laboral',
       description:
-        'Administración integral de recursos humanos y cumplimiento de normativas laborales vigentes.',
+        'Con el dinamismo caracteristico de las relaciones laborales en constante evolución, este departamento se orienta al apoyo tecnico y administrativo, buscando contribuir con nuestros clientes en el cumplimiento como empleador de sus obligaciones legales y reglamentarias.',
       features: [
-        'Liquidación de sueldos',
-        'Cumplimiento normativo',
-        'Asesoría en relaciones laborales',
-        'Gestión de RRHH'
+        'Estudio y asesoramiento permanente referidos a novedades y cambios en material de leyes laborales, convenios colectivos de trabajo y leyes previsionales',
+        'Liquidación de Sueldos, Cargas Sociales y sindicales de todos los convenios colectivos de trabajos y empleados fuera de convenio',
+        'Gestión y Seguimiento de Legajos de Personal, Libro Sueldos y Cargas Sociales, Planilla horaria, Certificaciones de Servicios y demás requerimientos legales por alta o baja de empleados',
+        'Gestión de Inspecciones en Secretaria de Trabajo provincial, Ministerio de Trabajo de la Nación, Sindicatos y Obras Sociales',
+        'Auditoría Laboral y previsional',
+        'Asesoramiento en la implementación y liquidacion Impuesto a las Ganancias de Cuarta categoría y decalraciones juradas determinativas (en coordinación con el departamento de impuestos)'
       ],
       href: '#contact'
     },
@@ -104,12 +114,25 @@ const corporateCils: SiteConfig = {
       icon: 'societaria',
       title: 'Societaria',
       description:
+        'La estructura jurídica de todo negocio son los cimientos sobre los que se construyen las empresas y corporaciones. Un correcto análisis y planificación estratégica en su formación contribuirá al desarrollo exitoso de toda la estructura que se erija a partir de aquella base.',
+      features: [
+       'Estudio y asesoramiento permanente referidos a novedades y cambios en materia societaria y normativa relacionada de obligatorio cumplimiento',
+       'Asesoramiento y gestión en la constitución de Sociedades, Agrupamientos de Colaboración Empresaria y Uniones Transitorias de empresas',
+        'Asesoramiento y gestión en modificaciones societarias (Aumento de Capital, Transferencia o cesión de acciones o cuotas sociales, cambios en la tipología societaria, reorganización societaria libre de impuestos, etc.)',
+        'Asesoramiento y gestión de Libros Societarios (rúbricas, actualización, inscripción de actas en personas jurídicas)'
+      ],
+      href: '#contact'
+    },
+        {
+      icon: 'otros',
+      title: 'Otros servicios',
+      description:
         'Planificación jurídica estratégica, constitución de sociedades y reformas estatutarias.',
       features: [
-        'Constitución de sociedades',
-        'Reformas estatutarias',
-        'Planificación estratégica',
-        'Asesoramiento legal corporativo'
+    'Gestiones relacionadas para la adquisición de empresas o inversiones de capital',
+        'Valuaciones de Fondos de comercio de empresas en marcha',
+        'Análisis integral de proyectos de inversión',
+        'Auditoría Operativa o de control interno'
       ],
       href: '#contact'
     }
@@ -216,7 +239,8 @@ const corporateCils: SiteConfig = {
         titles: ['Contadora Pública Nacional', 'Especialista en Tributación'],
         email: 'nievesrodriguez@estudiocils.com.ar',
         linkedin: '#',
-        area: 'Impuestos'
+        area: 'Impuestos',
+        image: '/images/equipo/nieves.jpg'
       },
       {
         name: 'Javier Chinellato',
@@ -224,14 +248,16 @@ const corporateCils: SiteConfig = {
         titles: ['Contador Público Nacional', 'Especialista en Tributación'],
         email: 'javierchinellato@estudiocils.com.ar',
         linkedin: '#',
-        area: 'Dirección / Impuestos'
+        area: 'Dirección / Impuestos',
+        image: '/images/equipo/javier.jpg'
       },
       {
         name: 'Lorena Jauregui',
         role: 'Asociada Área Laboral',
         titles: ['Contadora Pública Nacional'],
         email: 'laboral@estudiocils.com.ar',
-        area: 'Laboral'
+        area: 'Laboral',
+        image: '/images/equipo/lorena.jpg'
       },
       {
         name: 'María Teresa Vizgarra',
@@ -239,32 +265,37 @@ const corporateCils: SiteConfig = {
         titles: ['Contadora Pública Nacional'],
         email: 'maritevizgarra@estudiocils.com.ar',
         linkedin: '#',
-        area: 'Contable'
+        area: 'Contable',
+        image: '/images/equipo/maria.jpg'
       },
       {
         name: 'Luciano Lobo',
         role: 'Asociado Área Impuestos',
         titles: ['Contador Público Nacional'],
         email: 'impuestos@estudiocils.com.ar',
-        area: 'Impuestos'
+        area: 'Impuestos',
+        image: '/images/equipo/luciano.webp'
       },
       {
         name: 'Oscar Arriagada',
         role: 'Administración / Impuestos',
         email: 'administracion@estudiocils.com.ar',
-        area: 'Administración'
+        area: 'Administración',
+        image: '/images/equipo/oscar.jpg'
       },
       {
         name: 'Natalia Zuber',
         role: 'Administración / Contabilidad',
         email: 'administracion@estudiocils.com.ar',
-        area: 'Administración'
+        area: 'Administración',
+        image: '/images/equipo/natalia.jpg'
       },
       {
         name: 'Salustiano Pastrana',
         role: 'Pasante Área Administración',
         email: 'administracion@estudiocils.com.ar',
-        area: 'Administración'
+        area: 'Administración',
+        image: '/images/equipo/salustiano.jpg'
       }
     ]
   },
@@ -332,7 +363,39 @@ const corporateCils: SiteConfig = {
       telephone: '+54 294 4459796',
       email: 'info@estudiocils.com.ar'
     }
-  }
+  },
+  links: [
+    {
+      title: 'Consulta CAI',
+      href: 'https://servicioscf.afip.gob.ar/publico/comprobantes/cai.aspx',
+      description: 'Verificación y consulta de Código de Autorización de Impresión (CAI) para comprobantes.',
+      icon: 'fileText'
+    },
+    {
+      title: 'Búsqueda CUIT Online',
+      href: 'https://www.cuitonline.com/',
+      description: 'Herramienta para buscar y validar CUIT, razón social y estado de contribuyentes.',
+      icon: 'verified'
+    },
+    {
+      title: 'Constancia Inscripción AFIP',
+      href: 'https://seti.afip.gob.ar/padron-puc-constancia-internet/ConsultaConstanciaAction.do',
+      description: 'Acceso directo a consulta de constancia de inscripción en AFIP.',
+      icon: 'landmark'
+    },
+    {
+      title: 'App Retenciones CILS',
+      href: 'https://estudiocils.com.ar/clientes/app/retenciones/',
+      description: 'Aplicación interna para gestión y seguimiento de retenciones de clientes.',
+      icon: 'barChart3'
+    },
+    {
+      title: 'Consulta CAE',
+      href: 'https://servicioscf.afip.gob.ar/publico/comprobantes/cae.aspx',
+      description: 'Verificación del Código de Autorización Electrónico (CAE) de comprobantes emitidos.',
+      icon: 'fileText'
+    }
+  ]
 };
 
 export default corporateCils;

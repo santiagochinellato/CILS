@@ -1,0 +1,9 @@
+version: 3
+
+tunnels:
+  frontend:
+    addr: 5173
+    proto: http
+  backend:
+    addr: 4000
+    proto: http

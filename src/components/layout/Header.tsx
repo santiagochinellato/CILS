@@ -1,18 +1,40 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 import { useStickyHeader } from '../../hooks/useStickyHeader';
+import { useTheme } from '../../hooks/useTheme';
 import { cn } from '../../utils/cn';
 import { siteConfig } from '../../config/site.config';
-import { Link } from 'react-router-dom';
-import { initTheme, toggleTheme } from '../../utils/theme';
+import { Link, useLocation } from 'react-router-dom';
 import LogoCILS from '../LogoCILS';
+import { Icon } from '../ui/Icon';
 
 const navItems = siteConfig.nav;
 
 export const Header: React.FC = () => {
   const isSticky = useStickyHeader(60);
-  const [theme, setTheme] = useState<'light' | 'dark'>('light');
+  const { theme } = useTheme();
+  const [menuOpen, setMenuOpen] = useState(false);
+  const location = useLocation();
+  const isHome = location.pathname === '/';
+  
+  // Cerrar menú en cambio de ruta
   useEffect(() => {
-    setTheme(initTheme());
+    setMenuOpen(false);
+  }, [location.pathname]);
+  // Bloquear scroll al abrir menú
+  useEffect(() => {
+    if (menuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+  }, [menuOpen]);
+  // Cerrar con ESC
+  useEffect(() => {
+    function onKey(e: KeyboardEvent) {
+      if (e.key === 'Escape') setMenuOpen(false);
+    }
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
   }, []);
   return (
     <header
@@ -25,49 +47,108 @@ export const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 w-full flex items-center justify-between">
         <Link to="/" className="font-montserrat font-bold text-xl text-primary dark:text-white flex items-center gap-4">
           <LogoCILS
-            variant={isSticky ? (theme === 'dark' ? 'white' : 'color') : 'white'}
+            variant={isHome ? (isSticky ? (theme === 'dark' ? 'white' : 'color') : 'white') : 'color'}
             width={138}
             height={45}
             className="block"
             animated={true}
           />
-          <span className="sr-only">Estudio CILS</span>
         </Link>
-        <nav className="hidden md:flex gap-8 font-inter text-sm">
-          {navItems.map((item) => (
-            <Link
-              key={item.href}
-              to={item.href.startsWith('#') ? '/' : item.href}
-              className="text-text dark:text-white/80 hover:text-primary dark:hover:text-accent1 transition-colors relative after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-secondary after:w-0 hover:after:w-full after:transition-all"
-            >
-              {item.label}
-            </Link>
-          ))}
+  <nav className="hidden lg:flex items-center gap-8 font-inter text-sm">
+          {navItems.map((item) => {
+            const to = item.href.startsWith('#') ? '/' : item.href;
+            return (
+              <Link
+                key={item.href}
+                to={to}
+                className="text-text dark:text-white/80 hover:text-primary dark:hover:text-accent1 transition-colors relative after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-secondary after:w-0 hover:after:w-full after:transition-all"
+              >
+                {item.label}
+              </Link>
+            );
+          })}
         </nav>
-        <div className="hidden md:flex items-center gap-3">
+  <div className="hidden lg:flex items-center gap-3">
           <Link
             to="/contacto"
-            className="bg-secondary hover:bg-primary text-white font-montserrat font-semibold px-5 py-3 rounded-md shadow transition-all"
+            className="bg-secondary hover:bg-primary text-white font-montserrat font-semibold px-4 py-2 rounded-md shadow transition-all"
           >
             Agendar Consulta
           </Link>
-          <button
+          <a
+            href="https://estudiocils.com.ar/es/wp-login.php?redirect_to=https%3A%2F%2Festudiocils.com.ar%2Fes%2Fwp-admin%2F&reauth=1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-text hover:bg-primary text-white font-montserrat font-semibold px-4 py-2 rounded-md shadow transition-all inline-flex items-center gap-2"
+          >
+            <Icon name="user" size={18} context="footer" /> Log in
+          </a>
+          {/* <button
             aria-label="Alternar modo oscuro"
             onClick={() => setTheme(toggleTheme())}
             className="w-10 h-10 rounded-md border border-primary/30 dark:border-white/20 text-primary dark:text-white grid place-items-center hover:bg-black/5 dark:hover:bg-white/5"
             title={theme === 'dark' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'}
           >
             {theme === 'dark' ? '☀️' : '🌙'}
-          </button>
+          </button> */}
         </div>
         <button
-          aria-label="Abrir menú"
-          className="md:hidden w-10 h-10 rounded-md border border-primary text-primary dark:border-white/20 dark:text-white flex flex-col justify-center items-center gap-1"
+          aria-label={menuOpen ? 'Cerrar menú' : 'Abrir menú'}
+          aria-expanded={menuOpen}
+          aria-controls="mobile-menu"
+          onClick={() => setMenuOpen(o => !o)}
+          className={cn(
+            'lg:hidden w-10 h-10 rounded-md border flex flex-col justify-center items-center gap-1 transition-colors',
+            'border-primary text-primary dark:border-white/20 dark:text-white'
+          )}
         >
-          <span className="w-5 h-[2px] bg-current" />
-          <span className="w-5 h-[2px] bg-current" />
-          <span className="w-5 h-[2px] bg-current" />
+          <span className={cn('w-5 h-[2px] bg-current transition-transform', menuOpen && 'translate-y-[6px] rotate-45')} />
+          <span className={cn('w-5 h-[2px] bg-current transition-opacity', menuOpen && 'opacity-0')} />
+          <span className={cn('w-5 h-[2px] bg-current transition-transform', menuOpen && '-translate-y-[6px] -rotate-45')} />
         </button>
+      </div>
+      {/* Panel móvil */}
+      <div
+        id="mobile-menu"
+        className={cn(
+          'lg:hidden fixed inset-0 z-[900] transition-opacity',
+          menuOpen ? 'pointer-events-auto opacity-100' : 'pointer-events-none opacity-0'
+        )}
+        aria-hidden={!menuOpen}
+      >
+        <div
+          className="absolute inset-0  "
+          onClick={() => setMenuOpen(false)}
+        />
+        <nav className="absolute top-20 left-0 right-0  bg-white dark:bg-[#0F1C21]  shadow-xl border border-gray-200 dark:border-white/10 p-6 flex flex-col gap-4 h-100">
+          {navItems.map(item => {
+            const to = item.href.startsWith('#') ? '/' : item.href;
+            return (
+              <Link
+                key={item.href}
+                to={to}
+                className="text-text dark:text-white/80 text-base font-medium py-1"
+              >
+                {item.label}
+              </Link>
+            );
+          })}
+          <div className="h-px bg-gray-200 dark:bg-white/10 my-2" />
+          <Link
+            to="/contacto"
+            className="bg-secondary hover:bg-primary text-white font-semibold px-4 py-2 rounded-md shadow text-center"
+          >
+            Agendar Consulta
+          </Link>
+          <a
+            href="https://estudiocils.com.ar/es/wp-login.php?redirect_to=https%3A%2F%2Festudiocils.com.ar%2Fes%2Fwp-admin%2F&reauth=1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-text hover:bg-primary text-white font-semibold px-4 py-2 rounded-md shadow text-center inline-flex items-center justify-center gap-2"
+          >
+            <Icon name="user" size={18} context="footer" /> Log in
+          </a>
+        </nav>
       </div>
     </header>
   );

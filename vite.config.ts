@@ -36,6 +36,15 @@ export default defineConfig({
     })
   ],
   server: {
-    port: 5173
+    port: 5173,
+    strictPort: true,
+    proxy: {
+      '/api': 'http://localhost:4000'
+    },
+    // Permitir hosts externos (ngrok) para previews remotas
+    allowedHosts: [
+      '2b8923832858.ngrok-free.app',
+      '.ngrok-free.app'
+    ]
   }
 });

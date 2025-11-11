@@ -79,6 +79,13 @@ export type Floating = {
   scrollTop: { enabled: boolean };
 };
 
+export type ExternalLink = {
+  title: string;
+  href: string;
+  description: string;
+  icon: string; // referencia a IconName
+};
+
 export type SiteConfig = {
   nav: NavItem[];
   hero: Hero;
@@ -105,6 +112,8 @@ export type SiteConfig = {
       email: string;
       linkedin?: string;
       area?: string;
+      image?: string; // Ruta a la imagen del miembro del equipo
     }>;
   };
+  links?: ExternalLink[];
 };

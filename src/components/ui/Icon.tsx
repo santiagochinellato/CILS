@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { memo } from 'react';
 import { motion } from 'framer-motion';
 import { icons, IconName } from './icons';
 import { iconColor } from './iconColor';
 
-type IconContext = 'default' | 'service' | 'stat' | 'contact' | 'footer' | 'accent';
+export type IconContext = 'default' | 'service' | 'stat' | 'contact' | 'footer' | 'accent';
 
-interface IconProps {
+export interface IconProps {
   name: IconName;
   size?: number;
   context?: IconContext;
@@ -14,7 +14,7 @@ interface IconProps {
   strokeWidth?: number;
 }
 
-export const Icon: React.FC<IconProps> = ({
+export const Icon = memo<IconProps>(({
   name,
   size = 24,
   context = 'default',
@@ -32,14 +32,24 @@ export const Icon: React.FC<IconProps> = ({
     accent: iconColor.accentLight
   };
   const color = colorMap[context];
-  const Wrapper: any = hover ? motion.div : 'div';
+  
+  if (hover) {
+    return (
+      <motion.div
+        whileHover={{ scale: 1.05 }}
+        transition={{ duration: 0.25 }}
+        className={className}
+      >
+        <LucideIcon size={size} color={color} strokeWidth={strokeWidth} />
+      </motion.div>
+    );
+  }
+  
   return (
-    <Wrapper
-      whileHover={hover ? { scale: 1.05 } : undefined}
-      transition={{ duration: 0.25 }}
-      className={className}
-    >
+    <div className={className}>
       <LucideIcon size={size} color={color} strokeWidth={strokeWidth} />
-    </Wrapper>
+    </div>
   );
-};
+});
+
+Icon.displayName = 'Icon';
