@@ -76,7 +76,7 @@ export const Footer: React.FC = () => {
         <div className="container p-4 text-sm flex flex-col md:flex-row gap-2 md:gap-0 md:items-center md:justify-between text-accent2">
           <div>{footer.bottom.left}</div>
           <div>{footer.bottom.center}</div>
-          <div>{footer.bottom.right}</div>
+          <div dangerouslySetInnerHTML={{ __html: footer.bottom.right }} />
         </div>
       </div>
     </footer>
