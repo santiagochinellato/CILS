@@ -36,6 +36,29 @@ export const Header: React.FC = () => {
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
   }, []);
+  // Determinar si el header está transparente en la home
+  const isTransparentHome = isHome && !isSticky;
+  // Clases de color para los links del menú
+  const navLinkClass = cn(
+    isTransparentHome
+      ? 'text-white hover:text-accent1'
+      : 'text-text dark:text-white/80 hover:text-primary dark:hover:text-accent1',
+    'transition-colors relative after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-secondary after:w-0 hover:after:w-full after:transition-all'
+  );
+  // Clases de color para el botón hamburguesa
+  const burgerClass = cn(
+    'lg:hidden w-10 h-10 rounded-md border flex flex-col justify-center items-center gap-1 transition-colors',
+    isTransparentHome
+      ? 'border-white text-white'
+      : 'border-primary text-primary dark:border-white/20 dark:text-white'
+  );
+  // Clases de color para los links del menú móvil
+  const mobileNavLinkClass = cn(
+    isTransparentHome
+      ? 'text-white'
+      : 'text-text dark:text-white/80',
+    'text-base font-medium py-1'
+  );
   return (
     <header
       className={cn(
@@ -45,7 +68,7 @@ export const Header: React.FC = () => {
       )}
     >
       <div className="max-w-7xl mx-auto px-6 w-full flex items-center justify-between">
-        <Link to="/" className="font-montserrat font-bold text-xl text-primary dark:text-white flex items-center gap-4">
+        <Link to="/" className={cn('font-montserrat font-bold text-xl flex items-center gap-4', isTransparentHome ? 'text-white' : 'text-primary dark:text-white')}>
           <LogoCILS
             variant={isHome ? (isSticky ? (theme === 'dark' ? 'white' : 'color') : 'white') : 'color'}
             width={138}
@@ -54,14 +77,14 @@ export const Header: React.FC = () => {
             animated={true}
           />
         </Link>
-  <nav className="hidden lg:flex items-center gap-8 font-inter text-sm">
+        <nav className="hidden lg:flex items-center gap-8 font-inter text-sm">
           {navItems.map((item) => {
             const to = item.href.startsWith('#') ? '/' : item.href;
             return (
               <Link
                 key={item.href}
                 to={to}
-                className="text-text dark:text-white/80 hover:text-primary dark:hover:text-accent1 transition-colors relative after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-secondary after:w-0 hover:after:w-full after:transition-all"
+                className={navLinkClass}
               >
                 {item.label}
               </Link>
@@ -97,10 +120,7 @@ export const Header: React.FC = () => {
           aria-expanded={menuOpen}
           aria-controls="mobile-menu"
           onClick={() => setMenuOpen(o => !o)}
-          className={cn(
-            'lg:hidden w-10 h-10 rounded-md border flex flex-col justify-center items-center gap-1 transition-colors',
-            'border-primary text-primary dark:border-white/20 dark:text-white'
-          )}
+          className={burgerClass}
         >
           <span className={cn('w-5 h-[2px] bg-current transition-transform', menuOpen && 'translate-y-[6px] rotate-45')} />
           <span className={cn('w-5 h-[2px] bg-current transition-opacity', menuOpen && 'opacity-0')} />
@@ -117,23 +137,28 @@ export const Header: React.FC = () => {
         aria-hidden={!menuOpen}
       >
         <div
-          className="absolute inset-0  "
+          className="absolute inset-0"
           onClick={() => setMenuOpen(false)}
         />
-        <nav className="absolute top-20 left-0 right-0  bg-white dark:bg-[#0F1C21]  shadow-xl border border-gray-200 dark:border-white/10 p-6 flex flex-col gap-4 h-100">
+        <nav className={cn(
+          'absolute top-20 left-0 right-0 shadow-xl border p-6 flex flex-col gap-4 h-100',
+          isTransparentHome
+            ? 'bg-white/10 border-white/20'
+            : 'bg-white dark:bg-[#0F1C21] border-gray-200 dark:border-white/10'
+        )}>
           {navItems.map(item => {
             const to = item.href.startsWith('#') ? '/' : item.href;
             return (
               <Link
                 key={item.href}
                 to={to}
-                className="text-text dark:text-white/80 text-base font-medium py-1"
+                className={mobileNavLinkClass}
               >
                 {item.label}
               </Link>
             );
           })}
-          <div className="h-px bg-gray-200 dark:bg-white/10 my-2" />
+          <div className={cn('h-px my-2', isTransparentHome ? 'bg-white/30' : 'bg-gray-200 dark:bg-white/10')} />
           <Link
             to="/contacto"
             className="bg-secondary hover:bg-primary text-white font-semibold px-4 py-2 rounded-md shadow text-center"
