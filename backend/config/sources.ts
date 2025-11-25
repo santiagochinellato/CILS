@@ -1,20 +1,19 @@
 // NewsAPI queries & RSS sources
-const ARGENTINA_DOMAINS = 'ambito.com,cronista.com,infobae.com,lanacion.com.ar,iprofesional.com,perfil.com,clarin.com,pagina12.com.ar';
+// Nota: NewsAPI plan gratuito puede tener limitaciones con el parámetro domains
+// El filtrado de fuentes se hace en la normalización via blacklist y taxonomy
 
 export const NEWSAPI_QUERIES = [
   // IMPOSITIVO / TRIBUTARIO
   {
-    q: 'impuesto OR impuestos OR reforma tributaria OR impositiva OR fiscal OR AFIP OR ganancias OR IVA OR monotributo',
-    domains: ARGENTINA_DOMAINS,
+    q: '(impuesto OR impuestos OR AFIP OR ganancias OR IVA OR monotributo OR "reforma tributaria") AND argentina',
     language: 'es',
     sortBy: 'publishedAt',
     pageSize: 50
   },
 
-  // CONTABLE / BALANCES / NIA / IASB
+  // CONTABLE / BALANCES
   {
-    q: 'contable OR contabilidad OR estados contables OR balance OR auditoría OR auditoria OR IFRS OR IASB OR NIA',
-    domains: ARGENTINA_DOMAINS,
+    q: '(contable OR contabilidad OR balance OR auditoría OR IFRS) AND argentina',
     language: 'es',
     sortBy: 'publishedAt',
     pageSize: 50
@@ -22,8 +21,7 @@ export const NEWSAPI_QUERIES = [
 
   // LABORAL / DERECHO LABORAL
   {
-    q: 'laboral OR empleo OR sueldos OR salario OR indemnizacion OR indemnización OR reforma laboral OR convenio OR ART OR sindical OR cargas sociales',
-    domains: ARGENTINA_DOMAINS,
+    q: '(laboral OR empleo OR salario OR indemnización OR "reforma laboral" OR convenio OR sindical) AND argentina',
     language: 'es',
     sortBy: 'publishedAt',
     pageSize: 50
@@ -31,17 +29,15 @@ export const NEWSAPI_QUERIES = [
 
   // SOCIETARIO / IGJ / SOCIEDADES
   {
-    q: 'societaria OR sociedades OR ley general de sociedades OR IGJ OR estatuto OR directorio OR accionistas OR SAS OR SA OR SRL',
-    domains: ARGENTINA_DOMAINS,
+    q: '(societaria OR sociedades OR IGJ OR estatuto OR accionistas OR SRL OR SA) AND argentina',
     language: 'es',
     sortBy: 'publishedAt',
     pageSize: 50
   },
 
-  // ECONOMÍA GENERAL RELEVANTE
+  // ECONOMÍA GENERAL
   {
-    q: 'economía OR economico OR dólar OR inflación OR PBI OR exportaciones OR industria OR consumo OR mercado financiero',
-    domains: ARGENTINA_DOMAINS,
+    q: '(economía OR dólar OR inflación OR PBI OR industria) AND argentina',
     language: 'es',
     sortBy: 'publishedAt',
     pageSize: 50
