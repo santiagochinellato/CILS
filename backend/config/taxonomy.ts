@@ -45,3 +45,30 @@ export const BLACKLIST = [
   'fútbol','futbol','básquet','tenis','rugby','racing','boca','river','hamilton','colapinto',
   'asesinato','homicidio','violación','secuestro','narcotráfico'
 ];
+
+// Fuentes argentinas permitidas (detectadas por nombre o dominio)
+export const ALLOWED_SOURCES = [
+  'la nacion',
+  'lanacion',
+  'clarin',
+  'clarín',
+  'infobae',
+  'perfil',
+  'ambito',
+  'ámbito',
+  'cronista',
+  'el cronista',
+  'pagina12',
+  'página12',
+  'iprofesional',
+  'telam',
+  'télam',
+  'tiempo argentino',
+  'el destape',
+  'diario rio negro',
+  'bariloche2000',
+  'anbariloche',
+  'el cordillerano',
+  'newsapi' // Si viene sin source específico
+];
+

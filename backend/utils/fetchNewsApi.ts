@@ -36,8 +36,8 @@ export async function fetchNewsApi(apiKey: string): Promise<RawItem[]> {
           source: a.source?.name || 'NewsAPI'
         });
       }
-    } catch (e) {
-      console.error('NewsAPI fetch error', q.q, e);
+    } catch (e: any) {
+      console.error('NewsAPI fetch error:', e.response?.data?.message || e.message);
     }
   }
   return all;

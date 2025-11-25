@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { fetchNewsApi } from '../utils/fetchNewsApi';
 import { fetchAllRss } from '../utils/fetchRss';
 import { normalizeItems, dedupeAndSort } from '../utils/normalize';
