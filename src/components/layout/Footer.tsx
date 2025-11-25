@@ -7,16 +7,16 @@ export const Footer: React.FC = () => {
   const { footer } = siteConfig;
   return (
     <footer className="bg-primary text-white mt-16 p-4 flex flex-col gap-2" role="contentinfo">
-      <div className="container py-12 grid md:grid-cols-3 gap-8 ">
+      <div className="container py-8 sm:py-12 grid md:grid-cols-3 gap-6 sm:gap-8 px-4">
         <section aria-labelledby="footer-about">
           <div id="footer-about" className="flex items-center">
-            <LogoCILS variant="white" width={160} height={48} animated={false} className="opacity-90" />
+            <LogoCILS variant="white" width={140} className="sm:w-[160px] opacity-90" height={48} animated={false} />
           </div>
-          <p className="text-sm text-accent2 mt-2">{footer.about.text}</p>
+          <p className="text-xs sm:text-sm text-accent2 mt-2">{footer.about.text}</p>
         </section>
         <nav aria-labelledby="footer-services" className='flex flex-col justify-center items-start md:items-center'>
-          <h3 id="footer-services" className="font-semibold mb-3">Servicios</h3>
-          <ul className="space-y-2 text-sm text-accent2">
+          <h3 id="footer-services" className="font-semibold mb-2 sm:mb-3 text-sm sm:text-base">Servicios</h3>
+          <ul className="space-y-1.5 sm:space-y-2 text-xs sm:text-sm text-accent2">
             {footer.services.map((s)=> (
               <li key={s.label}>
                 <Link to={s.href.startsWith('#') ? '/servicios' : s.href} className="hover:text-white transition-colors">
@@ -27,8 +27,8 @@ export const Footer: React.FC = () => {
           </ul>
         </nav>
         <nav aria-labelledby="footer-company" className='flex flex-col justify-center items-start md:items-center'>
-          <h3 id="footer-company" className="font-semibold mb-3">Empresa</h3>
-          <ul className="space-y-2 text-sm text-accent2">
+          <h3 id="footer-company" className="font-semibold mb-2 sm:mb-3 text-sm sm:text-base">Empresa</h3>
+          <ul className="space-y-1.5 sm:space-y-2 text-xs sm:text-sm text-accent2">
             {footer.company.map((i)=> (
               <li key={i.label}>
                 <Link 
@@ -73,10 +73,10 @@ export const Footer: React.FC = () => {
         </section> */}
       </div>
       <div className="border-t border-white/10 p-2">
-        <div className="container p-4 text-sm flex flex-col md:flex-row gap-2 md:gap-0 md:items-center md:justify-between text-accent2">
-          <div>{footer.bottom.left}</div>
-          <div>{footer.bottom.center}</div>
-          <div dangerouslySetInnerHTML={{ __html: footer.bottom.right }} />
+        <div className="container p-3 sm:p-4 text-xs sm:text-sm flex flex-col md:flex-row gap-2 md:gap-0 md:items-center md:justify-between text-accent2 px-4">
+          <div className="text-center md:text-left">{footer.bottom.left}</div>
+          <div className="text-center md:text-left">{footer.bottom.center}</div>
+          <div className="text-center md:text-left" dangerouslySetInnerHTML={{ __html: footer.bottom.right }} />
         </div>
       </div>
     </footer>
