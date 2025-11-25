@@ -2,6 +2,44 @@ name: Refresh Novedades
 
 on:
   schedule:
+    - cron: '0 6 1,15 * *' # 06:00 UTC dias 1 y 15
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: true
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run novedades refresh
+        env:
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+        run: npm run novedades:refresh
+
+      - name: Commit and push changes
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "github-actions"
+          git add backend/data/novedades.json || true
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Actualizar novedades (automático)" || echo "No changes to commit"
+            git push
+          else
+            echo "No changes"
+          fi
+name: Refresh Novedades
+
+on:
+  schedule:
     # Ejecutar el día 1 y 15 de cada mes a las 06:00 UTC
     - cron: '0 6 1,15 * *'
   workflow_dispatch: # Permite ejecución manual desde GitHub UI

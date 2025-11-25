@@ -78,3 +78,23 @@ npm run test     # Vitest (placeholder)
 
 ---
 Hecho con React, TypeScript y Tailwind para Estudio CILS.
+
+## 📦 Deploy en Vercel (API serverless)
+
+Pasos rápidos para desplegar frontend + backend en Vercel usando serverless functions:
+
+1. Asegurate de tener el repo en GitHub y haber conectado Vercel al repo.
+2. Añadí los secrets en el proyecto de GitHub: `NEWSAPI_KEY`.
+3. El proyecto ya incluye funciones serverless en `/api/novedades` que leen `backend/data/novedades.json`.
+4. Habilitá el workflow de GitHub Actions `.github/workflows/refresh-novedades.yml` para refrescar `backend/data/novedades.json` en los días 1 y 15 (usa `NEWSAPI_KEY` desde secrets).
+
+Comandos útiles localmente:
+```bash
+# Build frontend
+npm run build
+
+# Probar API localmente (requiere node)
+node -e "console.log(require('./backend/data/novedades.json').length)"
+```
+
+Si preferís que mueva la lógica de refresh directamente a serverless (ejecutar fetchers desde Vercel), avisame y lo adapto; por ahora el enfoque usa GitHub Actions para mantener el JSON en el repo y servirlo desde las funciones.
