@@ -240,7 +240,7 @@ const corporateCils: SiteConfig = {
         email: 'nievesrodriguez@estudiocils.com.ar',
         linkedin: '#',
         area: 'Impuestos',
-        image: '/images/equipo/nieves.jpg'
+        image: '/images/equipo/nieves.png'
       },
       {
         name: 'Javier Chinellato',
@@ -249,53 +249,81 @@ const corporateCils: SiteConfig = {
         email: 'javierchinellato@estudiocils.com.ar',
         linkedin: '#',
         area: 'Dirección / Impuestos',
-        image: '/images/equipo/javier.jpg'
+        image: '/images/equipo/javier.png'
       },
       {
         name: 'Lorena Jauregui',
-        role: 'Asociada Área Laboral',
+        role: 'Resp. Area Laboral',
         titles: ['Contadora Pública Nacional'],
         email: 'laboral@estudiocils.com.ar',
         area: 'Laboral',
-        image: '/images/equipo/lorena.jpg'
+        image: '/images/equipo/lorena.png'
       },
       {
         name: 'María Teresa Vizgarra',
-        role: 'Asociada Área Contable',
-        titles: ['Contadora Pública Nacional'],
+        role: 'Socia y Resp. Area Contable',
+        titles: ['Contadora Pública Nacional' , 'Esp. en Auditoria'],
         email: 'maritevizgarra@estudiocils.com.ar',
         linkedin: '#',
         area: 'Contable',
-        image: '/images/equipo/maria.jpg'
+        image: '/images/equipo/marite.png'
       },
       {
         name: 'Luciano Lobo',
-        role: 'Asociado Área Impuestos',
-        titles: ['Contador Público Nacional'],
+        role: 'Resp. Area Impositiva',
+        titles: ['Contadora Publica nacional', 'Especialista en Auditoria'],
         email: 'impuestos@estudiocils.com.ar',
         area: 'Impuestos',
-        image: '/images/equipo/luciano.webp'
+        image: '/images/equipo/luciano.png'
       },
-      {
-        name: 'Oscar Arriagada',
-        role: 'Administración / Impuestos',
-        email: 'administracion@estudiocils.com.ar',
-        area: 'Administración',
-        image: '/images/equipo/oscar.jpg'
+      // {
+      //   name: 'Oscar Arriagada',
+      //   role: 'Administración / Impuestos',
+      //   email: 'administracion@estudiocils.com.ar',
+      //   area: 'Administración',
+      //   image: '/images/equipo/oscar.png'
+      // },
+            {
+        name: 'Daniela Torres',
+        role: 'Tec. Sup. Admin. Empresas',
+          email: 'administracion@estudiocils.com.ar',
+        area: 'Area Laboral',
+        image: '/images/equipo/daniela.png'
       },
       {
         name: 'Natalia Zuber',
-        role: 'Administración / Contabilidad',
+        role: 'Auxiliar',
         email: 'administracion@estudiocils.com.ar',
-        area: 'Administración',
-        image: '/images/equipo/natalia.jpg'
+        area: 'Areas Administrativa y Contable',
+        image: '/images/equipo/natalia.png'
       },
       {
         name: 'Salustiano Pastrana',
-        role: 'Pasante Área Administración',
+        role: 'Auxiliar',
         email: 'administracion@estudiocils.com.ar',
-        area: 'Administración',
-        image: '/images/equipo/salustiano.jpg'
+        area: 'Areas Administrativa e Impositiva',
+        image: '/images/equipo/salustiano.png'
+      },
+      {
+        name: 'Maria Sol Slica',
+        role: 'Colaborador',
+        email: 'administracion@estudiocils.com.ar',
+        area: 'Area Administrativa',
+        image: '/images/equipo/maria.png'
+      },
+      {
+        name: 'Catalina Pagliaro',
+        role: 'Colaborador',
+      email: 'administracion@estudiocils.com.ar',
+        area: 'Area Administrativa',
+        image: '/images/equipo/catalina.png'
+      },
+      {
+        name: 'Anyulina Monti',
+        role: 'Colaborador',
+         email: 'administracion@estudiocils.com.ar',
+        area: 'Area Administrativa',
+        image: '/images/equipo/anyulina.png'
       }
     ]
   },
