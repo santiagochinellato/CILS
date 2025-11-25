@@ -14,7 +14,7 @@
     "backend:dev": "tsx backend/server.ts",
     "novedades:refresh": "tsx backend/jobs/refresh.ts",
     "tunnels": "ngrok start --all",
-    "tunnels:lt": "concurrently -n LT-FRONT,LT-BACK \"lt --port 5173\" \"lt --port 4000\""
+    "tunnels:lt": "tsx dev/tunnel-lt.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
