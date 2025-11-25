@@ -344,10 +344,10 @@ const corporateCils: SiteConfig = {
       { label: 'Societaria', href: '/servicios' }
     ],
     company: [
-      { label: 'Quiénes somos', href: '/nosotros' },
-      { label: 'Nuestro equipo', href: '/nosotros' },
-      { label: 'Clientes', href: '/clientes' },
-      { label: 'Blog', href: '/blog' },
+      { label: 'Nosotros', href: '/nosotros' },
+      { label: 'Servicios', href: '/servicios' },
+      { label: 'Novedades', href: '/novedades' },
+      { label: 'Links', href: '/links' },
       { label: 'Contacto', href: '/contacto' }
     ],
     newsletter: {
@@ -357,7 +357,7 @@ const corporateCils: SiteConfig = {
     bottom: {
       left: '© 2024 Estudio CILS. Todos los derechos reservados.',
       center: 'Política de Privacidad | Términos y Condiciones',
-      right: 'Diseñado con ❤️ en Bariloche'
+      right: 'Diseñado con ❤️ en Bariloche por <a href="https://portfolio-santiago-chinellato.vercel.app/" target="_blank">Santiago Chinellato</a>'
     }
   },
   floating: {
