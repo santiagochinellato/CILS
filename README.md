@@ -85,6 +85,8 @@ Pasos rápidos para desplegar frontend + backend en Vercel usando serverless fun
 
 1. Asegurate de tener el repo en GitHub y haber conectado Vercel al repo.
 2. Añadí los secrets en el proyecto de GitHub: `NEWSAPI_KEY`.
+  - En GitHub: `Settings > Secrets and variables > Actions > New repository secret`.
+  - Nombre: `NEWSAPI_KEY` | Valor: tu clave de NewsAPI.
 3. El proyecto ya incluye funciones serverless en `/api/novedades` que leen `backend/data/novedades.json`.
 4. Habilitá el workflow de GitHub Actions `.github/workflows/refresh-novedades.yml` para refrescar `backend/data/novedades.json` en los días 1 y 15 (usa `NEWSAPI_KEY` desde secrets).
 
@@ -98,3 +100,18 @@ node -e "console.log(require('./backend/data/novedades.json').length)"
 ```
 
 Si preferís que mueva la lógica de refresh directamente a serverless (ejecutar fetchers desde Vercel), avisame y lo adapto; por ahora el enfoque usa GitHub Actions para mantener el JSON en el repo y servirlo desde las funciones.
+
+## NEWSAPI y workflows
+
+1) Ejecutar el workflow manualmente
+- En GitHub `Actions > Refresh Novedades` → `Run workflow`.
+- Verificar el job `refresh` y el paso `npm run novedades:refresh`.
+
+2) Posibles fallos y solución
+- `NEWSAPI_KEY` faltante o inválida → agregar/actualizar el secreto.
+- DNS de RSS (p.ej. iProfesional) → ya deshabilitado temporalmente.
+- Rate limit de NewsAPI → reintentar más tarde.
+
+3) Validar en producción (Vercel)
+- `https://tu-dominio.vercel.app/api/novedades?limit=5`
+- `https://tu-dominio.vercel.app/api/novedades/meta`
