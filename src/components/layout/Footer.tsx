@@ -7,14 +7,14 @@ export const Footer: React.FC = () => {
   const { footer } = siteConfig;
   return (
     <footer className="bg-primary text-white mt-16 p-4 flex flex-col gap-2" role="contentinfo">
-      <div className="container py-12 grid md:grid-cols-4 gap-8 ">
+      <div className="container py-12 grid md:grid-cols-3 gap-8 ">
         <section aria-labelledby="footer-about">
           <div id="footer-about" className="flex items-center">
             <LogoCILS variant="white" width={160} height={48} animated={false} className="opacity-90" />
           </div>
           <p className="text-sm text-accent2 mt-2">{footer.about.text}</p>
         </section>
-        <nav aria-labelledby="footer-services">
+        <nav aria-labelledby="footer-services" className='flex flex-col justify-center items-start md:items-center'>
           <h3 id="footer-services" className="font-semibold mb-3">Servicios</h3>
           <ul className="space-y-2 text-sm text-accent2">
             {footer.services.map((s)=> (
@@ -26,7 +26,7 @@ export const Footer: React.FC = () => {
             ))}
           </ul>
         </nav>
-        <nav aria-labelledby="footer-company">
+        <nav aria-labelledby="footer-company" className='flex flex-col justify-center items-start md:items-center'>
           <h3 id="footer-company" className="font-semibold mb-3">Empresa</h3>
           <ul className="space-y-2 text-sm text-accent2">
             {footer.company.map((i)=> (
@@ -47,7 +47,7 @@ export const Footer: React.FC = () => {
             ))}
           </ul>
         </nav>
-        <section aria-labelledby="footer-newsletter">
+        {/* <section aria-labelledby="footer-newsletter">
           {footer.newsletter && (
             <>
               <h3 id="footer-newsletter" className="font-semibold mb-3">{footer.newsletter.headline}</h3>
@@ -70,7 +70,7 @@ export const Footer: React.FC = () => {
               <div className="text-xs text-accent2 mt-2">{footer.newsletter.legal}</div>
             </>
           )}
-        </section>
+        </section> */}
       </div>
       <div className="border-t border-white/10 p-2">
         <div className="container p-4 text-sm flex flex-col md:flex-row gap-2 md:gap-0 md:items-center md:justify-between text-accent2">
