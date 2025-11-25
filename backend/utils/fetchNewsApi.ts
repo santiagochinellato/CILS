@@ -9,13 +9,19 @@ export async function fetchNewsApi(apiKey: string): Promise<RawItem[]> {
   const all: RawItem[] = [];
   for (const q of NEWSAPI_QUERIES) {
     try {
-      const params = { 
+      const params: any = { 
         q: q.q, 
         language: q.language, 
         pageSize: q.pageSize, 
         sortBy: (q as any).sortBy || 'publishedAt',
         apiKey 
-      } as const;
+      };
+      
+      // Añadir domains si está configurado
+      if ((q as any).domains) {
+        params.domains = (q as any).domains;
+      }
+      
       const res = await axios.get(NEWSAPI_URL, { params });
       const articles = res.data?.articles || [];
       for (const a of articles) {
