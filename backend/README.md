@@ -27,6 +27,9 @@ NEWSAPI_KEY=tu_clave_aqui
 PORT=4000
 ```
 
+## Fuentes RSS deshabilitadas
+- iProfesional Economía: desactivada temporalmente por errores de DNS (`ENOTFOUND`). Se reactivará cuando el dominio `rss.atom.iprofesional.com` vuelva a resolver.
+
 ## Frontend integration
 - Hook `useNovedades({ tag, region, limit })` en `src/hooks/useNovedades.ts`
 - Componentes `NewsCard` y `Novedades` en `src/components/news/` y `src/components/sections/`

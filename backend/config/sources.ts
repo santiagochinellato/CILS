@@ -55,9 +55,9 @@ export const EXTRA_SOURCES = [
 export interface RssSource { name: string; url: string; region?: string; }
 
 export const RSS_SOURCES: RssSource[] = [
-  // Nacional económico principal (funciona perfectamente)
-  { name: 'iProfesional Economía', url: 'https://rss.atom.iprofesional.com/economia' },
-  
+  // Temporalmente deshabilitado iProfesional por problemas de DNS
+  // { name: 'iProfesional Economía', url: 'https://rss.atom.iprofesional.com/economia' },
+
   // Alternativas (comentadas hasta verificar URLs correctas)
   // { name: 'Ámbito Financiero', url: 'https://www.ambito.com/contenidos/rss-economia.xml' },
   // { name: 'El Cronista', url: 'https://www.cronista.com/rss/economia/' },

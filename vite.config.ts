@@ -44,13 +44,7 @@ export default defineConfig({
     // Permitir hosts externos (ngrok) para previews remotas
     allowedHosts: [
       '2b8923832858.ngrok-free.app',
-      '.ngrok-free.app',
-      '.loca.lt',
-      '.serveo.net',
-      '.pinggy.io',
-      '.pinggy.link',
-      '.localhost.run',
-      '.lhr.life'
+      '.ngrok-free.app'
     ]
   }
 });
