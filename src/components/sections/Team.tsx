@@ -85,7 +85,7 @@ export const Team: React.FC = () => {
             titles: 'text-white/80 italic',
           },
           secondary: {
-            card: 'bg-gradient-to-br from-secondary to-secondary/90 text-white shadow-md hover:shadow-lg',
+            card: 'bg-gradient-to-br from-[#2D7A7B] to-[#2D7A7B]/90 text-white shadow-md hover:shadow-lg',
             image: 'bg-white text-secondary ring-3 ring-white/30',
             name: 'text-lg',
             role: 'text-white/90',
