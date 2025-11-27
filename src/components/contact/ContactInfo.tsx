@@ -10,16 +10,35 @@ export const ContactInfo: React.FC<ContactInfoProps> = ({ className }) => {
   const c = siteConfig.contact;
   return (
     <div className={className} aria-labelledby="contact-info-heading">
-      <h3 id="contact-info-heading" className="sr-only">Información de contacto</h3>
+      <h3 id="contact-info-heading" className="sr-only">
+        Información de contacto
+      </h3>
       <div className="space-y-5">
         <InfoBlock icon="direccion" label="Dirección">
           <p className="text-text dark:text-white">{c.address}</p>
         </InfoBlock>
         <InfoBlock icon="telefono" label="Teléfonos">
           <ul className="space-y-1">
-            {c.phones.map(phone => (
+            {c.phones.map((phone) => (
               <li key={phone}>
-                <a href={`tel:${phone.replace(/\s/g,'')}`} className="text-text dark:text-white hover:text-primary transition-colors">
+                <a
+                  href={`tel:${phone.replace(/\s/g, '')}`}
+                  className="text-text dark:text-white hover:text-primary transition-colors"
+                >
+                  {phone}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </InfoBlock>
+        <InfoBlock icon="whatsapp" label="Whatsapp">
+          <ul className="space-y-1">
+            {c.whatsapp.map((phone) => (
+              <li key={phone}>
+                <a
+                  href={`tel:${phone.replace(/\s/g, '')}`}
+                  className="text-text dark:text-white hover:text-primary transition-colors"
+                >
                   {phone}
                 </a>
               </li>
@@ -27,12 +46,19 @@ export const ContactInfo: React.FC<ContactInfoProps> = ({ className }) => {
           </ul>
         </InfoBlock>
         <InfoBlock icon="email" label="Email">
-          <a href={`mailto:${c.email}`} className="text-text dark:text-white hover:text-primary transition-colors">{c.email}</a>
+          <a
+            href={`mailto:${c.email}`}
+            className="text-text dark:text-white hover:text-primary transition-colors"
+          >
+            {c.email}
+          </a>
         </InfoBlock>
         <InfoBlock icon="reloj" label="Horarios">
           <ul className="space-y-1">
-            {c.hours.map(hour => (
-              <li key={hour} className="text-text dark:text-white text-sm">{hour}</li>
+            {c.hours.map((hour) => (
+              <li key={hour} className="text-text dark:text-white text-sm">
+                {hour}
+              </li>
             ))}
           </ul>
         </InfoBlock>

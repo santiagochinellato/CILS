@@ -210,11 +210,12 @@ const corporateCils: SiteConfig = {
     text:
       'Agenda una consulta gratuita y descubre cómo podemos ayudar a tu empresa a crecer de manera eficiente y profesional.',
     address: 'Morales 639, Bariloche, Río Negro, Argentina',
+    whatsapp: ['+54 9 294 4240591'],
     phones: ['+54 294 4459796', '+54 294 4427365', '+54 294 4240591'],
     email: 'info@estudiocils.com.ar',
-    hours: ['Lunes a Viernes: 9:00 - 18:00 hs', 'Sábados: 9:00 - 13:00 hs'],
+    hours: ['Lunes a Viernes: 10:00 - 15:00 hs'],
     quick: [
-      { label: 'WhatsApp', href: 'https://wa.me/5492944459796', color: '#25D366', icon: 'whatsapp' },
+      { label: 'WhatsApp', href: 'https://wa.me/542944240591', color: '#25D366', icon: 'whatsapp' },
       { label: 'LinkedIn', href: '#', color: '#0A66C2', icon: 'linkedin' },
       { label: 'Email', href: 'mailto:info@estudiocils.com.ar', color: '#6B7280', icon: 'email' }
     ]
@@ -234,30 +235,22 @@ const corporateCils: SiteConfig = {
     },
     staff: [
       {
-        name: 'Nieves Rodriguez',
-        role: 'Socia / Fundadora',
-        titles: ['Contadora Pública Nacional', 'Especialista en Tributación'],
-        email: 'nievesrodriguez@estudiocils.com.ar',
-        linkedin: '#',
-        area: 'Impuestos',
-        image: '/images/equipo/nieves.png'
-      },
-      {
         name: 'Javier Chinellato',
         role: 'Socio Gerente / Fundador',
         titles: ['Contador Público Nacional', 'Especialista en Tributación'],
         email: 'javierchinellato@estudiocils.com.ar',
         linkedin: '#',
-        area: 'Dirección / Impuestos',
+        area: 'Areas de Dirección/Sociedades',
         image: '/images/equipo/javier.png'
       },
       {
-        name: 'Lorena Jauregui',
-        role: 'Resp. Area Laboral',
-        titles: ['Contadora Pública Nacional'],
-        email: 'laboral@estudiocils.com.ar',
-        area: 'Laboral',
-        image: '/images/equipo/lorena.png'
+        name: 'Nieves Rodriguez',
+        role: 'Socia Gerente / Fundadora',
+        titles: ['Contadora Pública Nacional', 'Especialista en Tributación'],
+        email: 'nievesrodriguez@estudiocils.com.ar',
+        linkedin: '#',
+        area: 'Areas de Dirección/Impuestos',
+        image: '/images/equipo/nieves.png'
       },
       {
         name: 'María Teresa Vizgarra',
@@ -269,26 +262,20 @@ const corporateCils: SiteConfig = {
         image: '/images/equipo/marite.png'
       },
       {
+        name: 'Lorena Jauregui',
+        role: 'Resp. Area Laboral',
+        titles: ['Contadora Pública Nacional'],
+        email: 'laboral@estudiocils.com.ar',
+        area: 'Laboral',
+        image: '/images/equipo/lorena.png'
+      },
+      {
         name: 'Luciano Lobo',
         role: 'Resp. Area Impositiva',
         titles: ['Contadora Publica nacional', 'Especialista en Auditoria'],
         email: 'impuestos@estudiocils.com.ar',
         area: 'Impuestos',
         image: '/images/equipo/luciano.png'
-      },
-      // {
-      //   name: 'Oscar Arriagada',
-      //   role: 'Administración / Impuestos',
-      //   email: 'administracion@estudiocils.com.ar',
-      //   area: 'Administración',
-      //   image: '/images/equipo/oscar.png'
-      // },
-            {
-        name: 'Daniela Torres',
-        role: 'Tec. Sup. Admin. Empresas',
-          email: 'administracion@estudiocils.com.ar',
-        area: 'Area Laboral',
-        image: '/images/equipo/daniela.png'
       },
       {
         name: 'Natalia Zuber',
@@ -305,6 +292,13 @@ const corporateCils: SiteConfig = {
         image: '/images/equipo/salustiano.png'
       },
       {
+        name: 'Daniela Torres',
+        role: 'Tec. Sup. Admin. Empresas',
+          email: 'administracion@estudiocils.com.ar',
+        area: 'Area Laboral',
+        image: '/images/equipo/daniela.png'
+      },
+      {
         name: 'Maria Sol Slica',
         role: 'Colaborador',
         email: 'administracion@estudiocils.com.ar',
@@ -314,16 +308,9 @@ const corporateCils: SiteConfig = {
       {
         name: 'Catalina Pagliaro',
         role: 'Colaborador',
-      email: 'administracion@estudiocils.com.ar',
+        email: 'administracion@estudiocils.com.ar',
         area: 'Area Administrativa',
         image: '/images/equipo/catalina.png'
-      },
-      {
-        name: 'Anyulina Monti',
-        role: 'Colaborador',
-         email: 'administracion@estudiocils.com.ar',
-        area: 'Area Administrativa',
-        image: '/images/equipo/anyulina.png'
       }
     ]
   },
@@ -361,7 +348,7 @@ const corporateCils: SiteConfig = {
     }
   },
   floating: {
-    whatsapp: { href: 'https://wa.me/5492944459796' },
+    whatsapp: { href: 'https://wa.me/542944240591' },
     scrollTop: { enabled: true }
   },
   seo: {

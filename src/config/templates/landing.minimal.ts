@@ -60,6 +60,7 @@ const landingMinimal: SiteConfig = {
     headline: 'Hablemos',
     text: 'Agenda una consulta y empecemos a profesionalizar tu gestión.',
     address: 'Morales 639, Bariloche, Río Negro, Argentina',
+    whatsapp: ['+54 9 294 4459796'],
     phones: ['+54 294 4459796'],
     email: 'info@estudiocils.com.ar',
     hours: ['Lunes a Viernes 9:00 - 18:00'],

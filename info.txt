@@ -79,7 +79,7 @@ Dirección: Morales 639, Bariloche, Río Negro, Argentina
 Teléfonos: +54 294 4459796 | +54 294 4427365 | +54 294 4240591
 Email: info@estudiocils.com.ar
 Horarios: Lunes a Viernes: 9:00 - 18:00 hs | Sábados: 9:00 - 13:00 hs
-Quick: WhatsApp (https://wa.me/5492944459796) | LinkedIn (#) | Email (mailto:info@estudiocils.com.ar)
+Quick: WhatsApp (https://wa.me/542944240591) | LinkedIn (#) | Email (mailto:info@estudiocils.com.ar)
 
 ## Footer
 About: Más de 10 años brindando soluciones integrales en gestión contable, impositiva, laboral y societaria.
@@ -91,7 +91,7 @@ Bottom Center: Política de Privacidad | Términos y Condiciones
 Bottom Right: Diseñado con ❤️ en Bariloche por <a href='https://portfolio-santiago-chinellato.vercel.app/' target='_blank'>Santiago Chinellato</a>
 
 ## Botones Flotantes
-WhatsApp: https://wa.me/5492944459796
+WhatsApp: https://wa.me/542944240591
 Scroll Top: habilitado >500px scroll
 
 ## Paleta

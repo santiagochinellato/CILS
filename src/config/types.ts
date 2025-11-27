@@ -49,6 +49,7 @@ export type BlogPostCard = {
 };
 
 export type ContactInfo = {
+  whatsapp: string[];
   headline: string;
   text: string;
   address: string;
