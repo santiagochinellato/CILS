@@ -12,6 +12,7 @@
     "lint": "eslint src --ext .ts,.tsx",
     "format": "prettier --write .",
     "backend:dev": "tsx backend/server.ts",
+    "backend:start": "node backend/server.js",
     "novedades:refresh": "tsx backend/jobs/refresh.ts",
     "tunnels": "ngrok start --all"
   },

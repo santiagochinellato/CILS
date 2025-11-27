@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { API_ENDPOINTS } from '../config/api';
 
 export interface NovedadItem {
   id: string;
@@ -24,7 +25,7 @@ export function useNovedades(opts: Options = {}) {
     if (opts.tag) params.set('tag', opts.tag);
     if (opts.region) params.set('region', opts.region);
     if (opts.limit) params.set('limit', String(opts.limit));
-    const url = `/api/novedades?${params.toString()}`;
+    const url = `${API_ENDPOINTS.novedades}?${params.toString()}`;
 
     let cancelled = false;
     setLoading(true);
