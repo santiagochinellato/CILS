@@ -272,7 +272,7 @@ const corporateCils: SiteConfig = {
       {
         name: 'Luciano Lobo',
         role: 'Resp. Area Impositiva',
-        titles: ['Contadora Publica nacional', 'Especialista en Auditoria'],
+        titles: ['Contador Publica nacional'],
         email: 'impuestos@estudiocils.com.ar',
         area: 'Impuestos',
         image: '/images/equipo/luciano.png'
