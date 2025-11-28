@@ -1,9 +1,10 @@
 import React from 'react';
-import { siteConfig } from '../../config/site.config';
+import { useSiteConfig } from '../../config/site.config';
 import { ClientCarousel } from '../ClientCarousel';
 import { SectionHeader } from '../SectionHeader';
 
 export const Clients: React.FC = () => {
+  const siteConfig = useSiteConfig();
   const clients = siteConfig.clients;
   return (
     <section id="clients" className="section">

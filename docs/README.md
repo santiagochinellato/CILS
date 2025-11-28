@@ -1,124 +1,32 @@
-# 🚀 Resumen de Deployment - CILS
+# � Documentación del Proyecto CILS
 
-## 📋 Orden de Deployment
+Bienvenido a la documentación técnica del proyecto. Aquí encontrarás guías detalladas sobre configuración, desarrollo, deployment y funcionalidades específicas.
 
-1. **Backend primero** → Render.com
-2. **Actualizar config** → URL del backend
-3. **Build frontend** → `npm run build`
-4. **Frontend después** → Ferozo FTP
+## � Inicio Rápido
 
----
+- **[Instalación y Setup](./setup/INSTALLATION.md)**: Guía paso a paso para instalar dependencias y configurar el entorno (WSL/Windows).
+- **[Variables de Entorno](./setup/ENVIRONMENT.md)**: Configuración de `.env` y `.env.local`.
 
-## 🔗 Enlaces Rápidos
+## �️ CMS (Sanity.io)
 
-- [Guía Backend (Render.com)](./DEPLOY_BACKEND.md)
-- [Guía Frontend (Ferozo FTP)](./DEPLOY_FRONTEND.md)
-- [Plan Completo](../.gemini/antigravity/brain/664bf5a4-bc82-49b4-a349-e2527511e04a/implementation_plan.md)
+- **[Implementación](./cms/SANITY_IMPLEMENTATION.md)**: Detalles técnicos de la arquitectura, schemas y configuración.
+- **[Guía de Uso](./cms/USAGE_GUIDE.md)**: Cómo editar contenido en Sanity Studio.
+- **[Subida de Imágenes](./cms/IMAGE_UPLOAD.md)**: Script para subir logos e imágenes masivamente.
+- **[Migración de Datos](./cms/MIGRATION_GUIDE.md)**: Cómo poblar el CMS con datos iniciales.
+- **[Actualizar Componentes](./cms/COMPONENT_UPDATE.md)**: Guía para desarrolladores sobre cómo conectar componentes React a Sanity.
 
----
+## 🚀 Deployment
 
-## ⚡ Comandos Rápidos
+- **[Resumen General](./deployment/OVERVIEW.md)**: Estrategia general de despliegue.
+- **[Backend (Render)](./deployment/BACKEND.md)**: Deploy del servidor Node.js en Render.com.
+- **[Frontend (Ferozo FTP)](./deployment/FRONTEND.md)**: Deploy del sitio React en hosting compartido (Ferozo) vía FTP.
 
-### Build Frontend
+## 🌟 Funcionalidades
 
-```bash
-# Opción 1: Script automatizado
-./scripts/build-frontend.sh
+- **[Sistema de Novedades](./features/NEWS_SYSTEM.md)**: Arquitectura del agregador de noticias (NewsAPI + RSS) y lógica de filtrado.
+- **[Guía SEO](./features/SEO_GUIDE.md)**: Implementación de meta tags y optimización para buscadores.
 
-# Opción 2: Manual
-npm run build
-```
+## ⚙️ Técnico
 
-### Verificar Backend
-
-```bash
-curl https://TU-URL.onrender.com/api/novedades
-```
-
----
-
-## 📝 Checklist General
-
-### Backend (Render.com)
-
-- [ ] Cuenta creada en Render.com
-- [ ] Repositorio conectado
-- [ ] Web Service configurado
-- [ ] Variables de entorno agregadas (`NEWSAPI_KEY`)
-- [ ] Deploy exitoso
-- [ ] URL copiada
-
-### Frontend (Configuración)
-
-- [ ] URL del backend actualizada en `src/config/api.ts`
-- [ ] Build ejecutado (`npm run build`)
-- [ ] Carpeta `dist/` generada
-- [ ] `.htaccess` presente en `dist/`
-
-### Frontend (FTP)
-
-- [ ] Conectado a FTP de Ferozo
-- [ ] Archivos subidos a `public_html/`
-- [ ] `.htaccess` verificado
-- [ ] Sitio accesible
-
-### Verificación
-
-- [ ] Backend responde en `/api/novedades`
-- [ ] Frontend carga correctamente
-- [ ] Routing funciona (sin 404)
-- [ ] Novedades se cargan
-- [ ] Probado en móvil
-
----
-
-## 🆘 Ayuda Rápida
-
-| Problema                   | Ver                                                                                          |
-| -------------------------- | -------------------------------------------------------------------------------------------- |
-| Error en deploy de backend | [DEPLOY_BACKEND.md](./DEPLOY_BACKEND.md#-troubleshooting)                                    |
-| Error 404 en rutas         | [DEPLOY_FRONTEND.md](./DEPLOY_FRONTEND.md#error-404-en-rutas)                                |
-| No cargan novedades        | [DEPLOY_FRONTEND.md](./DEPLOY_FRONTEND.md#no-cargan-las-novedades)                           |
-| Problemas con FTP          | [DEPLOY_FRONTEND.md](./DEPLOY_FRONTEND.md#opción-1-filezilla-recomendado---interfaz-gráfica) |
-
----
-
-## 📞 Credenciales
-
-### Ferozo FTP
-
-```
-Host: n7000023.ferozo.com
-User: ftp@n7000023.ferozo.com
-Pass: tuWEfu91po
-Port: 21
-```
-
-### Render.com
-
-- URL: https://render.com
-- Conectar con GitHub
-
-### NewsAPI
-
-- URL: https://newsapi.org
-- Necesitas API key (gratis)
-
----
-
-## 💰 Costos
-
-- **Render.com**: $0/mes (Free tier)
-- **Ferozo**: Ya tienes cuenta
-- **NewsAPI**: $0/mes (100 req/día)
-- **TOTAL**: **$0/mes**
-
----
-
-## 🎯 URLs Finales
-
-Una vez desplegado:
-
-- **Frontend**: http://n7000023.ferozo.com
-- **Backend**: https://[tu-servicio].onrender.com
-- **API Novedades**: https://[tu-servicio].onrender.com/api/novedades
+- **[Arquitectura Backend](./technical/BACKEND_ARCHITECTURE.md)**: Estructura del servidor, jobs y almacenamiento.
+- **[Optimizaciones](./technical/OPTIMIZATIONS.md)**: Mejoras de rendimiento y accesibilidad implementadas.

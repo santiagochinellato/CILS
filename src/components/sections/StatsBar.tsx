@@ -1,10 +1,11 @@
 import React from 'react';
-import { siteConfig } from '../../config/site.config';
+import { useSiteConfig } from '../../config/site.config';
 import { StatCard } from '../../components/StatCard';
 import { SectionHeader } from '../../components/SectionHeader';
 import { iconForStat } from '../../components/ui/icons';
 
 export const StatsBar: React.FC = () => {
+  const siteConfig = useSiteConfig();
   const items = siteConfig.stats;
   return (
     <section className="section">

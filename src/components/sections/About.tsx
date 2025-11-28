@@ -1,11 +1,12 @@
 import React from 'react';
-import { siteConfig } from '../../config/site.config';
+import { useSiteConfig } from '../../config/site.config';
 import { FeatureItem } from '../../components/FeatureItem';
 import { icons } from '../../components/ui/icons';
 import { ServiceCardSlim } from '../../components/ServiceCardSlim';
 import { Link } from 'react-router-dom';
 
 export const About: React.FC = () => {
+  const siteConfig = useSiteConfig();
   const about = siteConfig.about;
   return (
     <section id="about" className="section">

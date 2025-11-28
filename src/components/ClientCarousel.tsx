@@ -1,9 +1,10 @@
 import React, { memo, useMemo } from 'react';
 import { motion } from 'framer-motion';
-import { siteConfig } from '../config/site.config';
+import { useSiteConfig } from '../config/site.config';
 
 // Carrusel infinito horizontal simple duplicando elementos.
 export const ClientCarousel = memo(() => {
+  const siteConfig = useSiteConfig();
   const clients = siteConfig.clients.filter(c => c.logo);
   // Para bucle continuo duplicamos la lista
   const loopItems = useMemo(() => [...clients, ...clients], [clients]);

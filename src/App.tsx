@@ -2,6 +2,7 @@ import React, { lazy, Suspense } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ScrollToTop } from './components/ScrollToTop';
 import { LoadingScreen } from './components/LoadingScreen';
+import { SanityConfigProvider } from './contexts/SanityConfigContext';
 import { Home } from './pages/Home';
 
 // Lazy loading de páginas secundarias
@@ -25,7 +26,7 @@ const LinksPage = lazy(() => import('./pages/LinksPage').then((m) => ({ default:
 
 const App: React.FC = () => {
   return (
-    <>
+    <SanityConfigProvider>
       <LoadingScreen />
       <BrowserRouter basename="/es">
         <ScrollToTop />
@@ -42,7 +43,7 @@ const App: React.FC = () => {
           </Routes>
         </Suspense>
       </BrowserRouter>
-    </>
+    </SanityConfigProvider>
   );
 };
 

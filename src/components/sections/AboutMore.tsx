@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Icon } from '../ui/Icon';
-import { siteConfig } from '../../config/site.config';
+import { useSiteConfig } from '../../config/site.config';
 
 interface AccordionItemProps {
   title: string;
@@ -46,6 +46,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, content, isOpen, o
 };
 
 export const AboutMore: React.FC = () => {
+  const siteConfig = useSiteConfig();
   const team = siteConfig.team;
   const about = siteConfig.about;
   const [openIndex, setOpenIndex] = useState<number | null>(0);

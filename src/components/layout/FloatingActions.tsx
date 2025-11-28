@@ -1,8 +1,9 @@
 import React, { useEffect, useState, useCallback } from 'react';
-import { siteConfig } from '../../config/site.config';
+import { useSiteConfig } from '../../config/site.config';
 import { Icon } from '../ui/Icon';
 
 export const FloatingActions: React.FC = () => {
+  const siteConfig = useSiteConfig();
   const { floating } = siteConfig;
   const [showTop, setShowTop] = useState(false);
   

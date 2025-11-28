@@ -1,11 +1,12 @@
 import React from 'react';
-import { siteConfig } from '../../config/site.config';
+import { useSiteConfig } from '../../config/site.config';
 
 interface ContactMapProps {
   className?: string;
 }
 
 export const ContactMap: React.FC<ContactMapProps> = ({ className }) => {
+  const siteConfig = useSiteConfig();
   const { contact: c } = siteConfig;
   const gmapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(c.address)}`;
   const embedUrl = `https://www.google.com/maps?q=${encodeURIComponent(c.address)}&output=embed`;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { siteConfig } from '../../config/site.config';
+import { useSiteConfig } from '../../config/site.config';
 import { Icon } from '../ui/Icon';
 import { cn } from '../../utils/cn';
 
@@ -13,6 +13,7 @@ const colorVariants = [
 ];
 
 export const LinksSection: React.FC = () => {
+  const siteConfig = useSiteConfig();
   const links = siteConfig.links ?? [];
   if (!links.length) return null;
   return (

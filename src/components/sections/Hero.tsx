@@ -1,8 +1,9 @@
 import React from 'react';
-import { siteConfig } from '../../config/site.config';
+import { useSiteConfig } from '../../config/site.config';
 import { Link } from 'react-router-dom';
 
 export const Hero: React.FC = () => {
+  const siteConfig = useSiteConfig();
   const hero = siteConfig.hero;
   return (
     <section id="hero" className="pt-32 section bg-gradient-to-br from-secondary to-accent2 text-white" aria-label="Sección principal">

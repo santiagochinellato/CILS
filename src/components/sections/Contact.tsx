@@ -1,10 +1,11 @@
 import React from 'react';
-import { siteConfig } from '../../config/site.config';
+import { useSiteConfig } from '../../config/site.config';
 import { ContactInfo } from '../contact/ContactInfo';
 import { ContactMap } from '../contact/ContactMap';
 import { ContactForm } from '../contact/ContactForm';
 
 export const Contact: React.FC = () => {
+  const siteConfig = useSiteConfig();
   const c = siteConfig.contact;
   return (
     <section id="contact" className="section">

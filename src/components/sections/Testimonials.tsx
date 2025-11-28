@@ -1,9 +1,10 @@
 import React from 'react';
-import { siteConfig } from '../../config/site.config';
+import { useSiteConfig } from '../../config/site.config';
 import { SectionHeader } from '../SectionHeader';
 import { TestimonialCard } from '../TestimonialCard';
 
 export const Testimonials: React.FC = () => {
+  const siteConfig = useSiteConfig();
   const testimonials = siteConfig.testimonials;
   return (
     <section className="section">

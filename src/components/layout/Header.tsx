@@ -2,14 +2,14 @@ import React, { useEffect, useState, useCallback } from 'react';
 import { useStickyHeader } from '../../hooks/useStickyHeader';
 import { useTheme } from '../../hooks/useTheme';
 import { cn } from '../../utils/cn';
-import { siteConfig } from '../../config/site.config';
+import { useSiteConfig } from '../../config/site.config';
 import { Link, useLocation } from 'react-router-dom';
 import LogoCILS from '../LogoCILS';
 import { Icon } from '../ui/Icon';
 
-const navItems = siteConfig.nav;
-
 export const Header: React.FC = () => {
+  const siteConfig = useSiteConfig();
+  const navItems = siteConfig.nav;
   const isSticky = useStickyHeader(60);
   const { theme } = useTheme();
   const [menuOpen, setMenuOpen] = useState(false);

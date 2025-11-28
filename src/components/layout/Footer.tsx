@@ -1,9 +1,10 @@
 import React from 'react';
-import { siteConfig } from '../../config/site.config';
+import { useSiteConfig } from '../../config/site.config';
 import { Link } from 'react-router-dom';
 import LogoCILS from '../LogoCILS';
 
 export const Footer: React.FC = () => {
+  const siteConfig = useSiteConfig();
   const { footer } = siteConfig;
   return (
     <footer className="bg-primary text-white mt-16 p-4 flex flex-col gap-2" role="contentinfo">

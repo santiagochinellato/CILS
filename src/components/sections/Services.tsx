@@ -1,11 +1,11 @@
 import React from 'react';
-import { siteConfig } from '../../config/site.config';
+import { useSiteConfig } from '../../config/site.config';
 import { ServiceCard } from '../../components/ServiceCard';
 import { iconForService } from '../../components/ui/icons';
 
-const services = siteConfig.services;
-
 export const Services: React.FC = () => {
+  const siteConfig = useSiteConfig();
+  const services = siteConfig.services;
   return (
     <section id="services" className="section">
       <div className="container">
