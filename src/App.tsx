@@ -5,19 +5,29 @@ import { LoadingScreen } from './components/LoadingScreen';
 import { Home } from './pages/Home';
 
 // Lazy loading de páginas secundarias
-const AboutPage = lazy(() => import('./pages/AboutPage').then(m => ({ default: m.AboutPage })));
-const ServicesPage = lazy(() => import('./pages/ServicesPage').then(m => ({ default: m.ServicesPage })));
-const ClientsPage = lazy(() => import('./pages/ClientsPage').then(m => ({ default: m.ClientsPage })));
-const ContactPage = lazy(() => import('./pages/ContactPage').then(m => ({ default: m.ContactPage })));
-const NotFoundPage = lazy(() => import('./pages/NotFoundPage').then(m => ({ default: m.NotFoundPage })));
-const NovedadesPage = lazy(() => import('./pages/NovedadesPage').then(m => ({ default: m.NovedadesPage })));
-const LinksPage = lazy(() => import('./pages/LinksPage').then(m => ({ default: m.default })));
+const AboutPage = lazy(() => import('./pages/AboutPage').then((m) => ({ default: m.AboutPage })));
+const ServicesPage = lazy(() =>
+  import('./pages/ServicesPage').then((m) => ({ default: m.ServicesPage }))
+);
+const ClientsPage = lazy(() =>
+  import('./pages/ClientsPage').then((m) => ({ default: m.ClientsPage }))
+);
+const ContactPage = lazy(() =>
+  import('./pages/ContactPage').then((m) => ({ default: m.ContactPage }))
+);
+const NotFoundPage = lazy(() =>
+  import('./pages/NotFoundPage').then((m) => ({ default: m.NotFoundPage }))
+);
+const NovedadesPage = lazy(() =>
+  import('./pages/NovedadesPage').then((m) => ({ default: m.NovedadesPage }))
+);
+const LinksPage = lazy(() => import('./pages/LinksPage').then((m) => ({ default: m.default })));
 
 const App: React.FC = () => {
   return (
     <>
       <LoadingScreen />
-      <BrowserRouter>
+      <BrowserRouter basename="/es">
         <ScrollToTop />
         <Suspense fallback={<LoadingScreen />}>
           <Routes>

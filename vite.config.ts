@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
+  base: '/es/',
   plugins: [
     react(),
     VitePWA({
@@ -46,5 +47,15 @@ export default defineConfig({
       '2b8923832858.ngrok-free.app',
       '.ngrok-free.app'
     ]
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'react-vendor': ['react', 'react-dom', 'react-router-dom'],
+          'ui-vendor': ['framer-motion', 'lucide-react', 'react-icons'],
+        }
+      }
+    }
   }
 });

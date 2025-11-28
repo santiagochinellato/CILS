@@ -11,7 +11,7 @@ interface LogoCILSProps {
 
 const LogoCILS: React.FC<LogoCILSProps> = ({ variant = 'color', width = 160, className = '', animated = false }) => (
   <img
-    src={variant === 'white' ? '/images/cilsLogoWhite.png' : '/images/cilsLogo.png'}
+    src={variant === 'white' ? 'images/cilsLogoWhite.png' : 'images/cilsLogo.png'}
     alt="Logo Estudio CILS"
     width={'200px'}
     height={'100%'}

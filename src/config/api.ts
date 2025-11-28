@@ -6,8 +6,8 @@
  * - Production: Uses deployed backend URL
  */
 
-// TODO: Replace with your actual Render.com backend URL after deployment
-const PRODUCTION_API_URL = 'https://cils-backend.onrender.com';
+// Production backend URL from Render.com
+const PRODUCTION_API_URL = 'https://cils-backend.onrender.com/api';
 
 export const API_BASE_URL = import.meta.env.PROD 
   ? PRODUCTION_API_URL

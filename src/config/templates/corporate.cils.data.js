@@ -1,10 +1,7 @@
-import type { SiteConfig } from '../types';
-
-const corporateCils: SiteConfig = {
+const corporateCils = {
   nav: [
     { label: 'Inicio', href: '/' },
     { label: 'Nosotros', href: '/nosotros' },
-
     { label: 'Servicios', href: '/servicios' },
     { label: 'Novedades', href: '/novedades' },
     { label: 'Links', href: '/links' },
@@ -14,8 +11,8 @@ const corporateCils: SiteConfig = {
     badge: ' Más de 10 años en Bariloche y en la región',
     title: 'Tu socio estratégico en gestión contable, impositiva, laboral y societaria',
     subtitle: 'Soluciones integrales para el crecimiento sostenible de tu empresa en la Patagonia Andina',
-  ctaPrimary: { label: 'Solicitar Asesoramiento', href: '/contacto' },
-  ctaSecondary: { label: 'Conocer Servicios', href: '/servicios' },
+    ctaPrimary: { label: 'Solicitar Asesoramiento', href: '/contacto' },
+    ctaSecondary: { label: 'Conocer Servicios', href: '/servicios' },
     trust: 'INVAP y +100 empresas confían en nosotros'
   },
   stats: [
@@ -91,7 +88,6 @@ const corporateCils: SiteConfig = {
 'Planificación Fiscal Integral (Tax Planning) Personas físicas, jurídicas y grupos económicos',
 'Gestión de Inspecciones de Organismos fiscales',
 'Auditoría Impositiva'
-
       ],
       href: '#contact'
     },
@@ -413,4 +409,4 @@ const corporateCils: SiteConfig = {
   ]
 };
 
-export default corporateCils;
+module.exports = corporateCils;

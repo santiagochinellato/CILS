@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Disallow admin areas
+Disallow: /panel
+Disallow: /webmail
+Disallow: /clientes/
+Disallow: /admin/
+
+# Allow all other content
+Allow: /
+
+# Sitemap
+Sitemap: https://estudiocils.com.ar/es/sitemap.xml
+
+# Crawl-delay (optional, helps prevent server overload)
+Crawl-delay: 1

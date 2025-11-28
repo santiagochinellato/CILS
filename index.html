@@ -1,45 +1,199 @@
 <!doctype html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Estudio CILS | Servicios Contables en Bariloche | +10 años de experiencia</title>
-  <meta name="description" content="Estudio contable en Bariloche con +10 años de experiencia. Gestión contable, impositiva, laboral y societaria para empresas de la Patagonia." />
-  <meta name="keywords" content="estudio contable bariloche, contador bariloche, gestión impositiva, asesoría laboral, servicios contables" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Inter:wght@400;500;600&family=Poppins:wght@700&display=swap" rel="stylesheet" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-w32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-w16.png" />
-  <link rel="canonical" href="https://estudiocils.com.ar/" />
-  <meta name="theme-color" content="#106973" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <base href="/es/" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KKQ52GJYFG"></script>
   <script>
-    // Forzar modo claro desde el principio para evitar FOUC oscuro.
-    try {
-      localStorage.setItem('theme', 'light');
-      document.documentElement.classList.remove('dark');
-    } catch (e) {}
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-KKQ52GJYFG');
   </script>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "Estudio CILS",
-    "image": "https://estudiocils.com.ar/logo.png",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Morales 639",
-      "addressLocality": "San Carlos de Bariloche",
-      "addressRegion": "Río Negro",
-      "addressCountry": "AR"
-    },
-    "telephone": "+54 9 294 4240591",
-    "email": "info@estudiocils.com.ar"
-  }
-  </script>
-</head>
-<body class="font-inter">
-  <div id="root"></div>
-  <script type="module" src="/src/main.tsx"></script>
-</body>
+    <!-- Primary Meta Tags -->
+    <title>Estudio CILS | Servicios Contables en Bariloche | +10 años de experiencia</title>
+    <meta
+      name="title"
+      content="Estudio CILS | Servicios Contables en Bariloche | +10 años de experiencia"
+    />
+    <meta
+      name="description"
+      content="Estudio contable en Bariloche con +10 años de experiencia. Gestión contable, impositiva, laboral y societaria para empresas de la Patagonia."
+    />
+    <meta
+      name="keywords"
+      content="estudio contable bariloche, contador bariloche, gestión impositiva, asesoría laboral, servicios contables patagonia, estudio contable rio negro"
+    />
+    <meta name="author" content="Estudio CILS" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="Spanish" />
+    <meta name="geo.region" content="AR-R" />
+    <meta name="geo.placename" content="San Carlos de Bariloche" />
+    <meta name="geo.position" content="-41.133472;-71.310278" />
+    <meta name="ICBM" content="-41.133472, -71.310278" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://estudiocils.com.ar/" />
+    <meta property="og:title" content="Estudio CILS | Servicios Contables en Bariloche" />
+    <meta
+      property="og:description"
+      content="Estudio contable en Bariloche con +10 años de experiencia. Gestión contable, impositiva, laboral y societaria para empresas de la Patagonia."
+    />
+    <meta property="og:image" content="https://estudiocils.com.ar/images/og-image.jpg" />
+    <meta property="og:locale" content="es_AR" />
+    <meta property="og:site_name" content="Estudio CILS" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://estudiocils.com.ar/" />
+    <meta property="twitter:title" content="Estudio CILS | Servicios Contables en Bariloche" />
+    <meta
+      property="twitter:description"
+      content="Estudio contable en Bariloche con +10 años de experiencia. Gestión contable, impositiva, laboral y societaria."
+    />
+    <meta property="twitter:image" content="https://estudiocils.com.ar/images/og-image.jpg" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://estudiocils.com.ar/es/" />
+
+    <!-- Alternate Languages -->
+    <link rel="alternate" hreflang="es-ar" href="https://estudiocils.com.ar/" />
+    <link rel="alternate" hreflang="es" href="https://estudiocils.com.ar/" />
+
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cils-backend.onrender.com" />
+    <link rel="dns-prefetch" href="https://cils-backend.onrender.com" />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Inter:wght@400;500;600&family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Inter:wght@400;500;600&family=Poppins:wght@700&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-w32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-w16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#106973" />
+    <meta name="msapplication-TileColor" content="#106973" />
+
+    <!-- Force Light Mode -->
+    <script>
+      try {
+        localStorage.setItem('theme', 'light');
+        document.documentElement.classList.remove('dark');
+      } catch (e) {}
+    </script>
+
+    <!-- Structured Data - Organization -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "AccountingService",
+        "name": "Estudio CILS",
+        "description": "Estudio contable en Bariloche con más de 10 años de experiencia ofreciendo servicios de gestión contable, impositiva, laboral y societaria.",
+        "url": "https://estudiocils.com.ar",
+        "logo": "https://estudiocils.com.ar/images/logo.png",
+        "image": "https://estudiocils.com.ar/images/og-image.jpg",
+        "telephone": "+54 9 294 4240591",
+        "email": "info@estudiocils.com.ar",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Morales 639",
+          "addressLocality": "San Carlos de Bariloche",
+          "addressRegion": "Río Negro",
+          "postalCode": "8400",
+          "addressCountry": "AR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "-41.133472",
+          "longitude": "-71.310278"
+        },
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "San Carlos de Bariloche"
+          },
+          {
+            "@type": "State",
+            "name": "Río Negro"
+          },
+          {
+            "@type": "State",
+            "name": "Neuquén"
+          },
+          {
+            "@type": "Place",
+            "name": "Patagonia Argentina"
+          }
+        ],
+        "priceRange": "$$",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "09:00",
+            "closes": "18:00"
+          }
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/company/estudiocils",
+          "https://www.facebook.com/estudiocils"
+        ]
+      }
+    </script>
+
+    <!-- Structured Data - Local Business -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Estudio CILS",
+        "image": "https://estudiocils.com.ar/images/og-image.jpg",
+        "@id": "https://estudiocils.com.ar",
+        "url": "https://estudiocils.com.ar",
+        "telephone": "+54 9 294 4240591",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Morales 639",
+          "addressLocality": "San Carlos de Bariloche",
+          "addressRegion": "Río Negro",
+          "postalCode": "8400",
+          "addressCountry": "AR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -41.133472,
+          "longitude": -71.310278
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "18:00"
+        }
+      }
+    </script>
+  </head>
+  <body class="font-inter">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
