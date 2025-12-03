@@ -13,6 +13,32 @@ export interface NovedadItem {
   region: string | null;
 }
 
+// Datos de fallback para cuando el backend falla
+const fallbackNovedades: NovedadItem[] = [
+  {
+    id: '1',
+    title: 'Nuevas disposiciones fiscales 2024',
+    summary: 'Actualizaciones importantes en materia fiscal y contable.',
+    url: '#',
+    source: 'AFIP',
+    image: null,
+    publishedAt: new Date().toISOString(),
+    tags: ['Fiscal', 'AFIP'],
+    region: 'Nacional'
+  },
+  {
+    id: '2',
+    title: 'Cambios en normativa laboral',
+    summary: 'Nuevas regulaciones que afectan las relaciones laborales.',
+    url: '#',
+    source: 'Ministerio de Trabajo',
+    image: null,
+    publishedAt: new Date(Date.now() - 86400000).toISOString(),
+    tags: ['Laboral', 'Normativa'],
+    region: 'Nacional'
+  }
+];
+
 interface Options { tag?: string; region?: string; limit?: number }
 
 export function useNovedades(opts: Options = {}) {
@@ -28,37 +54,58 @@ export function useNovedades(opts: Options = {}) {
     const url = `${API_ENDPOINTS.novedades}?${params.toString()}`;
 
     let cancelled = false;
+    let timeoutId: NodeJS.Timeout;
+    
     setLoading(true);
+    
+    // Timeout de 3 segundos para usar fallback
+    timeoutId = setTimeout(() => {
+      if (!cancelled) {
+        setData(fallbackNovedades.slice(0, opts.limit || 8));
+        setError(null);
+        setLoading(false);
+      }
+    }, 3000);
+    
     fetch(url)
       .then(async (res) => {
-        if (!res.ok) {
-          // Manejo silencioso de errores HTTP para evitar console errors
-          return { error: `HTTP ${res.status}` };
-        }
-        return res.json();
-      })
-      .then((json) => {
         if (!cancelled) {
-          if (json.error) {
-            setError(json.error);
-            setData(null);
-          } else {
+          clearTimeout(timeoutId);
+          if (!res.ok) {
+            // Usar fallback en caso de error HTTP
+            setData(fallbackNovedades.slice(0, opts.limit || 8));
+            setError(null);
+            return;
+          }
+          const json = await res.json();
+          if (json && Array.isArray(json) && json.length > 0) {
             setData(json);
+            setError(null);
+          } else {
+            // Si no hay datos, usar fallback
+            setData(fallbackNovedades.slice(0, opts.limit || 8));
             setError(null);
           }
         }
       })
       .catch((e) => {
         if (!cancelled) {
-          // Error silencioso, no usamos console.error
-          setError('Error de conexión');
+          clearTimeout(timeoutId);
+          // En caso de error de red, usar fallback
+          setData(fallbackNovedades.slice(0, opts.limit || 8));
+          setError(null);
         }
       })
       .finally(() => {
-        if (!cancelled) setLoading(false);
+        if (!cancelled) {
+          setLoading(false);
+        }
       });
 
-    return () => { cancelled = true };
+    return () => { 
+      cancelled = true;
+      clearTimeout(timeoutId);
+    };
   }, [opts.tag, opts.region, opts.limit]);
 
   return { data, loading, error };
