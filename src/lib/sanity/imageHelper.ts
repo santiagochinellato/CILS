@@ -52,7 +52,9 @@ export function getSanityImageUrl(
     
     return url;
   } catch (error) {
-    console.warn('Error processing Sanity image:', error);
+    if (import.meta.env.DEV) {
+      console.warn('Error processing Sanity image:', error);
+    }
     return typeof source === 'string' ? source : '';
   }
 }

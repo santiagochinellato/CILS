@@ -7,9 +7,6 @@ export const Team: React.FC = () => {
   const siteConfig = useSiteConfig();
   const team = siteConfig.team;
   if (!team) return null;
-  // @ts-ignore
-  console.log('DEBUG: Total Site Settings Docs:', siteConfig.DEBUG_total_settings);
-  console.log('Team Data:', team.staff); // DEBUG: Check staff list
 
   // Categorización sofisticada del equipo
   const fundadores = team.staff.filter(

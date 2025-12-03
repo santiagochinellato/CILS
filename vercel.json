@@ -10,7 +10,7 @@
       "headers": [
         {
           "key": "Permissions-Policy",
-          "value": "browsing-topics=()"
+          "value": "browsing-topics=(), interest-cohort=(), camera=(), microphone=(), geolocation=()"
         },
         {
           "key": "X-Content-Type-Options",

@@ -1,7 +1,9 @@
 import { createClient } from '@sanity/client';
 
 if (!import.meta.env.VITE_SANITY_PROJECT_ID) {
-  console.warn('VITE_SANITY_PROJECT_ID is not defined. Using fallback configuration.');
+  if (import.meta.env.DEV) {
+    console.warn('VITE_SANITY_PROJECT_ID is not defined. Using fallback configuration.');
+  }
 }
 
 export const sanityClient = createClient({

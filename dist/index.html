@@ -11,7 +11,9 @@
         var s = document.createElement('script');
         s.async = true;
         s.onerror = function() {
-          console.warn('GTM script could not be loaded. Analytics may be limited.');
+          if (window.console && window.console.warn) {
+            console.warn('GTM script could not be loaded. Analytics may be limited.');
+          }
         };
         s.src = 'https://www.googletagmanager.com/gtag/js?id=G-KKQ52GJYFG';
         document.head.appendChild(s);
@@ -19,8 +21,14 @@
         function gtag(){ dataLayer.push(arguments); }
         window.gtag = gtag;
         gtag('js', new Date());
-        // Evitamos page_view automático para dispararlo manualmente en SPA
-        gtag('config', 'G-KKQ52GJYFG', { send_page_view: false });
+        // Configuración con respeto a la privacidad
+        gtag('config', 'G-KKQ52GJYFG', { 
+          send_page_view: false,
+          cookie_flags: 'SameSite=Strict;Secure',
+          anonymize_ip: true,
+          allow_google_signals: false,
+          allow_ad_personalization_signals: false
+        });
       };
       if ('requestIdleCallback' in window) {
         requestIdleCallback(loadGtm);
@@ -207,7 +215,7 @@
         }
       }
     </script>
-    <script type="module" crossorigin src="/es/assets/index-CSrw_7rE.js"></script>
+    <script type="module" crossorigin src="/es/assets/index-BYL4e5er.js"></script>
     <link rel="modulepreload" crossorigin href="/es/assets/react-vendor-mDSsBeru.js">
     <link rel="modulepreload" crossorigin href="/es/assets/ui-vendor-Cq5CQ9Rg.js">
     <link rel="stylesheet" crossorigin href="/es/assets/index-BB50h7lY.css">
