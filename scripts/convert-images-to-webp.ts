@@ -4,6 +4,7 @@ import sharp from 'sharp';
 
 const IMAGES_DIR = path.resolve(process.cwd(), 'public', 'images');
 const CLIENT_LOGOS_DIR = path.join(IMAGES_DIR, 'logosClientes');
+const TEAM_DIR = path.join(IMAGES_DIR, 'equipo');
 
 async function convertFile(inputPath: string, outputPath: string) {
   const ext = path.extname(inputPath).toLowerCase();
@@ -16,7 +17,8 @@ async function convertFile(inputPath: string, outputPath: string) {
   const inStats = fs.statSync(inputPath);
   const outStats = fs.statSync(outputPath);
   const saving = inStats.size - outStats.size;
-  console.log(`→ ${path.basename(inputPath)} → ${path.basename(outputPath)} (${Math.round(outStats.size/1024)}KB, ahorro ${Math.round(saving/1024)}KB)`);
+  const savingMB = saving > 1024 * 1024 ? `${(saving / 1024 / 1024).toFixed(1)}MB` : `${Math.round(saving/1024)}KB`;
+  console.log(`→ ${path.basename(inputPath)} → ${path.basename(outputPath)} (${Math.round(outStats.size/1024)}KB, ahorro ${savingMB})`);
 }
 
 function listTargets(dir: string): string[] {
@@ -30,6 +32,7 @@ async function main() {
   const targets = [
     ...listTargets(IMAGES_DIR),
     ...listTargets(CLIENT_LOGOS_DIR),
+    ...(fs.existsSync(TEAM_DIR) ? listTargets(TEAM_DIR) : []),
   ];
   if (!targets.length) {
     console.log('No se encontraron imágenes PNG/JPG para convertir.');
