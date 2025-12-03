@@ -37,19 +37,20 @@ export function getSanityImageUrl(
   } = options;
 
   try {
-    const imageBuilder = builder
+    let url = builder
       .image(source)
       .width(width)
       .height(height)
       .fit(fit)
-      .quality(quality);
+      .quality(quality)
+      .url();
     
-    // Aplicar formato WebP
-    if (format === 'webp') {
-      return imageBuilder.format('webp').url();
+    // Asegurar que tenga el parámetro fm=webp para formato WebP
+    if (format === 'webp' && !url.includes('fm=webp')) {
+      url += (url.includes('?') ? '&' : '?') + 'fm=webp';
     }
     
-    return imageBuilder.url();
+    return url;
   } catch (error) {
     console.warn('Error processing Sanity image:', error);
     return typeof source === 'string' ? source : '';
