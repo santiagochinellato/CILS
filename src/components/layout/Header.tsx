@@ -132,7 +132,6 @@ export const Header: React.FC = () => {
           'lg:hidden fixed inset-0 z-[900] transition-opacity',
           menuOpen ? 'pointer-events-auto opacity-100' : 'pointer-events-none opacity-0'
         )}
-        aria-hidden={!menuOpen}
         aria-modal={menuOpen ? true : undefined}
         role={menuOpen ? 'dialog' : undefined}
       >

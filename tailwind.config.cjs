@@ -7,7 +7,7 @@ const colors = {
   background: '#F8FAFB',
   white: '#FFFFFF',
   text: '#2D3748',
-  textLight: '#5A6474' // Cambiado para mejor contraste (4.5:1 en fondo blanco)
+  textLight: '#4A5568' // Mejorado para contraste óptimo (7:1 en fondo blanco)
 };
 
 module.exports = {
