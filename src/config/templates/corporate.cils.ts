@@ -138,22 +138,22 @@ const corporateCils: SiteConfig = {
     }
   ],
   clients: [
-    { name: 'INVAP', featured: true, href: 'https://www.invap.com.ar/', logo: 'images/logosClientes/invap.png' },
-    { name: 'INVAP Ingeniería', href: '#', logo: 'images/logosClientes/invapIng.png' },
-    { name: 'Biotis', href: '#', logo: 'images/logosClientes/biotis.png' },
-    { name: 'Carelhue', href: '#', logo: 'images/logosClientes/carelhue.png' },
-    { name: 'El Casco', href: '#', logo: 'images/logosClientes/elcasco.png' },
-    { name: 'Girasoles', href: '#', logo: 'images/logosClientes/girasoles.png' },
-    { name: 'Goye', href: '#', logo: 'images/logosClientes/goye.png' },
-    { name: 'Hayland', href: '#', logo: 'images/logosClientes/hayland.png' },
-    { name: 'Interpracsys', href: '#', logo: 'images/logosClientes/interpracsys.png' },
-    { name: 'Morales', href: '#', logo: 'images/logosClientes/morales.png' },
-    { name: 'Onelli', href: '#', logo: 'images/logosClientes/onelli.png' },
-    { name: 'Pasteur', href: '#', logo: 'images/logosClientes/pasteur.png' },
-    { name: 'PintArg', href: '#', logo: 'images/logosClientes/pintArg.png' },
-    { name: 'Romag', href: '#', logo: 'images/logosClientes/romag.png' },
-    { name: 'RX', href: '#', logo: 'images/logosClientes/rx.png' },
-    { name: 'Emergencias 911', href: '#', logo: 'images/logosClientes/911.png' }
+    { name: 'INVAP', featured: true, href: 'https://www.invap.com.ar/', logo: 'images/logosClientes/invap.webp' },
+    { name: 'INVAP Ingeniería', href: '#', logo: 'images/logosClientes/invapIng.webp' },
+    { name: 'Biotis', href: '#', logo: 'images/logosClientes/biotis.webp' },
+    { name: 'Carelhue', href: '#', logo: 'images/logosClientes/carelhue.webp' },
+    { name: 'El Casco', href: '#', logo: 'images/logosClientes/elcasco.webp' },
+    { name: 'Girasoles', href: '#', logo: 'images/logosClientes/girasoles.webp' },
+    { name: 'Goye', href: '#', logo: 'images/logosClientes/goye.webp' },
+    { name: 'Hayland', href: '#', logo: 'images/logosClientes/hayland.webp' },
+    { name: 'Interpracsys', href: '#', logo: 'images/logosClientes/interpracsys.webp' },
+    { name: 'Morales', href: '#', logo: 'images/logosClientes/morales.webp' },
+    { name: 'Onelli', href: '#', logo: 'images/logosClientes/onelli.webp' },
+    { name: 'Pasteur', href: '#', logo: 'images/logosClientes/pasteur.webp' },
+    { name: 'PintArg', href: '#', logo: 'images/logosClientes/pintArg.webp' },
+    { name: 'Romag', href: '#', logo: 'images/logosClientes/romag.webp' },
+    { name: 'RX', href: '#', logo: 'images/logosClientes/rx.webp' },
+    { name: 'Emergencias 911', href: '#', logo: 'images/logosClientes/911.webp' }
   ],
   testimonials: [
     {
@@ -241,7 +241,7 @@ const corporateCils: SiteConfig = {
         email: 'javierchinellato@estudiocils.com.ar',
         linkedin: '#',
         area: 'Areas de Dirección/Sociedades',
-        image: 'images/equipo/javier.png'
+        image: 'images/equipo/javier.webp'
       },
       {
         name: 'Nieves Rodriguez',
@@ -250,7 +250,7 @@ const corporateCils: SiteConfig = {
         email: 'nievesrodriguez@estudiocils.com.ar',
         linkedin: '#',
         area: 'Areas de Dirección/Impuestos',
-        image: 'images/equipo/nieves.png'
+        image: 'images/equipo/nieves.webp'
       },
       {
         name: 'María Teresa Vizgarra',
@@ -259,7 +259,7 @@ const corporateCils: SiteConfig = {
         email: 'maritevizgarra@estudiocils.com.ar',
         linkedin: '#',
         area: 'Contable',
-        image: 'images/equipo/marite.png'
+        image: 'images/equipo/marite.webp'
       },
       {
         name: 'Lorena Jauregui',
@@ -267,7 +267,7 @@ const corporateCils: SiteConfig = {
         titles: ['Contadora Pública Nacional'],
         email: 'laboral@estudiocils.com.ar',
         area: 'Laboral',
-        image: 'images/equipo/lorena.png'
+        image: 'images/equipo/lorena.webp'
       },
       {
         name: 'Luciano Lobo',
@@ -275,42 +275,42 @@ const corporateCils: SiteConfig = {
         titles: ['Contador Publica nacional'],
         email: 'impuestos@estudiocils.com.ar',
         area: 'Impuestos',
-        image: 'images/equipo/luciano.png'
+        image: 'images/equipo/luciano.webp'
       },
       {
         name: 'Natalia Zuber',
         role: 'Auxiliar',
         email: 'administracion@estudiocils.com.ar',
         area: 'Areas Administrativa y Contable',
-        image: 'images/equipo/natalia.png'
+        image: 'images/equipo/natalia.webp'
       },
       {
         name: 'Salustiano Pastrana',
         role: 'Auxiliar',
         email: 'administracion@estudiocils.com.ar',
         area: 'Areas Administrativa e Impositiva',
-        image: 'images/equipo/salustiano.png'
+        image: 'images/equipo/salustiano.webp'
       },
       {
         name: 'Daniela Torres',
         role: 'Tec. Sup. Admin. Empresas',
           email: 'administracion@estudiocils.com.ar',
         area: 'Area Laboral',
-        image: 'images/equipo/daniela.png'
+        image: 'images/equipo/daniela.webp'
       },
       {
         name: 'Maria Sol Slica',
         role: 'Colaborador',
         email: 'administracion@estudiocils.com.ar',
         area: 'Area Administrativa',
-        image: 'images/equipo/maria.png'
+        image: 'images/equipo/maria.webp'
       },
       {
         name: 'Catalina Pagliaro',
         role: 'Colaborador',
         email: 'administracion@estudiocils.com.ar',
         area: 'Area Administrativa',
-        image: 'images/equipo/catalina.png'
+        image: 'images/equipo/catalina.webp'
       }
     ]
   },
