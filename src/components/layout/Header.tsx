@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useCallback } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useStickyHeader } from '../../hooks/useStickyHeader';
 import { useTheme } from '../../hooks/useTheme';
 import { cn } from '../../utils/cn';
