@@ -76,6 +76,10 @@
     <meta name="geo.placename" content="San Carlos de Bariloche" />
     <meta name="geo.position" content="-41.133472;-71.310278" />
     <meta name="ICBM" content="-41.133472, -71.310278" />
+    <!-- Security and Best Practices Meta -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="format-detection" content="telephone=yes" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
@@ -111,8 +115,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://cils-backend.onrender.com" />
     <link rel="dns-prefetch" href="https://cils-backend.onrender.com" />
+    <link rel="dns-prefetch" href="https://www.google.com" />
+    <link rel="dns-prefetch" href="https://maps.googleapis.com" />
+    <!-- Preload critical resources -->
+    <link rel="modulepreload" href="data:application/octet-stream;base64,aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsKaW1wb3J0IFJlYWN0RE9NIGZyb20gJ3JlYWN0LWRvbS9jbGllbnQnOwppbXBvcnQgJy4vaW5kZXguY3NzJzsKaW1wb3J0ICcuL3N0eWxlcy9nbG9iYWwuc2Nzcyc7CmltcG9ydCBBcHAgZnJvbSAnLi9BcHAnOwoKUmVhY3RET00uY3JlYXRlUm9vdChkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgncm9vdCcpISkucmVuZGVyKAogIDxSZWFjdC5TdHJpY3RNb2RlPgogICAgPEFwcCAvPgogIDwvUmVhY3QuU3RyaWN0TW9kZT4KKTsK" />
+    <link rel="modulepreload" href="data:application/octet-stream;base64,aW1wb3J0IFJlYWN0LCB7IGxhenksIFN1c3BlbnNlIH0gZnJvbSAncmVhY3QnOwppbXBvcnQgeyBCcm93c2VyUm91dGVyLCBSb3V0ZXMsIFJvdXRlIH0gZnJvbSAncmVhY3Qtcm91dGVyLWRvbSc7CmltcG9ydCB7IEFuYWx5dGljcyB9IGZyb20gJy4vY29tcG9uZW50cy9BbmFseXRpY3MnOwppbXBvcnQgeyBTY3JvbGxUb1RvcCB9IGZyb20gJy4vY29tcG9uZW50cy9TY3JvbGxUb1RvcCc7CmltcG9ydCB7IExvYWRpbmdTY3JlZW4gfSBmcm9tICcuL2NvbXBvbmVudHMvTG9hZGluZ1NjcmVlbic7CmltcG9ydCB7IFNhbml0eUNvbmZpZ1Byb3ZpZGVyIH0gZnJvbSAnLi9jb250ZXh0cy9TYW5pdHlDb25maWdDb250ZXh0JzsKaW1wb3J0IHsgSG9tZSB9IGZyb20gJy4vcGFnZXMvSG9tZSc7CgovLyBMYXp5IGxvYWRpbmcgZGUgcMOhZ2luYXMgc2VjdW5kYXJpYXMKY29uc3QgQWJvdXRQYWdlID0gbGF6eSgoKSA9PiBpbXBvcnQoJy4vcGFnZXMvQWJvdXRQYWdlJykudGhlbigobSkgPT4gKHsgZGVmYXVsdDogbS5BYm91dFBhZ2UgfSkpKTsKY29uc3QgU2VydmljZXNQYWdlID0gbGF6eSgoKSA9PgogIGltcG9ydCgnLi9wYWdlcy9TZXJ2aWNlc1BhZ2UnKS50aGVuKChtKSA9PiAoeyBkZWZhdWx0OiBtLlNlcnZpY2VzUGFnZSB9KSkKKTsKY29uc3QgQ2xpZW50c1BhZ2UgPSBsYXp5KCgpID0+CiAgaW1wb3J0KCcuL3BhZ2VzL0NsaWVudHNQYWdlJykudGhlbigobSkgPT4gKHsgZGVmYXVsdDogbS5DbGllbnRzUGFnZSB9KSkKKTsKY29uc3QgQ29udGFjdFBhZ2UgPSBsYXp5KCgpID0+CiAgaW1wb3J0KCcuL3BhZ2VzL0NvbnRhY3RQYWdlJykudGhlbigobSkgPT4gKHsgZGVmYXVsdDogbS5Db250YWN0UGFnZSB9KSkKKTsKY29uc3QgTm90Rm91bmRQYWdlID0gbGF6eSgoKSA9PgogIGltcG9ydCgnLi9wYWdlcy9Ob3RGb3VuZFBhZ2UnKS50aGVuKChtKSA9PiAoeyBkZWZhdWx0OiBtLk5vdEZvdW5kUGFnZSB9KSkKKTsKY29uc3QgTm92ZWRhZGVzUGFnZSA9IGxhenkoKCkgPT4KICBpbXBvcnQoJy4vcGFnZXMvTm92ZWRhZGVzUGFnZScpLnRoZW4oKG0pID0+ICh7IGRlZmF1bHQ6IG0uTm92ZWRhZGVzUGFnZSB9KSkKKTsKY29uc3QgTGlua3NQYWdlID0gbGF6eSgoKSA9PiBpbXBvcnQoJy4vcGFnZXMvTGlua3NQYWdlJykudGhlbigobSkgPT4gKHsgZGVmYXVsdDogbS5kZWZhdWx0IH0pKSk7Cgpjb25zdCBBcHA6IFJlYWN0LkZDID0gKCkgPT4gewogIHJldHVybiAoCiAgICA8U2FuaXR5Q29uZmlnUHJvdmlkZXI+CiAgICAgIDxMb2FkaW5nU2NyZWVuIC8+CiAgICAgIDxCcm93c2VyUm91dGVyIGJhc2VuYW1lPSIvZXMiPgogICAgICAgIDxBbmFseXRpY3MgLz4KICAgICAgICA8U2Nyb2xsVG9Ub3AgLz4KICAgICAgICA8U3VzcGVuc2UgZmFsbGJhY2s9ezxMb2FkaW5nU2NyZWVuIC8+fT4KICAgICAgICAgIDxSb3V0ZXM+CiAgICAgICAgICAgIDxSb3V0ZSBwYXRoPSIvIiBlbGVtZW50PXs8SG9tZSAvPn0gLz4KICAgICAgICAgICAgPFJvdXRlIHBhdGg9Ii9ub3NvdHJvcyIgZWxlbWVudD17PEFib3V0UGFnZSAvPn0gLz4KICAgICAgICAgICAgPFJvdXRlIHBhdGg9Ii9zZXJ2aWNpb3MiIGVsZW1lbnQ9ezxTZXJ2aWNlc1BhZ2UgLz59IC8+CiAgICAgICAgICAgIDxSb3V0ZSBwYXRoPSIvY2xpZW50ZXMiIGVsZW1lbnQ9ezxDbGllbnRzUGFnZSAvPn0gLz4KICAgICAgICAgICAgPFJvdXRlIHBhdGg9Ii9ub3ZlZGFkZXMiIGVsZW1lbnQ9ezxOb3ZlZGFkZXNQYWdlIC8+fSAvPgogICAgICAgICAgICA8Um91dGUgcGF0aD0iL2xpbmtzIiBlbGVtZW50PXs8TGlua3NQYWdlIC8+fSAvPgogICAgICAgICAgICA8Um91dGUgcGF0aD0iL2NvbnRhY3RvIiBlbGVtZW50PXs8Q29udGFjdFBhZ2UgLz59IC8+CiAgICAgICAgICAgIDxSb3V0ZSBwYXRoPSIqIiBlbGVtZW50PXs8Tm90Rm91bmRQYWdlIC8+fSAvPgogICAgICAgICAgPC9Sb3V0ZXM+CiAgICAgICAgPC9TdXNwZW5zZT4KICAgICAgPC9Ccm93c2VyUm91dGVyPgogICAgPC9TYW5pdHlDb25maWdQcm92aWRlcj4KICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgQXBwOwo=" />
 
     <!-- Fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" as="style" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Inter:wght@400;500;600&family=Poppins:wght@700&display=swap"
       rel="stylesheet"
@@ -233,10 +243,10 @@
         }
       }
     </script>
-    <script type="module" crossorigin src="/es/assets/index-ChrU-YQO.js"></script>
+    <script type="module" crossorigin src="/es/assets/index-CiMId42J.js"></script>
     <link rel="modulepreload" crossorigin href="/es/assets/react-vendor-mDSsBeru.js">
     <link rel="modulepreload" crossorigin href="/es/assets/ui-vendor-Cq5CQ9Rg.js">
-    <link rel="stylesheet" crossorigin href="/es/assets/index-CXbwf8gw.css">
+    <link rel="stylesheet" crossorigin href="/es/assets/index-BVIGIl70.css">
   </head>
   <body class="font-inter">
     <div id="root"></div>

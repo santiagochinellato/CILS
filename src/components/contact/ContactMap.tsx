@@ -18,10 +18,10 @@ export const ContactMap: React.FC<ContactMapProps> = ({ className }) => {
 
   return (
     <div className={className}>
-      <div className="relative rounded-xl overflow-hidden border border-gray-200 dark:border-gray-700 shadow-card group">
+      <div className="relative rounded-xl overflow-hidden border border-gray-200 dark:border-gray-700 shadow-card group aspect-[4/3] w-full">
         {!isMapLoaded ? (
           // Facade: Muestra un botón antes de cargar el mapa
-          <div className="relative w-full h-[260px] md:h-[300px] bg-gradient-to-br from-primary/10 to-accent1/10 dark:from-primary/20 dark:to-accent1/20 flex items-center justify-center">
+          <div className="relative w-full h-full bg-gradient-to-br from-primary/10 to-accent1/10 dark:from-primary/20 dark:to-accent1/20 flex items-center justify-center">
             <button
               onClick={handleLoadMap}
               className="px-6 py-3 bg-primary hover:bg-primary/90 text-white rounded-lg font-medium shadow-lg transition-all hover:scale-105 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
@@ -45,7 +45,7 @@ export const ContactMap: React.FC<ContactMapProps> = ({ className }) => {
               title={`Mapa de ${c.address}`}
               src={embedUrl}
               loading="lazy"
-              className="w-full h-[260px] md:h-[300px] pointer-events-none"
+              className="w-full h-full absolute inset-0"
               referrerPolicy="no-referrer-when-downgrade"
             />
             <a
