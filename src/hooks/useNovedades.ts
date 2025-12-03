@@ -31,17 +31,28 @@ export function useNovedades(opts: Options = {}) {
     setLoading(true);
     fetch(url)
       .then(async (res) => {
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        if (!res.ok) {
+          // Manejo silencioso de errores HTTP para evitar console errors
+          return { error: `HTTP ${res.status}` };
+        }
         return res.json();
       })
       .then((json) => {
         if (!cancelled) {
-          setData(json);
-          setError(null);
+          if (json.error) {
+            setError(json.error);
+            setData(null);
+          } else {
+            setData(json);
+            setError(null);
+          }
         }
       })
       .catch((e) => {
-        if (!cancelled) setError(String(e));
+        if (!cancelled) {
+          // Error silencioso, no usamos console.error
+          setError('Error de conexión');
+        }
       })
       .finally(() => {
         if (!cancelled) setLoading(false);

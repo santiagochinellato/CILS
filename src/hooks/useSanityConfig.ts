@@ -67,9 +67,7 @@ export function useSanityConfig() {
         setConfig(transformed);
         setError(null);
       } catch (err) {
-        if (import.meta.env.DEV) {
-          console.error('Error fetching Sanity config:', err);
-        }
+        // Error fetching Sanity config silently handled
         setError(err as Error);
         // Fallback a datos estáticos
         setConfig(corporateCils);
