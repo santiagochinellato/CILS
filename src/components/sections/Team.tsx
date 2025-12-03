@@ -128,9 +128,13 @@ export const Team: React.FC = () => {
             {optimizedImage ? (
               <img 
                 src={optimizedImage} 
-                alt={m.name} 
+                alt={`${m.name} - ${m.role}`} 
                 className="w-full h-full object-cover rounded-full"
                 loading="lazy"
+                style={{ 
+                  imageRendering: 'crisp-edges',
+                  WebkitImageRendering: 'crisp-edges'
+                }}
               />
             ) : (
               <span className={isFundador ? 'text-lg' : 'text-base'}>

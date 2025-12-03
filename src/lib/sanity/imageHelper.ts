@@ -31,7 +31,7 @@ export function getSanityImageUrl(
   const {
     width = 400,
     height = 400,
-    quality = 75,
+    quality = 85,
     format = 'webp',
     fit = 'crop'
   } = options;
@@ -59,16 +59,16 @@ export function getSanityImageUrl(
 
 /**
  * Helper específico para fotos del equipo
- * Optimizado para los tamaños reales de visualización
+ * Optimizado para los tamaños reales de visualización con soporte para alta densidad
  */
 export function getTeamMemberPhoto(
   source: ImageSource | string | undefined,
   size: 'small' | 'medium' | 'large' = 'medium'
 ): string {
   const sizeMap = {
-    small: { width: 56, height: 56 },    // Auxiliares y pasantes
-    medium: { width: 80, height: 80 },   // Liderazgo
-    large: { width: 100, height: 100 }   // Fundadores
+    small: { width: 112, height: 112 },    // Auxiliares y pasantes (56px * 2 for retina)
+    medium: { width: 160, height: 160 },   // Liderazgo (80px * 2 for retina)
+    large: { width: 200, height: 200 }     // Fundadores (100px * 2 for retina)
   };
 
   const dimensions = sizeMap[size];
@@ -76,7 +76,7 @@ export function getTeamMemberPhoto(
   return getSanityImageUrl(source, {
     width: dimensions.width,
     height: dimensions.height,
-    quality: 80,
+    quality: 90,
     format: 'webp',
     fit: 'crop'
   });
