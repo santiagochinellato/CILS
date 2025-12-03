@@ -10,6 +10,9 @@
       var loadGtm = function(){
         var s = document.createElement('script');
         s.async = true;
+        s.onerror = function() {
+          console.warn('GTM script could not be loaded. Analytics may be limited.');
+        };
         s.src = 'https://www.googletagmanager.com/gtag/js?id=G-KKQ52GJYFG';
         document.head.appendChild(s);
         window.dataLayer = window.dataLayer || [];
@@ -98,8 +101,8 @@
     </noscript>
 
     <!-- Favicons -->
-    <link rel="icon" type="image/webp" sizes="32x32" href="/es/images/favicon-w32.webp" />
-    <link rel="icon" type="image/webp" sizes="16x16" href="/es/images/favicon-w16.webp" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/es/images/favicon-w32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/es/images/favicon-w16.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
 
     <!-- Theme Color -->
@@ -204,10 +207,10 @@
         }
       }
     </script>
-    <script type="module" crossorigin src="/es/assets/index-Cjfd6kcC.js"></script>
+    <script type="module" crossorigin src="/es/assets/index-Cu01HaFr.js"></script>
     <link rel="modulepreload" crossorigin href="/es/assets/react-vendor-mDSsBeru.js">
     <link rel="modulepreload" crossorigin href="/es/assets/ui-vendor-Cq5CQ9Rg.js">
-    <link rel="stylesheet" crossorigin href="/es/assets/index-mc2X6kNf.css">
+    <link rel="stylesheet" crossorigin href="/es/assets/index-CFm295jd.css">
   </head>
   <body class="font-inter">
     <div id="root"></div>

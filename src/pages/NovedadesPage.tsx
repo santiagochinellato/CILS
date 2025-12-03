@@ -17,7 +17,7 @@ export const NovedadesPage: React.FC = () => {
   return (
     <>
       <Header />
-      <main id="main" className="pt-24">
+      <main id="main" className="pt-24 min-h-[calc(100vh-400px)]">
         <Novedades limit={18} />
       </main>
       <Footer />

@@ -25,7 +25,7 @@ export const Novedades: React.FC<Props> = ({ limit = 8, tag, region }) => {
         
         {!loading && data && data.length > 0 && (
           <div className="mt-10 grid md:grid-cols-3 gap-8">
-            {data.map((item) => (
+            {data.map((item, index) => (
               <a
                 key={item.id}
                 href={item.url}
@@ -40,7 +40,10 @@ export const Novedades: React.FC<Props> = ({ limit = 8, tag, region }) => {
                       src={item.image} 
                       alt={item.title} 
                       className="w-full h-full object-cover" 
-                      loading="lazy"
+                      loading={index < 3 ? "eager" : "lazy"}
+                      width={362}
+                      height={160}
+                      fetchPriority={index === 0 ? "high" : undefined}
                     />
                   </div>
                 ) : (

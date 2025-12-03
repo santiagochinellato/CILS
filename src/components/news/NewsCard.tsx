@@ -2,7 +2,7 @@ import React from 'react';
 import type { NovedadItem } from '../../hooks/useNovedades';
 import { motion } from 'framer-motion';
 
-export const NewsCard: React.FC<{ item: NovedadItem }> = ({ item }) => {
+export const NewsCard: React.FC<{ item: NovedadItem; index?: number }> = ({ item, index = 999 }) => {
   return (
     <motion.article
       layout
@@ -12,7 +12,14 @@ export const NewsCard: React.FC<{ item: NovedadItem }> = ({ item }) => {
     >
       {item.image && (
         <div className="aspect-video w-full overflow-hidden rounded-lg bg-muted/30">
-          <img src={item.image} alt={item.title} className="w-full h-full object-cover" loading="lazy" />
+          <img 
+            src={item.image} 
+            alt={item.title} 
+            className="w-full h-full object-cover" 
+            loading={index < 3 ? "eager" : "lazy"}
+            width={362}
+            height={204}
+          />
         </div>
       )}
       <h4 className="font-semibold text-lg leading-tight line-clamp-2">{item.title}</h4>
