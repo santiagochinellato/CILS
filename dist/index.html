@@ -4,14 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <base href="/es/" />
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KKQ52GJYFG"></script>
+  <!-- Google tag (gtag.js) optimizado -->
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-KKQ52GJYFG');
+    (function(){
+      var loadGtm = function(){
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-KKQ52GJYFG';
+        document.head.appendChild(s);
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){ dataLayer.push(arguments); }
+        window.gtag = gtag;
+        gtag('js', new Date());
+        // Evitamos page_view automático para dispararlo manualmente en SPA
+        gtag('config', 'G-KKQ52GJYFG', { send_page_view: false });
+      };
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(loadGtm);
+      } else {
+        window.addEventListener('DOMContentLoaded', loadGtm, { once: true });
+      }
+    })();
   </script>
     <!-- Primary Meta Tags -->
     <title>Estudio CILS | Servicios Contables en Bariloche | +10 años de experiencia</title>
@@ -85,8 +98,8 @@
     </noscript>
 
     <!-- Favicons -->
-    <link rel="icon" type="image/png" sizes="32x32" href="/es/images/favicon-w32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/es/images/favicon-w16.png" />
+    <link rel="icon" type="image/webp" sizes="32x32" href="/es/images/favicon-w32.webp" />
+    <link rel="icon" type="image/webp" sizes="16x16" href="/es/images/favicon-w16.webp" />
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
 
     <!-- Theme Color -->
@@ -191,10 +204,10 @@
         }
       }
     </script>
-    <script type="module" crossorigin src="/es/assets/index-CNgXUx-q.js"></script>
-    <link rel="modulepreload" crossorigin href="/es/assets/react-vendor-DhsMm2an.js">
-    <link rel="modulepreload" crossorigin href="/es/assets/ui-vendor-ByC_oYY7.js">
-    <link rel="stylesheet" crossorigin href="/es/assets/index-BiqV1vi6.css">
+    <script type="module" crossorigin src="/es/assets/index-r6pBjRNN.js"></script>
+    <link rel="modulepreload" crossorigin href="/es/assets/react-vendor-mDSsBeru.js">
+    <link rel="modulepreload" crossorigin href="/es/assets/ui-vendor-Cq5CQ9Rg.js">
+    <link rel="stylesheet" crossorigin href="/es/assets/index-mc2X6kNf.css">
   </head>
   <body class="font-inter">
     <div id="root"></div>

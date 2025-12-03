@@ -4,11 +4,11 @@ export const theme = {
     primary: '#106973',
     secondary: '#307C86',
     accent1: '#7AC3B1',
-    accent2: '#A0D4C5',
+    accent2: '#5FB59F', // Cambiado de #A0D4C5 a #5FB59F para mejor contraste con text-primary
     background: '#F8FAFB',
     white: '#FFFFFF',
     text: '#2D3748',
-    textLight: '#718096'
+    textLight: '#5A6474' // Cambiado de #718096 a #5A6474 para mejor contraste (4.5:1 en fondo blanco)
   },
   fonts: {
     heading: 'Montserrat, sans-serif',

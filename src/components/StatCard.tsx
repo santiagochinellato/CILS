@@ -30,7 +30,7 @@ export const StatCard = memo<StatCardProps>(({ icon, value, label, index = 0 }) 
         </motion.div>
         <p className="text-4xl font-bold text-[#106973] dark:text-white">{value}</p>
       </div>
-      <p className="text-[#718096] dark:text-white/70 mt-1 text-md">{label}</p>
+      <p className="text-textLight dark:text-white/70 mt-1 text-md">{label}</p>
     </motion.div>
   );
 });

@@ -135,6 +135,9 @@ export const Header: React.FC = () => {
           menuOpen ? 'pointer-events-auto opacity-100' : 'pointer-events-none opacity-0'
         )}
         aria-hidden={!menuOpen}
+        aria-modal={menuOpen ? true : undefined}
+        role={menuOpen ? 'dialog' : undefined}
+        inert={!menuOpen ? '' : undefined}
       >
         <div
           className="absolute inset-0"
@@ -145,7 +148,7 @@ export const Header: React.FC = () => {
           isTransparentHome
             ? 'bg-white/10 border-white/20'
             : 'bg-white dark:bg-[#0F1C21] border-gray-200 dark:border-white/10'
-        )}>
+        )} tabIndex={menuOpen ? 0 : -1}>
           {navItems.map(item => {
             const to = item.href.startsWith('#') ? '/' : item.href;
             return (

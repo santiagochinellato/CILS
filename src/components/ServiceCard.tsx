@@ -19,7 +19,7 @@ export const ServiceCard = memo<ServiceCardProps>(({ icon, title, description, f
       </div>
 
 
-      <p className="text-[#718096] dark:text-white/70 mb-6">{description}</p>
+      <p className="text-textLight dark:text-white/70 mb-6">{description}</p>
 
       {features.length > 0 && (
         <ul className="space-y-3">

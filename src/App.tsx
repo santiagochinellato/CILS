@@ -1,5 +1,6 @@
 import React, { lazy, Suspense } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Analytics } from './components/Analytics';
 import { ScrollToTop } from './components/ScrollToTop';
 import { LoadingScreen } from './components/LoadingScreen';
 import { SanityConfigProvider } from './contexts/SanityConfigContext';
@@ -29,6 +30,7 @@ const App: React.FC = () => {
     <SanityConfigProvider>
       <LoadingScreen />
       <BrowserRouter basename="/es">
+        <Analytics />
         <ScrollToTop />
         <Suspense fallback={<LoadingScreen />}>
           <Routes>

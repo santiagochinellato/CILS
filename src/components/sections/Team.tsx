@@ -1,6 +1,7 @@
 import React from 'react';
 import { useSiteConfig } from '../../config/site.config';
 import { Icon } from '../ui/Icon';
+import { getTeamMemberPhoto } from '../../lib/sanity/imageHelper';
 
 export const Team: React.FC = () => {
   const siteConfig = useSiteConfig();
@@ -56,6 +57,10 @@ export const Team: React.FC = () => {
     const isLiderazgo = cardType === 'liderazgo';
     const imageSize = isFundador ? 'w-20 h-20' : isLiderazgo ? 'w-16 h-16' : 'w-14 h-14'; // 80px, 64px, 56px
     const shouldShowEmail = isLeadership(m.role);
+    
+    // Determinar tamaño de imagen optimizada según el cardType
+    const photoSize = isFundador ? 'large' : isLiderazgo ? 'medium' : 'small';
+    const optimizedImage = m.image ? getTeamMemberPhoto(m.image, photoSize) : null;
 
     // Color scheme for leadership cards
     const getColorClasses = () => {
@@ -123,8 +128,13 @@ export const Team: React.FC = () => {
           <div
             className={`${imageSize} rounded-full grid place-items-center font-semibold flex-shrink-0 overflow-hidden ${colors.image}`}
           >
-            {m.image ? (
-              <img src={m.image} alt={m.name} className="w-full h-full object-cover rounded-full" />
+            {optimizedImage ? (
+              <img 
+                src={optimizedImage} 
+                alt={m.name} 
+                className="w-full h-full object-cover rounded-full"
+                loading="lazy"
+              />
             ) : (
               <span className={isFundador ? 'text-lg' : 'text-base'}>
                 {m.name

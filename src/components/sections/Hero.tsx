@@ -32,12 +32,16 @@ export const Hero: React.FC = () => {
             <p className="mt-6 text-white/80 text-sm">{hero.trust}</p>
           </header>
           <figure className="relative h-64 md:h-80 rounded-xl bg-white/10 border border-white/20 overflow-hidden hidden lg:block">
-            <img 
-              src="images/homeWall.jpg" 
-              alt="Equipo Estudio CILS" 
-              className="w-full h-full object-cover"
-              loading="lazy"
-            />
+            <picture>
+              <source srcSet="images/homeWall.webp" type="image/webp" />
+              <img 
+                src="images/homeWall.jpg" 
+                alt="Equipo Estudio CILS" 
+                className="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
+              />
+            </picture>
           </figure>
         </div>
       </div>

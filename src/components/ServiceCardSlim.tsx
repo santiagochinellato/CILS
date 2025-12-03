@@ -18,7 +18,7 @@ export const ServiceCardSlim: React.FC<ServiceCardSlimProps> = ({ icon, title, d
       <h3 className="text-lg font-semibold text-[#106973] dark:text-white">{title}</h3>
 
       </div>
-      <p className="text-[#718096] dark:text-white/70 text-sm">{description}</p>
+      <p className="text-textLight dark:text-white/70 text-sm">{description}</p>
       <Link to={href} className="mt-4 inline-block text-[#307C86] dark:text-[#7AC3B1] font-medium hover:underline">
         Conocer más →
       </Link>

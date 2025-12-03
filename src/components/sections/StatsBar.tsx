@@ -15,7 +15,7 @@ export const StatsBar: React.FC = () => {
           title="Nuestros Números"
           className="mb-8"
         />
-        <div className="bg-white dark:bg-[#1F2C33] rounded-xl shadow-card p-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+        <div className="bg-white dark:bg-[#1F2C33] rounded-xl shadow-card p-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 self-center">
           {items.map((i, index) => (
             <StatCard key={i.label} icon={iconForStat(i.label)} value={i.value} label={i.label} index={index} />
           ))}
