@@ -54,9 +54,7 @@ export const Header: React.FC = () => {
   );
   // Clases de color para los links del menú móvil
   const mobileNavLinkClass = cn(
-    isTransparentHome
-      ? 'text-white'
-      : 'text-text dark:text-white/80',
+    'text-text dark:text-white/80',
     'text-base font-medium py-1'
   );
   return (
@@ -137,7 +135,6 @@ export const Header: React.FC = () => {
         aria-hidden={!menuOpen}
         aria-modal={menuOpen ? true : undefined}
         role={menuOpen ? 'dialog' : undefined}
-        inert={!menuOpen ? '' : undefined}
       >
         <div
           className="absolute inset-0"
@@ -145,9 +142,7 @@ export const Header: React.FC = () => {
         />
         <nav className={cn(
           'absolute top-20 left-0 right-0 shadow-xl border p-6 flex flex-col gap-4 h-100',
-          isTransparentHome
-            ? 'bg-white/10 border-white/20'
-            : 'bg-white dark:bg-[#0F1C21] border-gray-200 dark:border-white/10'
+          'bg-white dark:bg-[#0F1C21] border-gray-200 dark:border-white/10'
         )} tabIndex={menuOpen ? 0 : -1}>
           {navItems.map(item => {
             const to = item.href.startsWith('#') ? '/' : item.href;
@@ -161,7 +156,7 @@ export const Header: React.FC = () => {
               </Link>
             );
           })}
-          <div className={cn('h-px my-2', isTransparentHome ? 'bg-white/30' : 'bg-gray-200 dark:bg-white/10')} />
+          <div className="h-px my-2 bg-gray-200 dark:bg-white/10" />
           <Link
             to="/contacto"
             className="bg-secondary hover:bg-primary text-white font-semibold px-4 py-2 rounded-md shadow text-center"
