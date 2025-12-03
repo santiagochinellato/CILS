@@ -67,16 +67,22 @@ export function useSanityConfig() {
         setConfig(transformed);
         setError(null);
       } catch (err) {
-        // Error fetching Sanity config silently handled
+        // Manejo completamente silencioso de errores
         setError(err as Error);
-        // Fallback a datos estáticos
         setConfig(corporateCils);
       } finally {
         setLoading(false);
       }
     }
 
-    fetchConfig();
+    // Envolver en try-catch adicional para evitar errores no capturados
+    try {
+      fetchConfig();
+    } catch (err) {
+      // Fallback silencioso
+      setConfig(corporateCils);
+      setLoading(false);
+    }
   }, []);
 
   return { config, loading, error };
