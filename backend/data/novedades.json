@@ -1,5 +1,981 @@
 [
   {
+    "id": "30ff17630740136b",
+    "title": "Andy Summers y las canciones de The Police sonaron frente al público más fervoroso",
+    "summary": "Hasta Charly García dijo presente en el concierto que dio el guitarrista en Buenos Aires, junto a João Barone y Rodrigo Santos",
+    "url": "https://www.lanacion.com.ar/espectaculos/musica/andy-summers-y-las-canciones-de-the-police-sonaron-frente-al-publico-mas-fervoroso-nid28022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/andy-RTDLKQPOXZHKNOBQ5VAUWNKEQY.jpg?auth=d998e93f5956b7f6d6848b3aae279e3b0bf9c4b9bae7a71511af2c6f3bd3ffec&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-28T04:45:31.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "0f9c7bfb87d39529",
+    "title": "El Señor Lengua Floja habla por unos cuantos",
+    "summary": "Los sobrenombres de Milei a Paolo Rocca, Javier Madanes Quintanilla y Roberto Méndez tuvieron ya un primer efecto inmediato: dejaron mudos a varios, que temen además por lo que el Presidente pueda llegar a decir mañana en la Asamblea Legislativa",
+    "url": "https://www.lanacion.com.ar/opinion/el-senor-lengua-floja-habla-por-unos-cuantos-nid28022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/javier-N6LMPUFQMBHWZGZARLSHENFEZA.jpg?auth=a17ade2cb984d4666ec2529969dbee362237eac9bb29569d1ad723c6a583890c&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-28T03:14:00.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "a70b63e16591019c",
+    "title": "Reforma laboral: celebraciones del oficialismo y rechazo opositor tras la sanción en el Senado",
+    "summary": "Diferentes dirigentes políticos fijaron su postura en redes sociales luego de la votación favorable",
+    "url": "https://www.lanacion.com.ar/politica/reforma-laboral-celebraciones-del-oficialismo-y-rechazo-opositor-tras-la-sancion-en-el-senado-nid28022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/diferentes-dirigentes-politicos-se-pronunciaron-WPG7NDHDUJEOLHZNH53NGAWJWA.JPG?auth=428bf7eeec433fef00a58a2dabc09c1df64961bdf663e22fc97ae5f9e8dabd0e&width=1200&quality=70&smart=false&height=801",
+    "publishedAt": "2026-02-28T03:13:29.000Z",
+    "tags": [
+      "laboral",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "d3275c2903a753f5",
+    "title": "El nuevo orden global: Europa pasa de la aceptación a la acción",
+    "summary": "La Conferencia de Seguridad de Munich, de la que la autora participó, asumió que las reglas de relación internacional están resquebrajadas",
+    "url": "https://www.lanacion.com.ar/ideas/el-nuevo-orden-global-europa-pasa-de-la-aceptacion-a-la-accion-nid28022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/el-secretario-de-estado-de-eeuu-marco-rubio-VUQNRSEKWZBB5IKLNAM2XWUOMU.jpg?auth=c1ab5066879f68a5c00ba61f3d1c8bb958356b144a9c9a389097796d06fa53ba&width=1200&quality=70&smart=false&height=793",
+    "publishedAt": "2026-02-28T03:10:00.000Z",
+    "tags": [
+      "laboral",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "b00c921a3b09323e",
+    "title": "Cartas de lectores: Mafias, proteccionismo, bajar impuestos",
+    "summary": "Cartas de lectores: Mafias, proteccionismo, bajar impuestos",
+    "url": "https://www.lanacion.com.ar/opinion/carta-de-lectores/cartas-de-lectores-mafias-proteccionismo-bajar-impuestos-nid28022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/cartas-de-NYKB252VD5GEJCTVKFET34CMO4.jpg?auth=05494a7f658f360272505010a2b07414e7de43f5749445392f02e03dcca68fcd&width=1200&quality=70&smart=false&height=802",
+    "publishedAt": "2026-02-28T03:05:00.000Z",
+    "tags": [
+      "laboral",
+      "impositivo"
+    ],
+    "region": null
+  },
+  {
+    "id": "c81556390da1c1b2",
+    "title": "Reforma laboral completa: artículo por artículo, así es el proyecto de Javier Milei",
+    "summary": "El texto tiene más de 200 artículos y excluyó el polémico cambio en el régimen de licencias",
+    "url": "https://www.lanacion.com.ar/politica/reforma-laboral-completa-articulo-por-articulo-asi-es-el-proyecto-de-javier-milei-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/karina-milei-diego-santilli-y-manuel-SSPJKMFSEVBA7CNXGZMYTI5LWU.JPG?auth=a4ca36dfeca2373ac1443cac7776ae166024011fd1da84f0899fc18674562226&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-28T01:45:43.000Z",
+    "tags": [
+      "laboral"
+    ],
+    "region": null
+  },
+  {
+    "id": "4014a96af10f4192",
+    "title": "Se eliminó el impuesto al lujo y los precios de los autos bajan hasta casi un 30%",
+    "summary": "El capítulo impositivo estaba incluido en el texto de reforma laboral; algunos vehículos experimentan una fuerte disminución en su valor de lista; el rol del acuerdo con EE.UU.",
+    "url": "https://www.lanacion.com.ar/autos/se-elimino-el-impuesto-al-lujo-y-los-precios-de-los-autos-bajan-hasta-casi-un-30-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/la-eliminacion-de-impuestos-internos-se-conjuga-67OU2W223JDJHJYNYU5XUWLZXU.jpg?auth=d4da0ebbe4e761e5835b43d48dd5e9773cc148a903c3f91ae79361b57d4f5be1&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-28T01:45:43.000Z",
+    "tags": [
+      "laboral",
+      "impositivo"
+    ],
+    "region": null
+  },
+  {
+    "id": "ffb22225e537329f",
+    "title": "Un gremio lanzó una campaña en los aeropuertos del país contra los senadores que apoyaron la reforma laboral",
+    "summary": "La Asociación del Personal Aeronáutico (APA), comandada por Edgardo Llano, piensa llevar la acción al Congreso la semana que viene; el sindicalista había sido denunciado en 2024",
+    "url": "https://www.lanacion.com.ar/politica/un-gremio-lanzo-una-campana-en-los-aeropuertos-del-pais-contra-los-senadores-que-apoyaron-la-reforma-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/sindicalistas-de-apa-en-aeropuertos-repartiendo-CDZIXBW3VZEKJILACIEPSRXMQA.jpg?auth=3a907ef3edcb147a8763a6edeb58a199341b21985438421ad8727d809084a0da&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-27T23:17:28.000Z",
+    "tags": [
+      "laboral",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "120cc3b02a572c20",
+    "title": "Cuánto cobran los albañiles y obreros de la construcción en marzo de 2026",
+    "summary": "Se espera una nueva negociación paritaria para conocer los reajustes de los meses siguientes; cuáles son las cifras vigentes hasta el momento",
+    "url": "https://www.lanacion.com.ar/economia/cuanto-cobran-los-albaniles-y-obreros-de-la-construccion-en-marzo-de-2026-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/los-valores-de-marzo-para-albaniles-y-obreros-de-54CAPVBGENB7BAOTPDQXW6YF5Y.jpg?auth=fa962b1829f8a8500f6f1e46a957cede808d664b53615353711285b5b30b4f7d&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-27T22:31:11.000Z",
+    "tags": [
+      "laboral"
+    ],
+    "region": null
+  },
+  {
+    "id": "76965f152eb19d2d",
+    "title": "Dos jueces archivaron una denuncia contra Insfrán por transferir dinero de la provincia al Partido Justicialista",
+    "summary": "Los jueces Borinsky y Mahiques dijeron que no hubo delito; Gemignani votó en disidencia",
+    "url": "https://www.lanacion.com.ar/politica/dos-jueces-archivaron-una-denuncia-contra-insfran-por-transferir-dinero-de-la-provincia-al-partido-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/gildo-insfran-gobernador-de-MEBYGSSE65CJFGBCAGDXDZEJXE.jfif?auth=2a1970ba53700d1af18aff7930cb454e880f7a0b22e22010302df9b29cfaa4b5&width=1200&quality=70&smart=false&height=899",
+    "publishedAt": "2026-02-27T21:42:41.000Z",
+    "tags": [
+      "laboral",
+      "impositivo"
+    ],
+    "region": null
+  },
+  {
+    "id": "5e8d8eb956c95068",
+    "title": "RIGI: aprobaron dos nuevos proyectos mineros con una inversión total de US$1140 millones",
+    "summary": "Se trata de la ampliación de la mina de oro Veladero y el proyecto Diablillos; el régimen ya suma 12 iniciativas por un monto de más de US$26.000 millones",
+    "url": "https://www.lanacion.com.ar/economia/rigi-aprobaron-dos-nuevos-proyectos-mineros-con-una-inversion-total-de-us1140-millones-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/luis-caputo-ministro-de-economia-confirmo-la-W7DYQQJ5JJELXFR2DTB7LCU4LU.jpg?auth=020f1664cf0d55563795c76d3a0a79a217ce1040a54abbe9d5ef2ab06cd938ed&width=1200&quality=70&smart=false&height=657",
+    "publishedAt": "2026-02-27T21:39:55.000Z",
+    "tags": [
+      "impositivo"
+    ],
+    "region": null
+  },
+  {
+    "id": "4000eb7454cef9d4",
+    "title": "¿12, 13 o 14 años? A cuánto bajó la edad de imputabilidad con la nueva ley aprobada",
+    "summary": "El Senado sancionó la ley que baja la edad de imputabilidad a los 14 años en la Argentina. Conozca los detalles del nuevo régimen penal juvenil, las penas máximas establecidas y el presupuesto para su implementación.",
+    "url": "https://www.lanacion.com.ar/politica/12-13-o-14-anos-a-cuanto-bajo-la-edad-de-imputabilidad-con-la-nueva-ley-aprobada-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/la-camara-alta-sanciono-esta-tarde-la-baja-de-la-KF46OVBNABGTTFATH3F4TDSYOI.JPG?auth=7638157bcd8db83224e4dd68b017f6fd5484cf60fa4ac302117c6f78f662864b&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-27T21:17:59.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "4663a9351703cbcb",
+    "title": "Revés para el Gobierno: un juez rechazó el ingreso de carne con hueso a Santa Cruz",
+    "summary": "El magistrado de Río Gallegos Claudio Marcelo Vázquez declaró la nulidad de la aplicación en esa provincia de una norma del Senasa que habilitó la entrada del producto desde zonas que vacunan contra la fiebre aftosa; la Patagonia es libre de la enfermedad sin…",
+    "url": "https://www.lanacion.com.ar/economia/campo/reves-para-el-gobierno-un-juez-rechazo-el-ingreso-de-carne-con-hueso-a-santa-cruz-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/la-patagonia-es-libre-de-aftosa-sin-PRD7WPRAXFHZLGU3FPF3BWEO3E.jpg?auth=07951322a1eae51b361d23b5b1b15e351d132b5d2220cd3043133d120a696ad7&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-27T21:08:54.000Z",
+    "tags": [
+      "contable",
+      "societaria"
+    ],
+    "region": "Patagonia"
+  },
+  {
+    "id": "a16ad7c0747ea077",
+    "title": "“Nefastas”: Adorni habló de las retenciones y ratificó que el Gobierno continuará con la reducción de impuestos",
+    "summary": "Junto a Karina Milei y Martín Menem, el jefe de Gabinete estuvo en la inauguración de una línea de producción de la cerealera Louis Dreyfus Company (LDC) en Timbúes, Santa Fe",
+    "url": "https://www.lanacion.com.ar/economia/campo/nefastas-adorni-hablo-de-las-retenciones-y-ratifico-que-el-gobierno-continuara-con-la-reduccion-de-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/d6vodmt26rc55p2oewpo2yuqvu-el-gobierno-participo-D6VODMT26RC55P2OEWPO2YUQVU.jpg?auth=4e74fcd58c5ce5e86be6ab4e8e644836423fd4c579341cf168c19cd73962d79c&width=1200&quality=70&smart=false&height=799",
+    "publishedAt": "2026-02-27T20:30:38.000Z",
+    "tags": [
+      "laboral",
+      "impositivo",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "a32e384e408eac15",
+    "title": "Qué piden: los bancos salen a la caza de los “dólares del colchón”, aunque todavía hay pocos depósitos",
+    "summary": "A tres semanas del Régimen de Inocencia Fiscal, entidades financieras y sociedades de bolsa lanzan tasas e incentivos para atraer las divisa",
+    "url": "https://www.lanacion.com.ar/economia/dolar/que-piden-los-bancos-salen-a-la-caza-de-los-dolares-del-colchon-aunque-todavia-hay-pocos-depositos-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/bancos-aceptan-dolares-y-pesos-bajo-la-ley-de-BN3ZPC7H4VCXNDSHDAQ75DO4PA.JPG?auth=3638a1367cb27189ed113d2a6a7ddaedeaf1c38c0fbdfa9d2976207d3db195ba&width=1200&quality=70&smart=false&height=801",
+    "publishedAt": "2026-02-27T20:18:48.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "3c3f37def6d87301",
+    "title": "Un abogado constitucionalista advirtió cuáles son las mayores incongruencias de la reforma laboral: “Todo es un gran show”",
+    "summary": "Diego Armesto visitó los estudios de LN+ donde manifestó que “el proyecto de ley es regresivo: al trabajador privado lo van a perjudicar”; “Esta ley no crea trabajo”, agregó",
+    "url": "https://www.lanacion.com.ar/politica/un-abogado-constitucionalista-advirtio-cuales-son-las-mayores-incongruencias-de-la-reforma-laboral-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/este-viernes-se-registraron-incidentes-afuera-del-4KKUF5QVKRF5VBRTQ7LKLIE3FU.jpeg?auth=7eba375ff6a04d294814810d0d0adaec8f879864fa8a9b50b30f0f56c78bd3cc&width=1200&quality=70&smart=false&height=801",
+    "publishedAt": "2026-02-27T19:37:38.000Z",
+    "tags": [
+      "laboral",
+      "impositivo"
+    ],
+    "region": null
+  },
+  {
+    "id": "fd16fb6f0bd9296d",
+    "title": "Repatriaron el cuerpo de Narela Barreto, la joven argentina hallada muerta en Los Ángeles",
+    "summary": "Tras gestiones diplomáticas y una causa que continúa con un gran hermetismo, familiares y allegados la despidieron en el Cementerio de Lomas de Zamora",
+    "url": "https://www.lanacion.com.ar/seguridad/repatriaron-el-cuerpo-de-narela-barreto-la-joven-argentina-hallada-muerta-en-los-angeles-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/narela-barreto-la-argentina-de-27-anos-que-estaba-HWGEUMWAF5HQFGDLXH4BHJHJBI.jpg?auth=081d5fb130221a3e356575435e998ef2508c395a9d11d9a7b1b6f21255c445fd&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-27T18:14:17.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "309b4af74e543066",
+    "title": "Caída de la Natalidad. No es renuncia, es postergación: los datos de una encuesta en Argentina",
+    "summary": "Caída de la Natalidad. No es renuncia, es postergación: los datos de una encuesta en Argentina",
+    "url": "https://www.lanacion.com.ar/opinion/caida-de-la-natalidad-no-es-renuncia-es-postergacion-los-datos-de-una-encuesta-en-argentina-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/la-caida-de-la-natalidad-es-un-fenomeno-YNOQZQNEB5C55I6NBSGRC5DGRA.jpg?auth=ad7c2f8a5001a7e74d3cb37217897a18c124f694b54e0e25cf9b97d8742667e1&width=1200&quality=70&smart=false&height=674",
+    "publishedAt": "2026-02-27T18:12:31.000Z",
+    "tags": [
+      "impositivo"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "8dbe91455ed78b7e",
+    "title": "“Camino erróneo”: reparos de una entidad del campo a un punto sensible del acuerdo con Estados Unidos",
+    "summary": "Carbap rechazó, en materia de propiedad intelectual en semillas, el compromiso de adhesión a un convenio internacional porque considera que “restringe el uso propio” que puede hacer el productor",
+    "url": "https://www.lanacion.com.ar/economia/campo/camino-erroneo-reparos-de-una-entidad-del-campo-a-un-punto-sensible-del-acuerdo-con-estados-unidos-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/el-inase-tomara-el-control-de-las-muestras-sobre-P4H4M2XCCBDS7J3ONC23MMLNZ4.jpg?auth=2f85b024338d8b4e6b7cce9e469f13231d7a7f9e318dbdc2d9352480f7f13bf6&width=1200&quality=70&smart=false&height=797",
+    "publishedAt": "2026-02-27T18:01:27.000Z",
+    "tags": [
+      "laboral",
+      "impositivo"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "ed2c47724ccc2b17",
+    "title": "¿Para qué quiere la República Argentina a las Fuerzas Armadas?",
+    "summary": "La defensa nacional no se sostiene solo con armas, sino con decisión política, legitimidad jurídica, responsabilidad de mando y disciplina institucional",
+    "url": "https://www.lanacion.com.ar/politica/para-que-quiere-la-republica-argentina-a-las-fuerzas-armadas-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/relevo-de-guardia-conjunta-frente-a-la-catedral-APYDC5UAZBF6JEFXYJHDKS3KMM.jpg?auth=6878d65ef59d55e0c90ef584516ab42b604108a48cc447baad648f5b472f27de&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-27T17:47:53.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "50d82fbb33990445",
+    "title": "Apertura versus empleo, ¿cuál boom importador?",
+    "summary": "Apertura versus empleo, ¿cuál boom importador?",
+    "url": "https://www.lanacion.com.ar/economia/apertura-versus-empleo-cual-boom-importador-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/contenedores-en-el-puerto-de-buenos-AF2JZ7C3LNEKJPMY3HEKEEV7YU.JPG?auth=d1de74ffa6f7cebdfee96d693015299d89095493bb9219cc058842989b0db6ee&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-27T16:35:05.000Z",
+    "tags": [
+      "laboral"
+    ],
+    "region": null
+  },
+  {
+    "id": "82babb5b1756fb1a",
+    "title": "Cuidado capilar profesional y sustentable: una propuesta italiana desembarca en Argentina",
+    "summary": "Más que un lanzamiento, es la introducción de una filosofía de belleza consciente que combina resultados visibles y responsabilidad ambiental.\n Leer más",
+    "url": "https://caras.perfil.com/noticias/empresas-y-protagonistas/cuidado-capilar-profesional-y-sustentable-una-propuesta-italiana-desembarca-en-argentina.phtml",
+    "source": "Perfil.com",
+    "image": "https://fotos.perfil.com/2026/02/27/trim/1140/641/peluquerias-vip-2193614.jpg",
+    "publishedAt": "2026-02-27T16:28:23.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "a22e7af5c2482671",
+    "title": "El consejo de Juan Carlos De Pablo a los despedidos en Fate: \"Dosifiquen los gastos\"",
+    "summary": "En una columna de opinión de La Nación, el economista se refirió a los trabajadores cesanteados de la empresa argentina de neumáticos. Leer más",
+    "url": "https://noticias.perfil.com/noticias/politica/el-consejo-de-juan-carlos-de-pablo-a-los-despedidos-en-fate-dosifiquen-los-gastos.phtml",
+    "source": "Perfil.com",
+    "image": "https://fotos.perfil.com/2026/02/27/trim/1280/720/juan-carlos-de-pablo-2193607.jpg",
+    "publishedAt": "2026-02-27T16:09:57.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "ef3427e6b4579d01",
+    "title": "Miguel Ángel Pichetto visitó a Cristina Kirchner en su departamento: “Fue un encuentro fraternal”",
+    "summary": "Durante una reunión en San José 1111, el diputado nacional le planteó a la expresidenta la necesidad de unir al PJ y armar un espacio de “centro nacional” que compita con Milei en 2027",
+    "url": "https://www.lanacion.com.ar/politica/miguel-angel-pichetto-visito-a-cristina-kirchner-en-su-departamento-fue-un-encuentro-fraternal-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/miguel-pichetto-y-cristina-7FUUCJCM25BWZKCZ2WHYGJRC5M.jpg?auth=f11fc596f83432b78a113b82e6a8ccabba42232c556dedebe3bca6dbbc6227bc&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-27T15:51:52.000Z",
+    "tags": [
+      "laboral",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "66de6431b6b5977a",
+    "title": "La disputa entre el Pentágono y Anthropic por el uso militar de la Inteligencia Artificial llega a un momento crítico",
+    "summary": "Dario Amodei dijo que su empresa “no puede, en conciencia, acceder” a las exigencias del gobierno norteamericano y se enfrenta a consecuencias para su negocio",
+    "url": "https://www.lanacion.com.ar/estados-unidos/la-disputa-entre-el-pentagono-y-anthropic-por-el-uso-militar-de-la-inteligencia-artificial-llega-a-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/pete-GWY5YWD4OFGTXC7RPYE233O42U.JPG?auth=d6c587a9002fff1d9f065be3111410e7bf0384e7eec574ada7ec870db17bb974&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-27T15:46:04.000Z",
+    "tags": [
+      "laboral",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "1fee985b230c1b13",
+    "title": "Globant presentó resultados financieros y superó las expectativas del mercado",
+    "summary": "La compañía tecnológica, que cotiza en la Bolsa desde 2014, reportó ingresos por US$612,5 millones en el cuarto trimestre de 2025; si bien superó supero el consenso, representó una caída interanual del 4,7%",
+    "url": "https://www.lanacion.com.ar/economia/negocios/globant-presento-resultados-financieros-y-supero-las-expectativas-del-mercado-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/globant-informo-ayer-ingresos-por-usdollar6125-OHAMPY2LXFAO3P2QSAQC52PRE4.jpg?auth=cd7cc31cd5fbf9b41688e0986105e7f46391da16d2e4e4a9b16536048b48830f&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-27T15:22:15.000Z",
+    "tags": [
+      "laboral",
+      "impositivo",
+      "contable",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "7763ede4c044c851",
+    "title": "Plazo fijo: cuál es la tasa de interés banco por banco este viernes 27 de febrero",
+    "summary": "El Banco Central de la República Argentina (BCRA) permite a los ahorristas conocer el rendimiento de estos instrumentos de inversión en pesos con una tabla comparativa de tasas",
+    "url": "https://www.lanacion.com.ar/economia/plazo-fijo-cual-es-la-tasa-de-interes-banco-por-banco-este-viernes-27-de-febrero-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/las-tasas-bancarias-para-los-plazos-fijos-este-EU5C2ZNLH5DVBBRLIITHKK6FJU.jpg?auth=530289b6d95d66f7c288fcba4a783af3bda4ce9d6f5bcfdbeb0b1e1f57888b80&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-27T14:32:13.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "6ba491f015e44a75",
+    "title": "Luis Brandoni y Eduardo Blanco: de la “química” que comparten al sueño de perpetuar Parque Lezama y la preocupación por la vejez",
+    "summary": "Después de emocionar a más de un millón de espectadores en teatro, la obra dirigida por Juan José Campanella llegó a la pantalla grande y desde el 6 de marzo estará disponible en Netflix",
+    "url": "https://www.lanacion.com.ar/espectaculos/personajes/luis-brandoni-y-eduardo-blanco-de-la-quimica-que-comparten-al-sueno-de-perpetuar-parque-lezama-y-la-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/luis-brandoni-y-eduardo-blanco-hablaron-con-la-XZK6PY7TABG7BHQERENE6GG7NY.JPG?auth=9a1b5f2efcef15f36c29ca59ec93fb4d2eaa26522620c91f0a54f82ae5b1dab8&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-02-27T14:24:08.000Z",
+    "tags": [
+      "laboral"
+    ],
+    "region": null
+  },
+  {
+    "id": "d3dcaf47c64da08d",
+    "title": "Avanza la eliminación del impuesto al lujo y los autos podrían bajar de precio",
+    "summary": "Dentro del texto de reforma laboral se incluye la eliminación de los gravámenes internos, por lo que se verían modificaciones en los montos de los vehículos",
+    "url": "https://www.lanacion.com.ar/autos/avanza-la-eliminacion-del-impuesto-al-lujo-y-los-autos-podrian-bajar-de-precio-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/en-el-caso-de-que-se-sancione-la-reforma-laboral-K7WT6PQ32JE6ZFJUEFZCBBH7NM.JPG?auth=184942b8952260580529ad9983c22096d365cc3ad66bf10dfcc91ed24b552344&width=1200&quality=70&smart=false&height=566",
+    "publishedAt": "2026-02-27T14:20:52.000Z",
+    "tags": [
+      "laboral",
+      "impositivo"
+    ],
+    "region": null
+  },
+  {
+    "id": "55d30c4b213fe79b",
+    "title": "Aumenta un 43% el peaje de las autopistas del Sol y del Oeste y habrá una fuerte penalidad para el efectivo",
+    "summary": "El nuevo cuadro tarifario se aplicará desde los primeros días de marzo; el importe que pagaba un auto pasará de 700 a 1000, y el doble si no tiene el sistema de pago electrónico Telepase",
+    "url": "https://www.lanacion.com.ar/economia/aumenta-un-43-el-peaje-de-las-autopistas-del-sol-y-del-oeste-y-habra-una-fuerte-penalidad-para-el-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/embotellamiento-en-el-ingreso-a-caba-buenos-aires-MAE2HOQTWRBKLAIZEULMPJ2TXA.JPG?auth=c0a2336a067213755b869b5a846f6926d4a6e92812d23f24ed7c887423ed718e&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-27T14:16:26.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "66998807b889be64",
+    "title": "Contraste: fuerte caída de la facturación en los tambos mientras despegan otros indicadores del negocio lechero",
+    "summary": "En enero pasado cayó un 9,9% interanual en pesos constantes y 14,1% medida en dólares; parcial recuperación del consumo interno y expectativas por la exportación",
+    "url": "https://www.lanacion.com.ar/economia/campo/contraste-fuerte-caida-de-la-facturacion-en-los-tambos-mientras-despegan-otros-indicadores-del-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/la-sociedad-rural-argentina-sostuvo-que-es-2J3ENHSNRFG4PDACPF4CYKMHUI.jpg?auth=fc2f1c69a0eff5af069f81dd5c4b09a82c8c6d73e2ee7bea07a891d9721ca0b3&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-27T13:29:43.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "a58b56b9cb53f7f1",
+    "title": "Evangelina Anderson reveló por qué no podría tener una relación con Ian Lucas",
+    "summary": "Los participantes de MasterChef Celebrity enfrentan fuertes rumores de romance. Leer más",
+    "url": "https://caras.perfil.com/noticias/celebridades/evangelina-anderson-revelo-por-que-no-podria-tener-relacion-ian-lucas.phtml",
+    "source": "Perfil.com",
+    "image": "https://fotos.perfil.com/2026/01/28/trim/1140/641/evangelina-anderson-e-ian-lucas-2176720.jpg",
+    "publishedAt": "2026-02-27T10:56:19.000Z",
+    "tags": [
+      "laboral"
+    ],
+    "region": null
+  },
+  {
+    "id": "af2bd2cb51fc7ee1",
+    "title": "Milei le mostrará al mundo la nueva gobernabilidad que emerge en la Argentina",
+    "summary": "Cruje una manera de hacer política y entender la economía sin que aparezcan narrativas superadoras que enriquezcan el debate y den cuenta de los miedos, el malestar y las demandas de una sociedad que merece y espera una oferta de ideas y figuras a la altura d…",
+    "url": "https://www.lanacion.com.ar/opinion/milei-le-mostrara-al-mundo-la-nueva-gobernabilidad-que-emerge-en-la-argentina-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/javier-MMRJGPQDIVDHXPJERCCCTABQEI.jpg?auth=b582b63d3617fdb2763260e15d826cb104ed6ad725025406570369fca87f0f99&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-27T03:14:00.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "dc726ed27340fe81",
+    "title": "Degradación parlamentaria",
+    "summary": "La sesión de la Cámara de Diputados en la que se trató la reforma laboral exhibió la peor cara de la política",
+    "url": "https://www.lanacion.com.ar/editoriales/degradacion-parlamentaria-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/diputados-kirchneristas-enfrentados-con-el-Y3HJDZGW4VATPAPENEGV42B47M.jpeg?auth=c2a23fa3d03a42a3e5a9d356f2762d097b44a3f32d27160803af743dc113acb5&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-27T03:10:00.000Z",
+    "tags": [
+      "laboral"
+    ],
+    "region": null
+  },
+  {
+    "id": "a9c0260d2e205e03",
+    "title": "Cartas de lectores: Hipocresía, vergüenza, listas sábana",
+    "summary": "Cartas de lectores: Hipocresía, vergüenza, listas sábana",
+    "url": "https://www.lanacion.com.ar/opinion/carta-de-lectores/cartas-dre-lectores-hipocresia-verguenza-listas-sabana-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/cartas-de-NO37FBTUBRETDPVLY4HBZFJGXA.jpg?auth=caab9e74b5ba8f4e85e942f8ed6f84dbbd9c7da3d335184d11c077a8c8282e15&width=1200&quality=70&smart=false&height=1024",
+    "publishedAt": "2026-02-27T03:05:00.000Z",
+    "tags": [
+      "laboral",
+      "impositivo"
+    ],
+    "region": null
+  },
+  {
+    "id": "db498295dcd6dbba",
+    "title": "Una reforma educativa que no puede esperar",
+    "summary": "Una reforma educativa que no puede esperar",
+    "url": "https://www.lanacion.com.ar/opinion/una-reforma-educativa-que-no-puede-esperar-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/C4PX54VD75DEPAQUROPCQLMICE.jpg?auth=c34dfbc08a4985cf3a8bb4ae2105f983da8bd906d85f85055290d41a13c665ef&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-27T03:05:00.000Z",
+    "tags": [
+      "impositivo"
+    ],
+    "region": null
+  },
+  {
+    "id": "0df42cacf7200e22",
+    "title": "¿Cuánto cobra un mecánico por hora en Argentina en febrero 2026?",
+    "summary": "La referencia para mecánica y pintura se ubica en $77.000 más IVA; sin embargo, la mayoría de los talleres no factura estrictamente por tiempo sino por tarea realizada",
+    "url": "https://www.lanacion.com.ar/autos/cuanto-cobra-un-mecanico-por-hora-en-argentina-en-febrero-2026-nid27022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/el-rubro-de-los-talleres-mecanicos-se-caracteriza-XBS6LHIRQNCIXEM5OIFH4P2USY.jpg?auth=4011d42d5f5bd1fca79c197474295a52c09a1fd28b4788a95bf0001b45d2f8c5&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-27T03:01:00.000Z",
+    "tags": [
+      "impositivo"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "86c5ad815511aed6",
+    "title": "Respaldo de EE.UU. a la Argentina frente a un pedido de desacato en el caso YPF",
+    "summary": "El Departamento de Justicia presentó un escrito en el tribunal del Distrito Sur de Nueva York de la jueza Loretta Preska",
+    "url": "https://www.lanacion.com.ar/economia/respaldo-de-eeuu-a-la-argentina-frente-a-un-pedido-de-desacato-en-el-caso-ypf-nid26022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/la-sede-de-ypf-en-buenos-KYXIDCZIPNA4PN6QAK3GYPK5KU.jpg?auth=1ca9bde78e7771ae266450abdeb1723f1c69718c2bd75d168973d9012bdec7a5&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-27T00:22:50.000Z",
+    "tags": [
+      "laboral",
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "0f58897303ea1326",
+    "title": "Cómo se compara la semana laboral de 40 horas aprobada en México con el resto de América Latina? (y por qué Argentina es un caso aparte)",
+    "summary": "La decisión del Congreso mexicano reaviva el debate regional sobre la duración de las jornadas y los modelos de descanso vigentes en cada país; mientras algunas economías avanzan hacia esquemas más breves, otras mantienen regímenes tradicionales",
+    "url": "https://www.lanacion.com.ar/el-mundo/como-se-compara-la-semana-laboral-de-40-horas-aprobada-en-mexico-con-el-resto-de-america-latina-y-nid26022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/la-jornada-laboral-en-mexico-se-reducira-a-40-VCBOCNTOB5EFTACGIFXU2M4Z54.jpg?auth=c4f0a1e6fd39ceb75446ec57d75f9518735c5e241c297bee06a1eee957df7ea3&width=1200&quality=70&smart=false&height=674",
+    "publishedAt": "2026-02-27T00:07:25.000Z",
+    "tags": [
+      "laboral",
+      "impositivo"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "df4ead3bb5956d6b",
+    "title": "Argentina vuelve a caer en el Índice de Percepción de la Corrupción: una señal de alerta institucional",
+    "summary": "Argentina vuelve a caer en el Índice de Percepción de la Corrupción: una señal de alerta institucional",
+    "url": "https://www.lanacion.com.ar/opinion/argentina-vuelve-a-caer-en-el-indice-de-percepcion-de-la-corrupcion-una-senal-de-alerta-nid26022026/",
+    "source": "La Nacion",
+    "image": "https://arc-static.glanacion.com/pf/resources/images/placeholderLN-1200x630.png?d=1948",
+    "publishedAt": "2026-02-26T21:12:23.000Z",
+    "tags": [
+      "impositivo"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "04762f1669359dfd",
+    "title": "¿Cripto ha muerto?: las nuevas tendencias del mercado financiero según expertos",
+    "summary": "El reporte también muestra cómo América Latina crece más rápido que Estados Unidos en usuarios activos y detalla las principales tendencias que marcarán el 2026",
+    "url": "https://www.lanacion.com.ar/economia/IA/cripto-ha-muerto-las-nuevas-tendencias-del-mercado-financiero-segun-expertos-nid26022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/las-nuevas-tendencias-del-mercado-financiero-JERGRRD4FZFXTE5WFIYHI3WNNY.jpg?auth=7a226a326450b478f05fa74c9a9bae7086ce1d4b45d4e66a00f9c2ef737e62ad&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-26T20:24:17.000Z",
+    "tags": [
+      "contable"
+    ],
+    "region": null
+  },
+  {
+    "id": "1c1cbff0c7160ac8",
+    "title": "El tuit de Milei contra los empresarios: \"Chatarrín\", \"Gomita\" y el señor \"Lengua Larga\"",
+    "summary": "En redes sociales, el Presidente cargó contra los empresarios industriales Paolo Rocca de Techint, Javier Madanes Quintanilla de FATE y Roberto Méndez de Neumen. Leer más",
+    "url": "https://noticias.perfil.com/noticias/politica/el-tuit-de-milei-contra-los-empresarios-chatarrin-y-gomita.phtml",
+    "source": "Perfil.com",
+    "image": "https://fotos.perfil.com/2026/02/26/trim/1280/720/javier-milei-2193019.jpg",
+    "publishedAt": "2026-02-26T18:39:39.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "1fa148e1e0c949c2",
+    "title": "“Los números no cierran”: el sector pesquero le pidió al Gobierno sacar las retenciones y alertó sobre una parálisis",
+    "summary": "Fue durante una reunión con el secretario de Agricultura, Sergio Iraeta; el año pasado la actividad exportó por más de US$2000 millones",
+    "url": "https://www.lanacion.com.ar/economia/campo/los-numeros-no-cierran-el-sector-pesquero-le-pidio-al-gobierno-sacar-las-retenciones-y-alerto-sobre-nid26022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/el-secretario-de-agricultura-sergio-iraeta-4R4KSXXGJVA4RIM3REA4FRK2UE.jpeg?auth=e0c9135492e8ea4866099103d9d663f626097979196fef1004410ea52492ec3f&width=1200&quality=70&smart=false&height=799",
+    "publishedAt": "2026-02-26T15:38:33.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "21178f89538b82c5",
+    "title": "Plazo fijo: cuál es la tasa de interés banco por banco este jueves 26 de febrero",
+    "summary": "El Banco Central de la República Argentina (BCRA) permite a los ahorristas conocer el rendimiento de estos instrumentos de inversión en pesos con una tabla comparativa de tasas",
+    "url": "https://www.lanacion.com.ar/economia/plazo-fijo-cual-es-la-tasa-de-interes-banco-por-banco-este-jueves-26-de-febrero-nid26022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/las-tasas-bancarias-para-los-plazos-fijos-este-MNESLAMTJBHUJLTHH5URD3JKJA.JPG?auth=e261a07d9712dd64e4bb7a182ae96a4459836c51651dfcd920811ec0b8dedb13&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-26T15:03:01.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "4a5e8babcfe3408b",
+    "title": "Por qué la Argentina es el país más gravoso del mundo",
+    "summary": "La voraz presión tributaria se ha convertido en un flagelo que exige un mayor compromiso de los jueces para frenar los abusos del poder político",
+    "url": "https://www.lanacion.com.ar/editoriales/por-que-la-argentina-es-el-pais-mas-gravoso-del-mundo-nid26022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/la-alta-presion-NQNJJTZTGNB2HAT7X34D3HW42M.jpg?auth=110cb2095bb3927860e15d9e95fb46be7134d5556345d6515bd5d27685363cff&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-26T03:10:00.000Z",
+    "tags": [
+      "impositivo"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "d8f98e48e9a40379",
+    "title": "Cartas de lectores: Carteles, haberes, río Uruguay",
+    "summary": "Cartas de lectores: Carteles, haberes, río Uruguay",
+    "url": "https://www.lanacion.com.ar/opinion/carta-de-lectores/cartas-de-lectores-carteles-haberes-rio-uruguay-nid26022026/",
+    "source": "La Nacion",
+    "image": "https://arc-static.glanacion.com/pf/resources/images/placeholderLN-1200x630.png?d=1948",
+    "publishedAt": "2026-02-26T03:05:00.000Z",
+    "tags": [
+      "laboral"
+    ],
+    "region": null
+  },
+  {
+    "id": "85e29e9a5748ecd6",
+    "title": "Un ejecutivo y un magnate: Bioceres quedó envuelta en una batalla judicial con un pedido de quiebra pendiente",
+    "summary": "Con un pasivo cercano a los US$30 millones, los directivos cercanos al uruguayo Juan Sartori, que entró en la empresa, se presentaron en quiebra; en tanto, los fundadores de la compañía, con Federico Trucco, contraatacan en la Justicia",
+    "url": "https://www.lanacion.com.ar/economia/campo/un-ejecutivo-y-un-magnate-bioceres-quedo-envuelta-en-una-batalla-judicial-con-un-pedido-de-quiebra-nid25022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/federico-trucco-y-juan-67QSH4YGUFAHXBUVLRUD6FNNFI.jpg?auth=eef666c1e9821dcaa8a684abbcd487b06a5e3ff3d187a00b89d187c50805b5cd&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-25T22:37:23.000Z",
+    "tags": [
+      "laboral",
+      "contable",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "090dbbc39c97fd12",
+    "title": "Ampliaron los procesamientos para Yiyi y otros 12 integrantes de una “sucursal” del temible Tren de Aragua en la Argentina",
+    "summary": "La decisión fue tomada por el juez federal de Corrientes Gustavo Fresneda tras un pedido del Ministerio Público Fiscal",
+    "url": "https://www.lanacion.com.ar/seguridad/ampliaron-los-procesamientos-para-yiyi-y-otros-12-integrantes-de-una-sucursal-del-temible-tren-de-nid25022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/guillermo-boscan-bracho-alias-el-yiyi-senalado-IWHUPU42B5HTRLB4SK35RUJXFI.jpg?auth=9269382ae50fad7d91da8bada76a84dac3eaaedb99aedc116f8d226e91a0ad03&width=1200&quality=70&smart=false&height=900",
+    "publishedAt": "2026-02-25T21:19:34.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "5b58ac7c8085cac4",
+    "title": "El dueño de Neumen aclaró sus dichos sobre el precio de los neumáticos y le mandó un mensaje a Milei",
+    "summary": "Roberto Méndez había admitido que cobraba precios excesivos durante el gobierno de Alberto Fernández por la alta inflación",
+    "url": "https://www.lanacion.com.ar/politica/el-dueno-de-neumen-aclaro-sus-dichos-sobre-el-precio-de-los-neumaticos-y-le-mando-un-mensaje-a-milei-nid25022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/roberto-mendez-ceo-de-neumen-en-QWQ2VZQYQZGFBHIPULVLSZRMUE.png?auth=9619fa981ec7307a838a6cb07c850265b39ff2ae27eaf78d266dd4ec2cfb1e38&width=1200&quality=70&smart=false&height=869",
+    "publishedAt": "2026-02-25T19:19:50.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "b98e0806784fe5c6",
+    "title": "Un empresario de los neumáticos reconoció que \"robábamos con los precios de las cubiertas\"",
+    "summary": "En dialogo radial, Roberto Méndez, CEO de neumáticos Neumen, afirmó que obtenían ganancias de hasta el 70% con sus productos. Leer más",
+    "url": "https://noticias.perfil.com/noticias/informacion-general/un-empresario-de-los-neumaticos-reconocio-que-robabamos-con-los-precios-de-las-cubiertas.phtml",
+    "source": "Perfil.com",
+    "image": "https://fotos.perfil.com/2026/02/25/trim/1280/720/fate-2192110.jpg",
+    "publishedAt": "2026-02-25T18:16:05.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "b301157d5212ac59",
+    "title": "Quiénes habrían sido las amantes del rey Felipe VI durante su matrimonio con Letizia Ortiz",
+    "summary": "El monarca español se encuentra en la mira de la prensa mundial tras la noticia su presunto romance con Juliana Awada. Leer más",
+    "url": "https://caras.perfil.com/noticias/realeza/a31-quienes-habrian-sido-amantes-rey-felipe-vi-durante-matrimonio-letizia-ortiz.phtml",
+    "source": "Perfil.com",
+    "image": "https://fotos.perfil.com/2026/02/25/trim/1140/641/rey-felipe-vi-y-letizia-ortiz-2192025.jpg",
+    "publishedAt": "2026-02-25T17:18:44.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "30c56858159544dc",
+    "title": "El triste derrotero de Samid",
+    "summary": "El triste derrotero de Samid",
+    "url": "https://www.lanacion.com.ar/editoriales/el-triste-derrotero-de-samid-nid25022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/alberto-samid-saliendo-de-comodro-py-el-6-de-RUCQXMPXQNGZJGHO272FKF655A.jpg?auth=797cfa607f6aef5f7ffc9a02e47e9f92fe1b49363d440ef35d66e9f4df4ccbf1&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-25T03:05:00.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "5112906468058915",
+    "title": "Mercado Libre reportó ingresos por US$28.900 millones en 2025 y un fuerte salto en su unidad fintech",
+    "summary": "El gigante del e-commerce registró un alza interanual del 39% en sus ingresos netos durante el año pasado",
+    "url": "https://www.lanacion.com.ar/economia/negocios/mercado-libre-reporto-ingresos-por-us28900-millones-en-2025-y-un-fuerte-salto-en-su-unidad-fintech-nid24022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/ariel-szarfsztejn-ceo-de-mercado-libre-desde-el-LDKPSYXFQZHKDPWDL4D6Y5UOBQ.jpg?auth=4b5e8c431cd1cf3a3dacc3d21f4e4839f939b774e4b03733153df6babce41002&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-24T22:44:20.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "ba8e61caf3928867",
+    "title": "La “Rocky” del circuito alternativo: Saros uranistas, una obra-festejo que no para de agregar funciones y es furor entre sus fans",
+    "summary": "El circuito alternativo tiene sus propios tanques y sus clásicos de clásicos, como la historia de los Coleman, que lleva 21 años en cartel",
+    "url": "https://www.lanacion.com.ar/espectaculos/teatro/el-rocky-del-circuito-alternativo-saros-uranistas-la-obra-festejo-que-no-para-de-agregar-funciones-y-nid24022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/saraos-uranistas-de-juanse-rausch-nacio-en-una-BPFLAOHNNBGBTFOGOMOVTYFEOQ.JPG?auth=ac5af6ff66244305d113a0b7a226cc3e16ce499cc21dc191e92447b3896ebe20&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-24T20:44:55.000Z",
+    "tags": [
+      "laboral",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "8e47a40a0758cf84",
+    "title": "Así es el exitoso negocio Corina, la hermana de Lionel Scaloni: empezó en el quincho de su casa de Pujato y ahora es furor en Santa Fe",
+    "summary": "La contadora convirtió su hobby en un negocio que revolucionó a toda la provincia. Leer más",
+    "url": "https://caras.perfil.com/noticias/celebridades/asi-es-exitoso-negocio-corina-hermana-lionel-scaloni-empezo-quincho-casa-pujato-ahora-es-furor-santa-fe.phtml",
+    "source": "Perfil.com",
+    "image": "https://fotos.perfil.com/2026/02/24/trim/1140/641/lionel-scaloni-y-su-hermana-corina-2191500.jpg",
+    "publishedAt": "2026-02-24T20:18:12.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "8b9ac60d958483ff",
+    "title": "Llegó una misión de Economía a EE.UU, y hay malestar en el FMI por el Indec, las reservas y un juicio pendiente",
+    "summary": "El organismo busca definiciones estructurales antes de elevar el acuerdo al Directorio; exige una estrategia clara de acumulación de dólares, señales monetarias más firmes y avances en litigios que podrían complicar el acceso al crédito",
+    "url": "https://www.lanacion.com.ar/economia/llego-una-mision-de-economia-a-eeuu-y-hay-malestar-en-el-fmi-por-el-indec-las-reservas-y-un-juicio-nid24022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/argentinas-president-javier-milei-left-talks-to-WXLNXI6QENAUXDDPURGJCXWC7Q.JPG?auth=bdf272087bcbe546a50d0b390509920a713d7adacfa809028bb1a898aeef94bc&width=1200&quality=70&smart=false&height=803",
+    "publishedAt": "2026-02-24T19:10:40.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "c64b48feec7eea39",
+    "title": "“Cuando decía que era sorda no me querían contratar”: es ejecutiva en una multinacional y lucha por un mundo laboral más inclusivo",
+    "summary": "Carolina Schmid lleva 18 años en Manpower, empresa dedicada al reclutamiento de personal; sueña con que los CV de las personas solo informen la trayectoria académica y laboral",
+    "url": "https://www.lanacion.com.ar/comunidad/cuando-decia-que-era-sorda-no-me-querian-contratar-es-ejecutiva-en-una-multinacional-y-lucha-por-un-nid24022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/despues-de-haber-sido-rechazada-en-diferentes-Z524M7GSQVHTXMF5CTSI4JWTKM.jpg?auth=b6f1c7044623f855fa4b86de7d71d8b8508fd652828ba9164964a090adc59664&width=1200&height=1800&quality=70&smart=true",
+    "publishedAt": "2026-02-24T15:25:11.000Z",
+    "tags": [
+      "laboral",
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "3ac59565c2326891",
+    "title": "De la gran noche de Guillermo Francella con sus hijos al apoyo incondicional de sus hijos Yoyi y Nicolás",
+    "summary": "El actor fue el gran protagonista del estreno en Argentina de Playa de lobos, el film del español Javier Vega en el que comparte cartel con Dani Rovira",
+    "url": "https://www.lanacion.com.ar/espectaculos/personajes/de-la-gran-noche-de-guillermo-francella-con-sus-hijos-al-apoyo-incondicional-de-sus-hijos-yoyi-y-nid24022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/guillermo-francella-junto-a-sus-hijos-en-el-PKFIDH7MFVBOTKY2KRPVT3AAME.JPG?auth=67388454f588267c5f7c4d8c7c77da8e7b4773c56133c8cb16990abdadf1f4c0&width=1200&quality=70&smart=false&height=798",
+    "publishedAt": "2026-02-24T15:21:56.000Z",
+    "tags": [
+      "laboral",
+      "impositivo"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "5740f52858a8649d",
+    "title": "El nexo de “El Mencho”, el mayor narcotraficante del mundo, con la Argentina",
+    "summary": "En el año 2009 su cuñado Gerardo González Valencia estuvo viviendo en Puerto Madero con su familia y hasta abrió un minimarket que se llamó Corner Mi Lugar. Era el brazo financiero del Cártel de Jalisco Nueva Generación y era buscado en Estados Unidos por el …",
+    "url": "https://www.lanacion.com.ar/videos/el-nexo-de-el-mencho-el-mayor-narcotraficante-del-mundo-con-la-argentina-nid24022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/fernando-RPOJA2BY3VG7NG2HZGKB7T2RWM.png?auth=93de48d85da34784cd53e2536e8491221905af79071eae6707a5e614d0ebf4c5&width=1200&quality=70&smart=false&height=742",
+    "publishedAt": "2026-02-24T14:52:14.000Z",
+    "tags": [
+      "impositivo",
+      "contable"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "0aa6f8a47ae9d149",
+    "title": "¿Por qué la histórica fábrica de neumáticos Fate cierra sus puertas?",
+    "summary": "Fate deja de producir en su planta de San Fernando y despedirá a 920 trabajadores. Los motivos del cierre apuntan a las importaciones y a la conflictividad gremial. Alfredo Sainz nos cuenta la historia de esta empresa de más de 80 años que supo ser pionera en…",
+    "url": "https://www.lanacion.com.ar/videos/por-que-la-historica-fabrica-de-neumaticos-fate-cierra-sus-puertas-nid24022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/alfredo-4OISTMAP5JH5NJXCYN4TL4B6DQ.png?auth=4498bcd89bd54602bbbce47fab7b19a0da4f3f4b3c1d37259b14876ac04e775a&width=1200&quality=70&smart=false&height=1142",
+    "publishedAt": "2026-02-24T14:23:28.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "6d0a560d7536ebc6",
+    "title": "Cumple 150 años. El club que formó deportistas olímpicos, sobrevivió a mudanzas y crisis económicas, y tiene una sede fascinante",
+    "summary": "Desde fines del siglo XIX hasta la pandemia reciente, la entidad del Tigre atravesó brotes sanitarios, derrumbes financieros y restricciones inéditas. Lejos de diluirse, encontró en su comunidad el impulso para volver a empezar",
+    "url": "https://www.lanacion.com.ar/lifestyle/cumple-150-anos-el-club-que-formo-deportistas-olimpicos-sobrevivio-a-mudanzas-y-crisis-economicas-y-nid24022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/la-sede-actual-del-club-de-regatas-la-marina-fue-4MMS2I7AQJH7DIXMGQOTVZNGSI.jpg?auth=d4f9b3f830c8566ac16de8e8d71915181ff87374b85b970721026329b487da2d&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-02-24T07:22:00.000Z",
+    "tags": [
+      "contable",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "5df2b99b9aeace5f",
+    "title": "La Argentina de Milei, con futuro abierto",
+    "summary": "El Gobierno no sólo necesita de la aprobación de la reforma laboral o el nuevo régimen penal juvenil: también necesita de su impacto real, mientras la exigencia de la ciudadanía va in crescendo",
+    "url": "https://www.lanacion.com.ar/politica/la-argentina-de-milei-con-futuro-abierto-nid24022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/javier-GK7ZVWDEF5GNZF5YTTJIXT2PZM.jpg?auth=713790775f09e8bafefba24ae2a6660316adccbb330fa585be028db8f44295ed&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-24T03:05:00.000Z",
+    "tags": [
+      "laboral",
+      "impositivo"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "34414a99c3f1d10a",
+    "title": "Martín Menem apuntó contra el kirchnerismo por el “intento de desestabilización” realizado en el debate de la reforma laboral",
+    "summary": "El presidente de la Cámara Baja criticó la forma en que los diputados opositores afrontaron la sesión",
+    "url": "https://www.lanacion.com.ar/politica/martin-menem-apunto-contra-el-kirchnerismo-por-el-intento-de-desestabilizacion-realizado-en-el-nid23022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/martin-menem-dijo-que-el-kirchnerismo-fracaso-en-XCYJZ4HHZVE3PDG4WTRE6VPVPA.png?auth=d168e08eb65194ccbfb42dc7de378d0118c726ea3dd667d053ff4dfd8b92d0f0&width=1200&quality=70&smart=false&height=725",
+    "publishedAt": "2026-02-23T23:39:02.000Z",
+    "tags": [
+      "laboral"
+    ],
+    "region": null
+  },
+  {
+    "id": "c5b6b9e91d7d54c5",
+    "title": "El Gobierno sale a ofrecer localmente otro bono en dólares por US$2000 millones",
+    "summary": "Es un título que vencerá durante el mandato de Milei; ofrece pagar mensualmenye una tasa del 6% anual",
+    "url": "https://www.lanacion.com.ar/economia/el-gobierno-sale-a-ofrecer-localmente-otro-bono-en-dolares-por-us2000-millones-nid23022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/el-bonar-20-es-un-bono-denominado-en-dolares-pero-EVYYCQJG4BB7NG6G5QGV3RLY3U.jpg?auth=9f1f2b2d721f29d27324b228ae7883a841235a0dc724de4089c3fb0910d7ab40&width=1200&quality=70&smart=false&height=675",
+    "publishedAt": "2026-02-23T22:03:30.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "a099e8c23efa2943",
+    "title": "Pesca ilegal: denuncian que empresas extranjeras penalizadas operan con bandera argentina en la ZEE",
+    "summary": "Una investigación del Círculo de Políticas Ambientales señala que la modificación de exigencias en 2013 permitió el registro de firmas vinculadas a sanciones previas; el 68% de los barcos poteros tiene capital asiático, principalmente chino",
+    "url": "https://www.lanacion.com.ar/sociedad/pesca-ilegal-denuncian-que-empresas-extranjeras-penalizadas-operan-con-bandera-argentina-en-la-zee-nid23022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/pesca-sobre-la-milla-200-del-mar-MKFSNZJ7OZGN7KJXG6DJZ5BJ3E.jpg?auth=e138ed4d9806a717eafade6d89100e80790121ab1c0395210703c7ebcb1397ae&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-23T12:44:02.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "9425a7da7bc96a91",
+    "title": "Un minimarket en Puerto Madero: el nexo del Mencho Oseguera Cervantes y el Cartel de Jalisco Nueva Generación con la Argentina",
+    "summary": "El cuñado del “Mencho” Nemesio Oseguera Cervantes, Gerardo González Valencia, instaló un minimarket en Puerto Madero en 2009, cuando todavía era el número dos de Los Cuinis, el brazo financiero del CJNG; lo detuvieron en Uruguay y lo extraditaron a EE. UU., d…",
+    "url": "https://www.lanacion.com.ar/seguridad/un-minimarket-en-puerto-madero-el-nexo-del-mencho-oseguera-cervantes-y-el-cartel-de-jalisco-nueva-nid22022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/corner-mi-lugar-el-local-gastronomico-que-el-LNGIYCI6QBHQRATTOPBJLDOIJU.jpg?auth=157a24b853a11dbfea994ae4c87c3e009acade3aad7f6e82f8a041b0e2be0b9c&width=1200&height=885&quality=70&smart=true",
+    "publishedAt": "2026-02-22T22:08:59.000Z",
+    "tags": [
+      "laboral",
+      "impositivo",
+      "contable"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "30e84a2b241968d1",
+    "title": "Argentina en Milán-Cortina 2026: balance de una participación histórica en los Juegos Olímpicos de Invierno",
+    "summary": "Con la delegación más numerosa en dos décadas, los atletas argentinos cerraron su paso por los Juegos Olímpicos de Invierno con récords nacionales y resultados que ilusionan de cara al futuro.\n Leer más",
+    "url": "https://442.perfil.com/noticias/polideportivo/argentina-en-milan-cortina-2026-balance-de-una-participacion-historica-en-los-juegos-olimpicos-de-invierno.phtml",
+    "source": "Perfil.com",
+    "image": "https://fotos.perfil.com/2026/02/22/trim/1140/641/delegacion-argentina-2190270.jpg",
+    "publishedAt": "2026-02-22T18:00:07.000Z",
+    "tags": [
+      "laboral",
+      "impositivo",
+      "contable",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "bca70ac1136484c0",
+    "title": "Cartas de lectores: Basta de violencia, fuera y dentro del Congreso; en extinción; el paro",
+    "summary": "Cartas de lectores: Basta de violencia, fuera y dentro del Congreso; en extinción; el paro",
+    "url": "https://www.lanacion.com.ar/opinion/carta-de-lectores/cartas-de-lectores-basta-de-violencia-fuera-y-dentro-del-congreso-en-extincion-el-paro-nid22022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/YQCL4F5EWZCLVDQLPW56IKCWWI.JPG?auth=d90d6f8d7a571ea1c9b7387aa5ef0686bd922f59c5c704353697e875258c4c5b&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-22T03:05:00.000Z",
+    "tags": [
+      "laboral"
+    ],
+    "region": null
+  },
+  {
+    "id": "42ca25a27a9c60b1",
+    "title": "El nuevo mapa de los autos: qué está pasando en el mercado y cómo inciden las importaciones de China",
+    "summary": "Mientras la fabricación y las exportaciones de vehículos muestran una tendencia a la baja en el arranque del año, los patentamientos volverían a superar las 600.000 unidades, prevén las terminales; el efecto real de los modelos chinos",
+    "url": "https://www.lanacion.com.ar/economia/el-nuevo-mapa-de-los-autos-que-esta-pasando-en-el-mercado-y-como-inciden-las-importaciones-de-china-nid22022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/en-enero-las-terminales-locales-produjeron-20998-V6LBUNGO3VBABFEA42AMMIA23Y.jpeg?auth=7489694449a6857397a13d95c91c10e54a803d6ae0374425f64b2fdef6f24030&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-22T03:01:00.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "86d1b1f9b1cb9ff9",
+    "title": "Matías Kulfas: “Milei tiene con la industria anteojeras parecidas a las que tenía Cristina con el campo”",
+    "summary": "Crítico del enfoque económico actual, el exfuncionario sostiene que el Gobierno va “a contramano del mundo”, cuestiona la falta de política industrial y cree que el peronismo debe reconstruirse con una mirada productiva y territorial",
+    "url": "https://www.lanacion.com.ar/economia/matias-kulfas-milei-es-un-lider-que-tiene-con-la-industria-unas-anteojeras-parecidas-a-las-que-tenia-nid22022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/matias-kulfas-estudio-economia-en-la-uba-y-es-G3O6IG3V3ZH2NHEZMUTN7UQ3FA.jpg?auth=130ae0123ae8b95046eaf48e5ed2db4c2f27ac42a43c346e7a9d32e931607e7d&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-22T03:01:00.000Z",
+    "tags": [
+      "impositivo"
+    ],
+    "region": null
+  },
+  {
+    "id": "8123c3667a794996",
+    "title": "Un nuevo escenario de apocalipsis: abran paso al “colapso demográfico”",
+    "summary": "Con las caídas cada vez más abruptas de la tasa de natalidad en casi todo el mundo, el tema se coló en la discusión global a la par de otros desastres probables, como el climático o de de la inteligencia artificial; en qué situación está la Argentina",
+    "url": "https://www.lanacion.com.ar/economia/un-nuevo-escenario-de-apocalipsis-abran-paso-al-colapso-demografico-nid22022026/",
+    "source": "La Nacion",
+    "image": "https://resizer.glanacion.com/resizer/v2/la-tasa-de-natalidad-cae-en-la-argentina-desde-BNWBIXKUAFGW3J6GAO7YIUEZE4.jpg?auth=4007a9ae6878fd227604800c67f92205302bf93e627e11b8e633c385a031817a&width=1200&quality=70&smart=false&height=800",
+    "publishedAt": "2026-02-22T03:01:00.000Z",
+    "tags": [
+      "laboral",
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
     "id": "835ea39f9549ff01",
     "title": "Milei avanza sobre un espacio vacío",
     "summary": "Tan relevante resulta para la CGT mantener la cuota sindical, la gran concesión que el Gobierno acaba de hacerle en la reforma laboral, que se distrajo de un derecho adquirido que probablemente sea el centro de la discusión que viene en Diputados: la reducció…",
