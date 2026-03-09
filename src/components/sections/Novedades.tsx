@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNovedades } from '../../hooks/useNovedades';
-// En Vite, los assets en public no se importan desde JS; usamos la URL pública
-const logoWhite = '/images/cilsLogoWhite.webp';
+// En Vite, los assets en public no se importan desde JS; usamos la URL pública (relativa a la base de la app)
+const logoWhite = 'images/cilsLogoWhite.webp';
 interface Props {
   limit?: number;
   tag?: string;
