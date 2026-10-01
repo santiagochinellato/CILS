@@ -1,5 +1,1218 @@
 [
   {
+    "id": "c8ba1dad8d9853e5",
+    "title": "Mercenario o víctima del engaño: la doble cara del argentino preso en Ucrania",
+    "summary": "Respondió a un aviso en Facebook, combatió en Lyman y cayó prisionero. Kiev lo muestra como víctima; su propia huella digital cuenta otra historia. Leer más",
+    "url": "https://noticias.perfil.com/noticias/informacion-general/mercenario-o-victima-del-engano-la-doble-cara-del-argentino-preso-en-ucrania.phtml",
+    "source": "Perfil.com",
+    "image": "https://fotos.perfil.com/2026/09/30/trim/1280/720/roberto-ibrahim-2337228.jpg",
+    "publishedAt": "2026-09-30T12:13:24.000Z",
+    "tags": [
+      "impositivo",
+      "contable"
+    ],
+    "region": null
+  },
+  {
+    "id": "aea975d66238a21e",
+    "title": "El Gobierno anunció que Japón abrió su mercado a la carne vacuna argentina",
+    "summary": "El ministro de Economía, Luis Caputo, anunció este miércoles que Japón abrió su mercado a la carne vacuna argentina. “Se trata de un acuerdo histórico alcanzado luego de las negociaciones iniciadas en 2024 por las autoridades de nuestro país”, definió.",
+    "url": "https://www.lanacion.com.ar/economia/campo/el-gobierno-anuncio-que-japon-abrio-su-mercado-a-la-carne-vacuna-argentina-nid30092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/el-gobierno-anuncio-que-japon-abrio-su-mercado-a-6DVTQOOQW5C63NFBLMMZLEBAJI.jpeg?auth=9375699240eeaf0fe78dc01db66c0c814254a640670663c4d473097368493749&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-30T11:31:58.000Z",
+    "tags": [
+      "impositivo"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "32d42caefa826001",
+    "title": "Las Trillizas de Oro: la favorita de Julio Iglesias, la producción para Playboy que no fue y el proyecto que las trae de regreso",
+    "summary": "María Eugenia y María Laura vuelven con El libro mágico y la serie Las Trixipop, con canciones nuevas y remixadas, e inteligencia artificial",
+    "url": "https://www.lanacion.com.ar/espectaculos/personajes/las-trillizas-de-oro-la-favorita-de-julio-iglesias-la-produccion-para-playboy-que-no-fue-y-el-nid30092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/las-trillizas-de-oro-la-favorita-de-julio-ZFFNHYMMNRB5NCZB4WNPAEH55M.jpg?auth=d545e1357fc399c1e2920e34923df45c0fd732ca197cb5ea77048e6cedf847f8&width=1200&height=675&quality=85&smart=true&focal=1042%2C372",
+    "publishedAt": "2026-09-30T09:00:01.000Z",
+    "tags": [
+      "laboral",
+      "contable"
+    ],
+    "region": null
+  },
+  {
+    "id": "6d4509b68240b680",
+    "title": "Martín Seefeld: del mandato familiar que rompió a la soltería tras 35 años de pareja y por qué no vuelven Los simuladores",
+    "summary": "El actor integra el elenco de Desde el jardín, que se presenta de jueves a domingos, en el Teatro Metropolitan",
+    "url": "https://www.lanacion.com.ar/espectaculos/personajes/martin-seefeld-del-mandato-familiar-que-rompio-a-la-solteria-tras-35-anos-de-pareja-y-por-que-no-nid30092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/los-productores-de-desde-el-jardin-asumieron-un-XNPQVLZRW5AXLABFRLQ5QNGE3A.jpg?auth=14c43cecec72efdd84181cf18f4b2018cd8f67dc721115e6d810e8b0b57f2dd6&width=1200&height=675&quality=85&smart=true",
+    "publishedAt": "2026-09-30T09:00:00.000Z",
+    "tags": [
+      "laboral"
+    ],
+    "region": null
+  },
+  {
+    "id": "982122c84ac3b55c",
+    "title": "Furor por los tulipanes: del amor de los sultanes a la obsesión por una flor que cambió la historia",
+    "summary": "La travesía de una planta que pasó de ser admirada en las festividades otomanas a costar más que una casa en el siglo XVII, manteniendo su encanto intacto hasta el día de hoy",
+    "url": "https://www.lanacion.com.ar/revista-jardin/furor-por-los-tulipanes-del-amor-de-los-sultanes-a-la-obsesion-por-una-flor-que-cambio-la-historia-nid02102026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/cultivo-de-tulipanes-en-2MIU5RWANFE3LAQIEVJDY4KJBM.jpg?auth=94c8696494402097f1b012e4c80c978d32e254c589bc54640e05c7fe7e8517cc&width=1200&height=675&quality=85&smart=true",
+    "publishedAt": "2026-09-30T04:00:00.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "c314ecf1f938c759",
+    "title": "La reforma previsional sigue esperando",
+    "summary": "Se trata de una de las grandes urgencias que tiene el país, pero siempre fue postergada y recién comenzaría a discutirse después de 2027. La premisa respecto de este tema parece ser: “Esto no se mira, no se toca, no se habla”.",
+    "url": "https://www.lanacion.com.ar/opinion/la-reforma-previsional-sigue-esperando-nid30092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/una-protesta-opositora-frente-al-ZCMLOHWPXFETDLOYMKTAZ7FCH4.JPG?auth=ca90eaddc920f7f6053b9d645e5b01de9ee9d888b55993a8c2c2dd0a5db14638&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-30T03:05:00.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "1acbb080030bef74",
+    "title": "El ambicioso plan de China para instalar fábricas... fuera de China: qué pasará con la Argentina",
+    "summary": "La caída de las ventas dentro del gigante asiático y el salto de las exportaciones empujan a sus marcas a producir fuera de su país; buscan en otros continentes plantas disponibles y socios locales; Brasil ya concentra varias inversiones y en el mercado argen…",
+    "url": "https://www.lanacion.com.ar/autos/el-ambicioso-plan-de-china-para-instalar-fabricas-fuera-de-china-que-pasara-con-la-argentina-nid30092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/las-automotrices-chinas-impulsan-la-fabricacion-RMCPMWN3VRGUBL3KNPH26AFZCA.jpg?auth=43a5724c39a8666fee0432bc698a402f01ba849b8f9b554a6cd1eb557ee04589&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-30T03:00:00.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "cda38fef74864b0c",
+    "title": "Una deprimente epidemia de “nowstalgia” compromete las promesas del futuro",
+    "summary": "En pleno período de transformación antropológica, el planeta rehúsa enfrentar los desafíos del presente; dos tercios de la humanidad quisieran que su vida “fuera como antes”",
+    "url": "https://www.lanacion.com.ar/opinion/una-deprimente-epidemia-de-nowstalgia-compromete-las-promesas-del-futuro-nid30092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/los-que-desean-que-su-vida-fuera-como-NLFTYIY3HBAU7LQD5BIUI7SCZ4.jpg?auth=f1baf0bb47c20a96c02508011de3d3c6020fc9f8f0b4bc463e3f356e849fb256&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-30T03:00:00.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "0496ce8da296b47a",
+    "title": "“Que no vuelvan nunca más”: fuerte reclamo de Federación Agraria para poner fin a las retenciones por ley",
+    "summary": "Andrea Sarnari, presidenta de la entidad, cuestionó la presión impositiva y pidió que el Congreso establezca el final definitivo de los derechos de exportación; además, reclamó financiamiento, mejoras de infraestructura y defendió los recursos del INTA y del …",
+    "url": "https://www.lanacion.com.ar/economia/campo/que-no-vuelvan-nunca-mas-fuerte-reclamo-de-federacion-agraria-para-poner-fin-a-las-retenciones-por-nid29092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/andrea-sarnari-presidenta-de-federacion-agraria-ES7M4LPOU5AERI2BWRQWOI3RTE.jpeg?auth=d59c2f375b93a1d3c404ca9df2e975642b0e8f2ba76697378a1fabff1cb8b97c&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-29T21:37:11.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "8e6e8cd1247117d8",
+    "title": "El emotivo video de Laura Novoa para su papá Pepe Novoa por sus 89 años: “Heredé su oficio, su amor a esta hermosa profesión”",
+    "summary": "El actor celebró un nuevo año rodeado de sus seres queridos y recibió el saludo especial de su hija. Leer más",
+    "url": "https://caras.perfil.com/noticias/celebridades/emotivo-video-laura-novoa-papa-pepe-novoa.phtml",
+    "source": "Perfil.com",
+    "image": "https://fotos.perfil.com/2026/09/29/trim/1140/641/laura-y-pepe-novoa-2336800.jpg",
+    "publishedAt": "2026-09-29T21:25:47.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "9cb7a54ec4f01421",
+    "title": "El Vaticano confirmó que el cura fundador del Instituto del Verbo Encarnado de Mendoza fue culpable de abusos",
+    "summary": "Carlos Miguel Buela, cuyas víctimas fueron seminaristas y religiosas, fue suspendido en 2010 tras una veintena de denuncias; falleció en 2023, recluido en un monasterio en Génova, Italia",
+    "url": "https://www.lanacion.com.ar/sociedad/el-vaticano-confirmo-que-el-cura-fundador-del-instituto-del-verbo-encarnado-de-mendoza-fue-culpable-nid29092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/el-sacerdote-carlos-W24EENQKSJH43NHXX2DFOKKIWM.jpg?auth=130c0b42cbe19aa32817c9f88d912bcb98bc501023376b2b53d52d5968897f76&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-29T20:57:31.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "6785e248de0b31b6",
+    "title": "Crece el monto de dólares que los argentinos guardan “debajo del colchón” pese al pedido del Gobierno",
+    "summary": "El stock de dinero atesorado fuera del sistema superó los US$285.114 millones en el segundo trimestre del año, según cifras del Indec; la cuenta corriente fue superavitaria en US$2214 millones",
+    "url": "https://www.lanacion.com.ar/economia/dolar/crece-el-monto-de-dolares-que-los-argentinos-guardan-debajo-del-colchon-pese-al-pedido-del-gobierno-nid29092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/cuantos-dolares-guardan-los-argentinos-fuera-del-BSELUGV7JJDRPHRVLJ3AZXOCLQ.png?auth=ba493f5420e540ab7031e41e78a1c3659d1edf040d458fde9356676321336faf&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-29T20:44:30.000Z",
+    "tags": [
+      "impositivo"
+    ],
+    "region": null
+  },
+  {
+    "id": "6fe0efa704ac7c84",
+    "title": "Contraste: la producción de leche creció un 4,5%, pero cayó en los tambos más chicos y advierten por la rentabilidad",
+    "summary": "Entre enero y agosto se produjeron 7515 millones de litros, según la Secretaría de Agricultura; el OCLA registró una baja del 5% en la producción de los establecimientos de menor tamaño; referentes del sector señalaron que los costos y la dificultad para tras…",
+    "url": "https://www.lanacion.com.ar/economia/campo/contraste-la-produccion-de-leche-crecio-un-45-pero-cayo-en-los-tambos-mas-chicos-y-advierten-por-la-nid29092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/la-produccion-aumento-un-45percent-entre-enero-y-UYFQ6BY2AFDM5EARDJSPFPC3GM.jpg?auth=cd9884fd8bdcae5cb0ce722a47eb4f5a2fdfdea0e5c59f329876e91e1a46ddc2&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-29T20:27:12.000Z",
+    "tags": [
+      "contable"
+    ],
+    "region": null
+  },
+  {
+    "id": "528583c5e222b0bd",
+    "title": "Milei participa de un homenaje a Cambiaso y lo distingue como “embajador Extraordinario y Plenipotenciario”",
+    "summary": "El Presidente le dará en mano el título en medio del evento por la declaración del polista como “ciudadano ilustre” de la ciudad de Buenos Aires; sucede en el Palacio Libertad",
+    "url": "https://www.lanacion.com.ar/politica/milei-participa-de-un-homenaje-a-cambiaso-y-lo-distingue-como-embajador-extraordinario-y-nid29092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/milei-cuando-llego-a-la-ceremonia-de-distincion-a-RASHYDYNOJAD3AC7FIN6WWEPFY.jpeg?auth=ca837fa8f4ebbf14248abd7522a31eaaffdf128a163651b044759056333c9071&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-29T20:16:02.000Z",
+    "tags": [
+      "laboral"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "b13d97420b0c7647",
+    "title": "Vivió una tragedia y creó un producto innovador que hoy reconstruye la vida de miles de familias migrantes",
+    "summary": "Ezequiel Fonseca, fundador argentino de MILA Stories, explica cómo su empresa combina storytelling e inteligencia artificial para crear experiencias innovadoras. En diálogo con LA NACION, comparte los orígenes de la compañía y su visión sobre el poder de las …",
+    "url": "https://www.lanacion.com.ar/estados-unidos/migraciones/vivio-una-tragedia-y-creo-un-producto-innovador-que-hoy-reconstruye-la-vida-de-miles-de-familias-nid29092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/ezequiel-palacios-propone-combinar-el-AEMA6YX32ZDY7OJKGAGC2TE2MA.jpg?auth=93bbd35aaf0262fbf9cbf14e22935d3b874f9e2fc24e9d2e502af47a91c50d20&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-29T20:13:48.000Z",
+    "tags": [
+      "laboral",
+      "impositivo",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "69b1ebbc966b7e0c",
+    "title": "Mariela, docente de 50 años, dejó Argentina y se instaló en Italia: “Acá un sueldo bajo empieza en 1200 euros y va hasta los 1600 euros”",
+    "summary": "Después de que sus hijos se mudaron al país europeo, ella los siguió sin dudarlo; con su experiencia reconoció que empezar desde cero a su edad tiene dificultades",
+    "url": "https://www.lanacion.com.ar/lifestyle/mariela-docente-de-50-anos-dejo-argentina-y-se-instalo-en-italia-aca-un-sueldo-bajo-empieza-en-1200-nid29092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/es-argentina-y-a-los-50-anos-dejo-todo-para-vivir-F3Y4QWSPLFDYFENCAWDP6RINZE.png?auth=2a512c254e5693931c2c310906d3f83078df8b37075be3da4586ceecddbdffcb&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-29T19:25:50.000Z",
+    "tags": [
+      "impositivo"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "97f95ba5220d3832",
+    "title": "El mensaje de Milei a los inversores antes de su viaje a París: “Son bienvenidos a venir y llenarse los bolsillos”",
+    "summary": "En la previa de la Argentina Week y de su encuentro con Macron, el Presidente destacó las oportunidades de negocios en el país; defendió además el libre comercio ante las críticas de agricultores franceses al acuerdo entre la Unión Europea y el Mercosur",
+    "url": "https://www.lanacion.com.ar/politica/el-mensaje-de-milei-a-los-inversionistas-antes-de-su-viaje-a-paris-son-bienvenidos-a-venir-y-nid29092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/el-presidente-javier-GRBUMS4J5FAU5NFDXI4WTCGCBI.jpg?auth=bf14560564366e0c60277415af3c0795433e7a9964b7227307ca885de1ec414e&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-29T19:15:23.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "3bd1b94f462f9cb3",
+    "title": "Ian Sielecki: “Milei está transformando la matriz para atraer inversión como nunca antes”",
+    "summary": "El embajador en Francia y organizador de la semana argentina en París dijo que se “buscará desplegar el potencial inmenso de la transformación argentina”",
+    "url": "https://www.lanacion.com.ar/economia/ian-sielecki-milei-esta-transformando-la-matriz-para-atraer-inversion-como-nunca-antes-nid29092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/emmanuel-macron-saluda-al-embajador-argentino-en-PZVN35GDO5BJHDBZSYCIDK6CFM.jpeg?auth=fd9111f00076550f18c4a5a02975971f97fb49b19176e6be15d4b7331e26522c&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-29T18:11:46.000Z",
+    "tags": [
+      "impositivo"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "16b2a64d71c357fd",
+    "title": "Surgen alertas en el Gobierno por los indicadores económicos y Milei busca cambiar la agenda con su viaje a París",
+    "summary": "Comenzó a barajarse la posibilidad de alguna medida para reactivar el consumo en medio de los ruidos por la suba del riesgo país; el Presidente busca inversores en Francia y exhibe apoyo de 13 gobernadores",
+    "url": "https://www.lanacion.com.ar/politica/surgen-alertas-en-el-gobierno-por-los-indicadores-economicos-y-milei-busca-cambiar-la-agenda-con-su-nid29092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/milei-junto-al-ministro-de-economia-luis-EWOD7PXGLZGC7NP54FL3YMOCDQ.jpg?auth=c5062ec7d2ff9d7dbff1d6f6cb05b1109284762098d8021b7304ba9cd52653c7&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-29T17:58:14.000Z",
+    "tags": [
+      "impositivo"
+    ],
+    "region": null
+  },
+  {
+    "id": "65c0b720cb0dd93e",
+    "title": "En la antesala del viaje de Milei a Francia, el Gobierno reúne nuevamente a su mesa política",
+    "summary": "El encuentro, en la Casa Rosada, está atravesado por la conmoción por la muerte del senador riojano Juan Carlos Pagotto; podrían definir a su sucesor en la estratégica Comisión de Acuerdos",
+    "url": "https://www.lanacion.com.ar/politica/en-la-antesala-del-viaje-de-milei-a-francia-el-gobierno-reune-nuevamente-a-su-mesa-politica-nid29092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/nueva-reunion-de-la-mesa-politica-en-casa-I35JDI6ZVVHYJJ5MJVDVYQMMUM.jpeg?auth=5b86070527b7647c7d23eb64b8895309250aa056cc1a33bcab689635559e7e00&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-29T17:50:10.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "0cac31ccaa3608f6",
+    "title": "Procesaron a un exsocio de Martín Menem y a dos exinterventores nombrados por el Gobierno en la obra social de los peones rurales",
+    "summary": "El fallo del juez Casanello sostuvo que habrían sido responsables de un desvío de $247.836.858 por una contratación directa irregular; también procesó a la presidenta de la sociedad beneficiada con la operación",
+    "url": "https://www.lanacion.com.ar/politica/procesaron-a-un-exsocio-de-martin-menem-y-a-dos-exinterventores-nombrados-por-el-gobierno-en-la-obra-nid29092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/la-sede-de-osprera-en-reconquista-630-durante-un-DJGTZIWGLRAXFCUYQEAG7H6Q5A.JPG?auth=16b305bd676bb7037efcf6cf645b1232fc892c0781ef490bc4ba6993c5e7d703&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-29T17:20:13.000Z",
+    "tags": [
+      "laboral",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "973c7528a1a74d6c",
+    "title": "Comprar en Buenos Aires antes de que sea tarde",
+    "summary": "“Hay decisiones financieras que uno toma pensando en ganar dinero. Y hay otras que toma, con el tiempo, entendiendo que en realidad estaba comprando algo mucho más importante: tranquilidad. A mí, comprar departamentos me salvó la vida.” Leer más",
+    "url": "https://noticias.perfil.com/noticias/espacio-no-editorial/comprar-en-buenos-aires-antes-de-que-sea-tarde.phtml",
+    "source": "Perfil.com",
+    "image": "https://fotos.perfil.com/2026/09/29/trim/1280/720/comprar-en-buenos-aires-antes-de-que-sea-tarde-2336443.jpg",
+    "publishedAt": "2026-09-29T16:54:44.000Z",
+    "tags": [
+      "laboral",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "5e65021b46d26cca",
+    "title": "“Posibles terroristas”: el vocero presidencial habló de las declaraciones de Milei sobre los extranjeros expulsados",
+    "summary": "El vocero presidencial se refirió a los dichos del presidente, quien aseguró que el Gobierno “deportó 20.000 terroristas” este año",
+    "url": "https://www.lanacion.com.ar/politica/posibles-terroristas-el-vocero-presidencial-hablo-de-las-declaraciones-de-milei-sobre-los-nid29092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/el-vocero-presidencial-se-refirio-a-la-discusion-GMHV77NWOJDZNCAPV2FTBRG7AE.JPG?auth=b922e88b7b0f3b32df898c0b14c6884eec817ce5f0ca3b3eee35f3ff4518f029&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-29T16:02:48.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "fff40935b144ef2f",
+    "title": "“¿Por qué comprarte a vos y no traerla de China?”: la advertencia del presidente de Ford Sudamérica sobre los autos en la Argentina",
+    "summary": "Martín Galdeano aseguró que las reglas del negocio automotor mundial cambiaron y que el país todavía tiene trabajo por hacer para poder competir; anticipó una menor producción de Ranger, habló de China, impuestos y proveedores y los desafíos por delante",
+    "url": "https://www.lanacion.com.ar/autos/por-que-comprarte-a-vos-y-no-traerla-de-china-la-advertencia-del-maximo-ejecutivo-de-ford-sobre-los-nid29092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/presidente-de-ford-sudamerica-martin-QBEEQNXOHNCZLCK7BG3BCIP3AY.jpg?auth=76b6fa8c24e8a81a815a632e7c35f9e363124273fbd3d90f630e0939b596e994&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-29T15:50:20.000Z",
+    "tags": [
+      "laboral",
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "da85e1408a5556a0",
+    "title": "Quiénes son los gobernadores que acompañarán a Milei a París",
+    "summary": "El presidente se dirigirá a Francia para reunirse con Emmanuel Macron en el marco de la Argentina Week junto con 13 mandatarios provinciales. Leer más",
+    "url": "https://noticias.perfil.com/noticias/politica/quienes-son-los-gobernadores-que-acompanaran-a-milei-a-paris.phtml",
+    "source": "Perfil.com",
+    "image": "https://fotos.perfil.com/2026/09/29/trim/1280/720/gobernadores-2336303.jpg",
+    "publishedAt": "2026-09-29T15:15:00.000Z",
+    "tags": [
+      "impositivo"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "c5dfcdfed2745cc0",
+    "title": "El riesgo país subió 18% en el mes: las tres preocupaciones de los inversores sobre la economía de Milei",
+    "summary": "La suba de tasas en Estados Unidos, la falta de crédito y una actividad que no repunta se combinaron en pocas semanas y llevaron el riesgo país al nivel más alto desde principios de abril",
+    "url": "https://www.lanacion.com.ar/economia/el-riesgo-pais-subio-18-en-el-mes-las-tres-preocupaciones-de-los-inversores-sobre-la-economia-de-nid29092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/la-confianza-en-el-gobierno-cayo-en-septiembre-al-FY7Q27YAORHI3EVYBHQCR7VD44?auth=234cadae0a3d16bb53bd5a0b393a654202ca4eafaa9a70c4a79c79b320dcf851&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-29T14:47:27.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "e2676143ff2751d0",
+    "title": "Provincias Unidas se desgrana: gobernadores enfocados en reelegir, votos dispersos en el Congreso y afinidad con Milei",
+    "summary": "El blindaje del bastión propio pesa más que las aspiraciones federales; el bloque en Diputados exhibe comportamientos dispares y algunos de sus fundadores acompañarán al Presidente a París",
+    "url": "https://www.lanacion.com.ar/politica/provincias-unidas-se-desgrana-gobernadores-enfocados-en-reelegir-votos-dispersos-en-el-congreso-y-nid29092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/el-acto-de-provincias-unidas-en-el-estadio-de-7ICOO6TLKRAP3D4XLJPCUOT7W4.JPEG?auth=d40cbfa6e834d7861f05f5d5f08b007cc5a674f83d171da82fa99cd9f67069d2&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-29T14:46:52.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "9b3f25862e98005c",
+    "title": "Los criadores Braford preparan una muestra con lo mejor de su genética",
+    "summary": "La Nacional de Primavera se realizará entre el 6 y el 8 de octubre en el predio de la Sociedad Rural de Chaco, en Margarita Belén; con el apoyo de Expoagro, reunirá a criadores, productores y referentes de la ganadería",
+    "url": "https://www.lanacion.com.ar/economia/campo/ganaderia/los-criadores-braford-preparan-una-muestra-con-lo-mejor-de-su-genetica-nid29092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/la-raza-braford-se-lucira-en-la-pista-de-la-KVRICHG7VZCPPPK52I7JUVRG3I.jpg?auth=c7c0742352aa675c2eccef92748606e841b6d9c0086930010ad4a2d0826ea7fe&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-29T14:44:09.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "2d18429dc8b62bd2",
+    "title": "Plazo fijo: cuál es la tasa de interés banco por banco este martes 29 de septiembre",
+    "summary": "El Banco Central de la República Argentina (BCRA) permite a los ahorristas conocer el rendimiento de estos instrumentos de inversión en pesos con una tabla comparativa de tasas",
+    "url": "https://www.lanacion.com.ar/economia/plazo-fijo-cual-es-la-tasa-de-interes-banco-por-banco-este-martes-29-de-septiembre-nid29092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/las-tasas-de-cada-AECTOJRGMNDNZOY2LXXXJV3CFA.jpg?auth=eff479d9747cfc1895d60ac765b8283d77a8d31a7fc48d8982dc546712e77bfc&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-29T14:29:00.000Z",
+    "tags": [
+      "laboral",
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "31199fde49206fba",
+    "title": "Unos pocos que gastan mucho: la mecánica oculta de los videojuegos gratis y su relación con las apuestas online",
+    "summary": "Estudios y expertos analizan las coincidencias entre el formato freemium de videojuegos, con microtransacciones, y las apuestas online",
+    "url": "https://www.lanacion.com.ar/tecnologia/unos-pocos-que-gastan-mucho-la-mecanica-oculta-de-los-videojuegos-gratis-y-su-relacion-con-las-nid29092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/los-videojuegos-gratis-que-se-financian-con-ZNVFMUUFKBDBBLL5IEAT6A42HQ.jpg?auth=c1acc25ff5959b6adc5a64ed68576b03fa8858146d73aed723166c196fb343c7&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-29T14:17:10.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "cefd3fda58b2a661",
+    "title": "Diego Sucalesca: “El mundo está buscando proveedores confiables de energía y minerales críticos”",
+    "summary": "El director ejecutivo de PromArgentina afirmó que la semana en París será una oportunidad de mostrar la transformación que vive el país; apuestan a una importante ronda de negocios para el sector de la pesca",
+    "url": "https://www.lanacion.com.ar/economia/diego-sucalesca-el-mundo-esta-buscando-proveedores-confiables-de-energia-y-minerales-criticos-nid29092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/el-presidente-ejecutivo-de-la-agencia-argentina-QLR44JO5NND7BDOHRDOJFECW6U.JPG?auth=816c3f2f79c63f97f141129349081d98867f33c23fc1232a65abe955fe3c84f5&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-29T14:08:12.000Z",
+    "tags": [
+      "impositivo"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "ded9ed5a9ad550e9",
+    "title": "Encuentros privados con empresarios, un premio Nobel y con Macron, la agenda de Milei en París",
+    "summary": "El Presidente partirá el martes a las 22 hacia la capital francesa; irá acompañado de una comitiva importante de funcionarios, gobernadores y empresarios",
+    "url": "https://www.lanacion.com.ar/economia/encuentros-privados-con-empresarios-un-premio-nobel-y-con-macron-la-agenda-de-milei-en-paris-nid29092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/g20-brasil-mundo-politica-rio-de-janeiro-javier-HXGA2IJOENFKZGLAQISGX3ZURI.JPG?auth=355c9fa97da27c5764b96eadd1833388c9a1546ba01280fe44b42d666448895a&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-29T13:42:42.000Z",
+    "tags": [
+      "laboral",
+      "impositivo",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "de081919425ca3f8",
+    "title": "Coloquio de IDEA 2026: la grilla completa de políticos, empresarios y economistas, día por día",
+    "summary": "Estarán presentes el presidente Javier Milei y el ministro de Economía Luis Caputo",
+    "url": "https://www.lanacion.com.ar/economia/coloquio-de-idea-2026-la-grilla-completa-de-politicos-empresarios-y-economistas-dia-por-dia-nid29092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/coloquio-de-idea-2026-la-grilla-completa-de-AC4ILJTJPZECFJEYQ2HXKKIGYM.jpg?auth=33011824f4a5d45ef450f88fc66549dc566aca5ef74fe0f10e496aa602aaafce&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-29T13:32:59.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "913042a280ba0aeb",
+    "title": "La última imagen de Spagnuolo antes de su pedido de detención",
+    "summary": "Se vio al ex titular de ANDIS con su abogado Mauricio D'Alessandro. El abogado Gregorio Dalbón, denunciante original del expediente, pidió que se lo detenga. Leer más",
+    "url": "https://noticias.perfil.com/noticias/politica/la-ultima-imagen-de-spagnuolo-antes-de-su-pedido-de-detencion.phtml",
+    "source": "Perfil.com",
+    "image": "https://fotos.perfil.com/2026/09/29/trim/1280/720/spagnuolo-2336104.jpg",
+    "publishedAt": "2026-09-29T12:41:20.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "8c4f384af2094aeb",
+    "title": "El refugio que dejó de rendir: tres opciones para invertir los dólares del colchón tras Inocencia Fiscal II",
+    "summary": "La semana pasada el Senado convirtió en ley la Inocencia Fiscal II, que amplía y flexibiliza el régimen vigente (entre otros cambios, elimina los topes de ingresos y patrimonio para acceder al esquema simplificado de Ganancias), y con ella vuelve a quedar sob…",
+    "url": "https://www.lanacion.com.ar/economia/el-refugio-que-dejo-de-rendir-tres-opciones-para-invertir-los-dolares-del-colchon-tras-inocencia-nid29092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/tres-opciones-para-invertir-los-dolares-del-65MMXL6FXVCYLK2C2H23HTXZXQ.jpg?auth=66ff2afec37a1a72b53ef53ca1f65f72bfc75d25dcbd3dd9761952fb01247de8&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-29T09:00:01.000Z",
+    "tags": [
+      "impositivo",
+      "contable",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "036c9e31a4ca8c77",
+    "title": "Para Milei, el infierno son los otros",
+    "summary": "Los números de la economía y las interpretaciones del Presidente; Bullrich, ¿otra candidata para el mismo modelo?; a París, en busca de inversiones; Massa, ansioso por fustigar a Kicillof; la elección globalizada en Brasil",
+    "url": "https://www.lanacion.com.ar/politica/para-milei-el-infierno-son-los-otros-nid29092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/el-presidente-de-la-argentina-javier-VKLJJYND5FA5TJKHQNA2NAHRNY.JPG?auth=55bcd8f9cb399eb7c31f0698650b71908d4fc7e9b32f3f0a47cbfe49a148d63e&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-29T05:47:26.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "3a0d52a63990c6f7",
+    "title": "Cartas de lectores: El pasado como futuro, eficacia de la ONU, inadmisible",
+    "summary": "El pasado como futuro",
+    "url": "https://www.lanacion.com.ar/opinion/carta-de-lectores/cartas-de-lectores-el-pasado-como-futuro-eficacia-de-la-onu-inadmisible-nid29092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/cartas-de-PBLP43XNFNA4DLZUD2RNZUSZVU.jpg?auth=b223393663f4b758ab1e862f8f17c8e4f9d5857a7b044d861c0dd60330f5ad4a&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-29T03:05:00.000Z",
+    "tags": [
+      "laboral",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "6f4ac870b38b5b5a",
+    "title": "La encrucijada argentina: del cine “catástrofe” de Kicillof al final feliz de Milei",
+    "summary": "El paso del Presidente y el gobernador por Nueva York dejó un sabor a “frustración” en Wall Street: no hubo observaciones realistas para encarar los desafíos pendientes",
+    "url": "https://www.lanacion.com.ar/politica/la-encrucijada-argentina-del-cine-catastrofe-de-kicillof-al-final-feliz-de-milei-nid29092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/axel-kicillof-y-javier-36J3JNDH7FHHTNNY3GMPUOVCFI.jpg?auth=ac63b1b3783c86ca7b32971dfd1bca94696491a4a00c1e46da90998dc6faed14&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-29T03:01:00.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "140e122a45f80efa",
+    "title": "Cada vez menos mujeres “ni-ni”. La fecundidad cayó a la mitad y un número explica el derrumbe",
+    "summary": "En apenas una década, la Argentina pasó de 2,4 a 1,2 hijos por mujer. Es una caída de casi 48%, concentrada en un período extraordinariamente corto. Pero detrás del desplome aparece una historia más compleja que una generación que simplemente dejó de tener hi…",
+    "url": "https://www.lanacion.com.ar/sociedad/cada-vez-menos-mujeres-ni-ni-la-fecundidad-cayo-a-la-mitad-y-un-numero-explica-el-derrumbe-nid29092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/embaraz-TTV2P3MSLNAMNCHNFIMJX2JWMA.jpg?auth=364fed01465adca81499bbb4c93ae51edb6bea4de57c129e37b47ddfcc791239&width=1200&height=675&quality=85&smart=true&focal=1555%2C981",
+    "publishedAt": "2026-09-29T03:01:00.000Z",
+    "tags": [
+      "impositivo"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "4435432c9ea8941f",
+    "title": "La vida de Daniel Roggiano, el meteorólogo del noticiero de Telefe: de locutor y fanático de Huracán a la carrera que le cambió la vida",
+    "summary": "Estudios, experiencias laborales, proyectos propios y una decisión profesional que modificó su rumbo forman parte del recorrido del periodista. Leer más",
+    "url": "https://caras.perfil.com/noticias/celebridades/vida-daniel-roggiano-meteorologo-notiviero-telefe-locutor-fanativo-huracan-carrera-cambio-vida.phtml",
+    "source": "Perfil.com",
+    "image": "https://fotos.perfil.com/2026/09/29/trim/1140/641/daniel-roggiano-2335944.jpg",
+    "publishedAt": "2026-09-29T00:30:06.000Z",
+    "tags": [
+      "laboral"
+    ],
+    "region": null
+  },
+  {
+    "id": "0e10eed1e8318ba3",
+    "title": "Malvinas: un encuentro comercial en Punta Arenas entre isleños y chilenos desafía la postura argentina",
+    "summary": "Se trata de un foro en el que, además de negocios, se busca establecer un nuevo enlace marítimo entre las islas y la ciudad patagónica trasandina",
+    "url": "https://www.lanacion.com.ar/politica/malvinas-un-encuentro-comercial-en-punta-arenas-entre-islenos-y-chilenos-desafia-la-postura-nid28092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/la-pagina-web-donde-se-anuncian-las-actividades-G6D5475GC5AVLNAM5L7PVPB6IY.JPG?auth=afa07d207a868ea438b6beb12098c8c9322e8a8dfbb3b6814061c6b7fa222bd5&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-28T23:21:07.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Bariloche"
+  },
+  {
+    "id": "78d7ce659a7a4809",
+    "title": "La necesidad de la esperanza; el riesgo de la negación",
+    "summary": "La seguidilla de malos datos económicos desafía la narrativa del Gobierno en un momento sensible de los mercados y el humor social",
+    "url": "https://www.lanacion.com.ar/economia/la-necesidad-de-la-esperanza-el-riesgo-de-la-negacion-nid28092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/el-presidente-javier-milei-durante-una-entrevista-USEO6MJYDVCRFG4ZKOIOSPSV4M.jpg?auth=6812c247fef3853711b0077bf83f57470d1336a14094f0c5a532cbca6a6907a9&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-28T23:21:03.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "26358b908143820e",
+    "title": "Amenazas, vejaciones, chantajes y otros métodos crueles de la banda narco que, para la Justicia, integraba Bebote Álvarez",
+    "summary": "El exjefe de la barra brava de Independiente fue procesado con prisión preventiva por asociación ilícita y tráfico de estupefacientes",
+    "url": "https://www.lanacion.com.ar/seguridad/amenazas-vejaciones-chantajes-y-otros-metodos-crueles-de-la-banda-narco-que-para-la-justicia-nid28092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/las-pruebas-del-sometimiento-del-que-fue-victima-US2I5JKBTRH3DOU7OEMH4TPVVM.jpg?auth=ab5e3b39a070d40c910bab5c60d0dee52988686f645f7c42995c1cc2f33fae4b&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-28T22:52:32.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "f291bfd85c298ac0",
+    "title": "JP Morgan criticó los impuestos provinciales y destacó el principal incentivo del Gobierno para atraer inversiones",
+    "summary": "Tras revisar sus proyecciones, la financiera ubicó al país entre las economías con mayor carga impositiva de la región y cuestionó la superposición de tributos subnacionales",
+    "url": "https://www.lanacion.com.ar/economia/jp-morgan-critico-los-impuestos-provinciales-y-destaco-el-principal-incentivo-del-gobierno-para-nid28092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/el-ministro-de-economia-luis-caputo-y-santiago-MFQLSIBOZ5A6PPEHASEFDPEC6M.jpg?auth=e45e1f1c1872ecc0ef10c36f92f7c9769c112ac547ffc7a893a380aae4a30940&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-28T20:42:42.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "c5ad375dc2b9f504",
+    "title": "Sturzenegger le respondió a Prat Gay y explicó cómo genera empleo Vaca Muerta",
+    "summary": "El ministro sostuvo que los beneficios de la energía y la minería se traducen en puestos de trabajo directos e indirectos y puso como ejemplo el caso de Arabia Saudita",
+    "url": "https://www.lanacion.com.ar/economia/sturzenegger-le-respondio-a-prat-gay-y-explico-como-genera-empleo-vaca-muerta-nid28092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/sturzenegger-le-respondio-a-prat-gay-y-explico-QSXBZCU63JAPLE2KK7GXTX4CJU.png?auth=72934878c05084682923dfb7f8aa7566d44e6e9df68548a271d2e706fd77fdb9&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-28T19:21:59.000Z",
+    "tags": [
+      "laboral",
+      "impositivo",
+      "contable",
+      "societaria"
+    ],
+    "region": "Patagonia"
+  },
+  {
+    "id": "bb53c49eeb4a5c78",
+    "title": "Una firma local lanza una certificación para medir cómo los profesionales trabajan con IA",
+    "summary": "Se trata de una credencial que evalúa, mediante simulaciones dinámicas de trabajo, cómo una persona piensa, decide y utiliza inteligencia artificial en situaciones laborales reales",
+    "url": "https://www.lanacion.com.ar/tecnologia/una-firma-local-lanza-una-certificacion-para-medir-como-los-profesionales-trabajan-con-ia-nid28092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/segun-el-foro-economico-mundial-los-empleos-QLRMJPLE6ZBVXGJ4RU34R2KFOQ.jpg?auth=874d9ce234ecbb7f0a4a8d3e894593e2334052240be815ecf862319612801b40&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-28T19:06:43.000Z",
+    "tags": [
+      "laboral",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "47b98e4cd39f5b3f",
+    "title": "Esperan recaudar más de US$800 millones: el Gobierno desarma el esquema de De Vido y pone a la venta tres joyas del Estado",
+    "summary": "Un decreto autoriza a vender las acciones de Enarsa en las térmicas Belgrano y San Martín, y abre la puerta a la Guillermo Brown; los accionistas privados tienen derecho a igualar cualquier oferta",
+    "url": "https://www.lanacion.com.ar/economia/esperan-recaudar-mas-de-us800-millones-el-gobierno-desarma-el-esquema-de-de-vido-y-privatiza-tres-nid28092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/las-centrales-belgrano-y-san-martin-de-mas-de-800-7D7G5UPMBVD3LB22G7AMTB2SIA.jpg?auth=f7593588f0cabd318592b8c475b9ce4ab152edfcb6e05c70ce8619849ca6071e&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-28T17:33:22.000Z",
+    "tags": [
+      "laboral",
+      "impositivo",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "e6ae236a5721c03c",
+    "title": "¿Oportunidad o presión? Congelar óvulos, el beneficio que cada vez más empresas pagan y abre un debate",
+    "summary": "La tendencia empezó en Estados Unidos y suma casos en la Argentina; la pregunta es si piden, sin decirlo, que la maternidad espere",
+    "url": "https://www.lanacion.com.ar/sociedad/oportunidad-o-presion-congelar-ovulos-el-beneficio-que-cada-vez-mas-empresas-pagan-y-abre-un-debate-nid28092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/ovulos-esperma-y-embriones-congelados-podran-ser-MBOILBVQS5ENRFYHMD3SRK4IIU.jpg?auth=53b8f7d4a5041acd55421a40e0249829c194207b0d74b4a6602f969432d935ce&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-28T17:23:55.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "4f91da3163c7ccec",
+    "title": "La deuda argentina, bajo presión: el riesgo país trepó a 642 puntos y alcanza el valor más alto en 10 meses",
+    "summary": "Las acciones caen hasta 6% en Nueva York y el dólar oficial alcanzó un récord a $1550",
+    "url": "https://www.lanacion.com.ar/economia/dolar/la-deuda-argentina-bajo-presion-el-riesgo-pais-trepo-a-642-puntos-y-alcanza-el-valor-mas-alto-en-10-nid28092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/el-riesgo-pais-volvio-a-subir-y-se-consolida-por-KUWLGIAD35BB5EHCRTRXR3EDBE.JPG?auth=5e4e21a7285e09908c9d7a5d5a5ec1426f5a99cc1138848f575759ebff1098fd&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-28T17:21:46.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "97c57254c88647b9",
+    "title": "Tini en Buenos Aires: feliz por cantar con Lali, pero lejos de sus padres",
+    "summary": "En medio de un parate en su tour Futttura, la artista pasa unos días en Argentina",
+    "url": "https://www.lanacion.com.ar/espectaculos/tini-stoessel-en-buenos-aires-tan-cerca-y-tan-lejos-de-sus-padres-ella-no-quiso-aparecer-nid28092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/tini-en-river-camino-al-escenario-para-cantar-con-DPL7JQUCIRC5DINDPBUDAN35T4.jpg?auth=f29e5dec855a3273c51d547a936d477a7fef70741c2cbe834f6b7988b765dc47&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-28T16:06:29.000Z",
+    "tags": [
+      "laboral",
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "0b4c4e6662cffe89",
+    "title": "Cristiano Rattazzi dijo que el peso argentino “es una moneda falopa” y habló del “pésimo impuesto” del país",
+    "summary": "El expresidente de Fiat Argentina reclamó el cambio de régimen monetario que prometió el Gobierno, criticó los impuestos a las pymes y al gobernador Axel Kicillof; apuntó contra los empresarios que quieren volver al “negocio de antes”",
+    "url": "https://www.lanacion.com.ar/economia/cristiano-rattazzi-dijo-que-el-peso-argentino-es-una-moneda-falopa-y-hablo-del-pesimo-impuesto-del-nid28092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/el-peso-se-ha-vuelto-una-moneda-basura-desde-hace-A4EHMCRMB5A5VOFXLDX3GNNHU4.JPG?auth=308cabf1f770b3bcd5b7c1078742712d333d05c229739fcbdb2975b2054596bc&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-28T14:39:56.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "e080ab38a1031e35",
+    "title": "Plazo fijo: cuál es la tasa de interés banco por banco este lunes 28 de septiembre",
+    "summary": "El Banco Central de la República Argentina (BCRA) permite a los ahorristas conocer el rendimiento de estos instrumentos de inversión en pesos con una tabla comparativa de tasas",
+    "url": "https://www.lanacion.com.ar/economia/plazo-fijo-cual-es-la-tasa-de-interes-banco-por-banco-este-lunes-28-de-septiembre-nid28092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/las-tasas-de-interes-de-este-lunes-28-de-EU5C2ZNLH5DVBBRLIITHKK6FJU.jpg?auth=530289b6d95d66f7c288fcba4a783af3bda4ce9d6f5bcfdbeb0b1e1f57888b80&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-28T14:35:55.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "07c0846485e682d1",
+    "title": "Angus de Primavera: Don Cholo se consagró con el Gran Campeón Macho y La Juanita logró el Gran Campeón Ternero",
+    "summary": "En el último día de la Semana Angus de Primavera se consagraron los mejores reproductores de la raza; el viernes por la mañana Emanuel Canale definió los mejores terneros y por la tarde Julio Fernández fue el encargado de elegir a los grandes campeones",
+    "url": "https://www.lanacion.com.ar/economia/campo/angus-de-primavera-don-cholo-se-consagro-con-el-gran-campeon-macho-y-la-juanita-logro-el-gran-nid28092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/el-toro-josecito-de-la-cabana-don-cholo-fue-el-UTLWIPBFKVBCVM2HI4FD7RR54I.png?auth=b1e0550e7b44e0414e8bd50cb06f140aff6c37b6ada2a31e0d1cdd2761fd6746&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-28T14:13:41.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "d1b580e1dde268a5",
+    "title": "Armas nucleares, ciberdelitos y el sostén de Rusia y China: las cartas de Kim en una posible cumbre con Trump",
+    "summary": "El régimen norcoreano llega fortalecido por su mayor capacidad de disuasión, una economía clandestina que esquiva sanciones y el respaldo creciente de Moscú y Pekín",
+    "url": "https://www.lanacion.com.ar/el-mundo/armas-nucleares-ciberdelitos-y-el-sosten-de-rusia-y-china-las-cartas-de-kim-en-una-posible-cumbre-nid28092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/north-korea-corea-del-norte-mundo-kim-jong-un-ju-CGLUF4SD3BCWVD7ZYYYCIQEFFE.JPG?auth=fc5a216cd569e2f291c6208af036763a0822bd6c671b8a52349d82f4af0bb4c1&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-28T13:27:54.000Z",
+    "tags": [
+      "laboral",
+      "impositivo",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "fd224838e4cb2fc4",
+    "title": "El Gobierno extendió hasta 2049 la concesión de 35 aeropuertos a la empresa de Eurnekian",
+    "summary": "El plazo podría ampliarse hasta 2056 si Aeropuertos Argentina acredita fondos para invertir US$600 millones y cumple con el avance de las obras previsto para 2031",
+    "url": "https://www.lanacion.com.ar/economia/el-gobierno-extendio-hasta-2049-la-concesion-de-35-aeropuertos-a-la-empresa-de-eurnekian-nid28092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/pasajeros-en-el-aeropuerto-internacional-de-M5VTUQSOYFAMPMSQSHYM76EDXU.jpg?auth=ba40826a7cf4f99af2cf3bbbcb627d5aee8cf209ccc8cf5fc02077ff87563c5c&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-28T04:00:00.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "fffeecb30aca9bfa",
+    "title": "Privilegios que la República no necesita",
+    "summary": "Las asignaciones mensuales vitalicias que reciben los expresidentes de la Nación constituyen canonjías contrarias al principio de igualdad ante la ley",
+    "url": "https://www.lanacion.com.ar/editoriales/privilegios-que-la-republica-no-necesita-nid28092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/cristina-kirchner-percibe-una-suculenta-pension-TZLYPPXT4ZBY3BCJC4H74YD3FY.jpg?auth=ffd1e8b11401fc3d6cd4bda5f0f5e9f679f7b0725860196d24015d3ca2e804ad&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-28T03:11:00.000Z",
+    "tags": [
+      "laboral"
+    ],
+    "region": null
+  },
+  {
+    "id": "0b7361cad58400a4",
+    "title": "¿Cómo se financia la política?",
+    "summary": "El sistema en la Argentina es complejo y altamente regulado, pero el problema  no está necesariamente en las normas, sino en su cumplimiento",
+    "url": "https://www.lanacion.com.ar/opinion/como-se-financia-la-politica-en-la-argentina-nid28092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/afiches-en-caba-y-la-plata-es-axel-o-MXTDF2RXINCHNJVS5O37TFITGQ.jpg?auth=9e0789793a7ed29243f5aa083325a77845092685d8f0e9cd118e24ccfe4b084d&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-28T03:05:00.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "dbd1efd1b2c533b4",
+    "title": "El inaceptable precio de los medicamentos en la Argentina",
+    "summary": "Los valores superan varias veces los que se cobran en otros países, aun en aquellos cuya población percibe ingresos más elevados; qué estrategias podrían seguirse para evitar esta situación",
+    "url": "https://www.lanacion.com.ar/opinion/el-inaceptable-precio-de-los-medicamentos-en-la-argentina-nid28092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/lo-que-se-gasta-en-medicamentos-en-la-argentina-MLHZUPL3YFCTRKURXSUEHWB4OQ.png?auth=d42a1d821c8bf5af6c8c304de05ab09bd72dfb55629774c696e89c7de44aa9c1&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-28T03:05:00.000Z",
+    "tags": [
+      "impositivo"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "9acd42271a270b56",
+    "title": "Extienden al menos hasta el 2049 la concesión de Aeropuertos Argentina",
+    "summary": "La resolución se publicó este lunes en el Boletín Oficial.La empresa de Eduardo Eurnekian deberá invertir US$ 600 millones adicionales a los US$ 606 millones invertidos entre 2021 y 2026.",
+    "url": "https://www.clarin.com/economia/extienden-2049-concesion-aeropuertos-argentina_0_OqcAPUBst6.html",
+    "source": "Clarín",
+    "image": "https://www.clarin.com/img/2026/09/27/Osc3joOQh_2000x1500__1.jpg",
+    "publishedAt": "2026-09-28T01:40:18.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "7735e5a10b0398b1",
+    "title": "La suba del riesgo país y el shock global complican una fuente clave de dólares que Caputo espera para afrontar 2027",
+    "summary": "El programa financiero prevé colocar US$5000 millones en bonos en el mercado local; las tasas encarecieron esa posibilidad; analistas advierten que, si no mejora el acceso al crédito, el BCRA deberá comprar más divisas antes de las elecciones",
+    "url": "https://www.lanacion.com.ar/economia/la-suba-del-riesgo-pais-y-el-shock-global-complican-una-fuente-clave-de-dolares-que-caputo-espera-nid27092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/el-canciller-pablo-quirno-el-presidente-javier-QO7EMRNAMND6VKROPYGHZ3ITBI.JPG?auth=56e0c7db644117d1e88dc9240a972caa80b5f070c5ac9f8cd70e152cb834f495&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-27T22:36:39.000Z",
+    "tags": [
+      "contable",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "0009517a755703cc",
+    "title": "Medallas de oro y bolsillos vacíos: el contraste detrás del éxito argentino en los Juegos Suramericanos",
+    "summary": "Con un segundo puesto histórico en el medallero de Santa Fe 2026, la delegación argentina superó todas las expectativas. Sin embargo, detrás de las 293 preseas cosechadas late una radiografía preocupante: atletas que compiten sin becas y venden rifas, sosteni…",
+    "url": "https://442.perfil.com/noticias/polideportivo/medallas-de-oro-y-bolsillos-vacios-el-contraste-detras-del-exito-argentino-en-los-juegos-suramericanos.phtml",
+    "source": "Perfil.com",
+    "image": "https://fotos.perfil.com/2026/09/27/trim/1140/641/delegacion-argentina-en-los-juegos-suramericanos-2026-2335035.jpg",
+    "publishedAt": "2026-09-27T21:30:00.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "22adeb3303911771",
+    "title": "La elección en Brasil esconde pistas sobre el futuro de la Argentina",
+    "summary": "Los cambios de la “grieta”, las consignas que pasan de un sector a otro, el “voto anti”; de muchas formas, la definición entre Lula y Bolsonaro está repleta de paralelos con la realidad local",
+    "url": "https://www.lanacion.com.ar/politica/la-eleccion-en-brasil-esconde-pistas-sobre-el-futuro-de-la-argentina-nid27092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/lula-da-silva-y-flavio-ZR7UD4EW4RDFZELVDCIHL2GEF4.jpg?auth=781662c259adc19f7b0b1783260c3dfb5d2f951305fb80b30d58faf96b7ab464&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-27T16:03:36.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Bariloche"
+  },
+  {
+    "id": "242187f2cd67c029",
+    "title": "Llegan 82 personas por día y las marcas quieren estar: cómo cambia Neuquén al ritmo de Vaca Muerta",
+    "summary": "La provincia es la que más empleo formal generó desde fines de 2023 y concentra siete de cada 10 barriles del país; la arena que llega desde Entre Ríos se perfila como el principal cuello de botella; LA NACION visitó el yacimiento El Trapial, por el que Chevr…",
+    "url": "https://www.lanacion.com.ar/economia/llegan-82-personas-por-dia-y-las-marcas-quieren-estar-como-cambia-neuquen-al-ritmo-de-vaca-muerta-nid27092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/neuquen-tiene-desempleo-de-32percent-y-pobreza-de-CGP25IEQ6JGWJI4B57AYJ5L36A.jpg?auth=6b44b6e10bcf68c97eff67493da129c43f40e0396862c2b5830a0ca9e54ec19f&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-27T10:21:51.000Z",
+    "tags": [
+      "laboral"
+    ],
+    "region": "Patagonia"
+  },
+  {
+    "id": "8e605ff93e348cc5",
+    "title": "Las implacables notas del cuadernito negro",
+    "summary": "No resulta difícil comprender para un observador avezado que la Argentina no crecerá si se ponen en riesgo el equilibrio fiscal y la confianza en la moneda",
+    "url": "https://www.lanacion.com.ar/editoriales/las-implacables-notas-del-cuadernito-negro-nid27092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/T2D2LSAY5NF5VGH7OLH6ZRYWTM.png?auth=1bbd0c907aecc1ff80d6a4b35f67a083626b63f4b97054d1ec190e37aac2b7f7&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-27T03:09:00.000Z",
+    "tags": [
+      "impositivo"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "79ed284b32d12535",
+    "title": "Cartas de lector: ¿De qué lado está la Justicia?, honestidad brutal, olor a oveja",
+    "summary": "¿De qué lado está la Justicia?",
+    "url": "https://www.lanacion.com.ar/opinion/carta-de-lectores/cartas-de-lector-de-que-lado-esta-la-justicia-honestidad-brutal-olor-a-oveja-nid27092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/cartas-de-ZOJDMDHWCNE53CTUQSLR45KYLQ.jpg?auth=24cb198386eec7a88e26ac69cb2c3ec58cab2ef2ef4ecacb8a62c8b1b27df659&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-27T03:05:00.000Z",
+    "tags": [
+      "laboral"
+    ],
+    "region": null
+  },
+  {
+    "id": "df77bd6411885e16",
+    "title": "Cómo comprar una propiedad en subasta judicial en Argentina: paso a paso y errores que hay que evitar",
+    "summary": "Para sacar provecho de la oportunidad que puede representar comprar un inmueble a un valor más bajo que el de mercado es conveniente conocer bien el proceso",
+    "url": "https://www.lanacion.com.ar/propiedades/como-comprar-una-propiedad-en-subasta-judicial-en-argentina-paso-a-paso-y-errores-que-hay-que-evitar-nid27092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/remate-judicial-en-san-VC3OD6HKAJE4PNZJSPBCXDYARM.JPG?auth=f471d5167832afa6188e29878ff3d7152150f1979c03723763f48b54bb7955ed&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-27T03:04:00.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "c3c31c150f96b68a",
+    "title": "Damián Di Pace: “No hay que esperar un repunte del consumo para 2027”",
+    "summary": "El consultor de empresas y analista afirma que los empresarios “están esperando la continuidad del ciclo económico” para invertir; por qué dice que el Gobierno enfrenta un “trilema” que debe resolver",
+    "url": "https://www.lanacion.com.ar/economia/damian-di-pace-no-hay-que-esperar-un-repunte-del-consumo-para-2027-nid27092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/damian-di-pace-economista-N7SWMRZLRZFUFMHKWHWGBMX35E.jpg?auth=f901932a72eff89ee8dac992ca0a7eaa806eb696fa6400482de95de1cf4cf6a8&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-27T03:01:00.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "3d84cee2d7ba5da8",
+    "title": "Incentivos para el cine: estas son las vías alternativas para financiar películas que la Argentina podría aplicar",
+    "summary": "La industria nacional podría aprender de los casos de EE.UU., España, Brasil y Francia",
+    "url": "https://www.lanacion.com.ar/espectaculos/cine/incentivos-para-el-cine-estas-son-las-vias-alternativas-para-financiar-peliculas-que-la-argentina-nid27092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/el-balance-de-venta-de-entradas-para-peliculas-7YF4ANLKFRC4TMIGXGE4OFNV64.JPG?auth=78120ddec60f8935cd34ddbabc6aa0c5a192618bd5f3caff196a4d9f2a6be360&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-27T03:01:00.000Z",
+    "tags": [
+      "impositivo"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "e06ae178fc4589b0",
+    "title": "La narrativa libertaria se desenfoca bajo la presión económica",
+    "summary": "El discurso del Gobierno pierde eficacia ante la suma de indicadores negativos; los votantes de Milei le demandan más cercanía ante sus preocupaciones; el trasfondo social que revela la suba de la pobreza",
+    "url": "https://www.lanacion.com.ar/politica/la-narrativa-libertaria-se-desenfoca-bajo-la-presion-economica-nid26092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/el-presidente-argentino-javier-milei-en-la-TVYENLD4MJE4FD7QMG5ADWCJLY.jpg?auth=9fb8778f27fe0c8061cf2fdc97a7ca659fe6e97fa427b58160a7f62d5a0d6a23&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-27T01:50:00.000Z",
+    "tags": [
+      "impositivo"
+    ],
+    "region": null
+  },
+  {
+    "id": "00bab27a5caf26b0",
+    "title": "Máximo Kirchner comparó a Milei con la dictadura y aseguró que el “superávit energético” se logró gracias al peronismo",
+    "summary": "El referente de La Cámpora criticó al gobierno nacional y volvió a defender a Cristina Kirchner durante un congreso educativo en Mar del Plata",
+    "url": "https://www.lanacion.com.ar/politica/maximo-kirchner-comparo-a-milei-con-la-dictadura-y-aseguro-que-el-superavit-energetico-se-logro-nid26092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/maximo-kirchner-durante-el-tercer-congreso-WGW6YHPHYFAQ7OZD54VWY5PVC4.jpeg?auth=66b45ff55ac2632347ca29a35bc1d610ada7cc3c4c9444c4a50f049d0d7eaf3a&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-26T23:46:19.000Z",
+    "tags": [
+      "impositivo"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "8cff0829720dfed5",
+    "title": "Caso Sur Finanzas: las sociedades inspiradas en tres jugadores de la selección que están en la mira de la Justicia y ARCA",
+    "summary": "Rodepau Group, Laumart y Gomont fueron constituidas el mismo día y comparten el domicilio fiscal; dos eran clientes de la financiera de Ariel Vallejo y otra aparece en la causa contra el “rey del tabaco”",
+    "url": "https://www.lanacion.com.ar/politica/caso-sur-finanzas-las-sociedades-inspiradas-en-tres-jugadores-de-la-seleccion-que-estan-en-la-mira-nid26092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/ariel-vallejo-sur-finanzas-rodrigo-de-DIOOQMXPTRCDZI2HG3IJUVLAI4.JPG?auth=49369cd7137d23d2e43e407026e99c1b69e9f2bbec4e1db6915349833be1549a&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-26T22:14:50.000Z",
+    "tags": [
+      "laboral",
+      "contable",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "f55eea0adc953171",
+    "title": "Los Gladiadores se quedaron con el oro en los Juegos Suramericanos tras un vibrante empate con Chile",
+    "summary": "El seleccionado argentino terminó invicto, se impuso por diferencia de goles y logró la clasificación para los Juegos Panamericanos",
+    "url": "https://www.lanacion.com.ar/deportes/handball/los-gladiadores-se-quedaron-con-el-oro-en-los-juegos-suramericanos-tras-un-vibrante-empate-con-chile-nid26092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/los-gladiadores-consiguieron-el-oro-en-los-juegos-TP3Q5FH5BJF7VHC7DQOKFNQ2ZI.JPEG?auth=5a1086a3a901e7dd7a0dc239dcfa751e23f8883ccae6cdf584fba189853ea53e&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-26T20:04:48.000Z",
+    "tags": [
+      "impositivo"
+    ],
+    "region": null
+  },
+  {
+    "id": "d0c70224d3b409dc",
+    "title": "“Mano de Piedra” Durán, una vida de película: cantaba salsa, tenía un león en la casa y casi se mata en Argentina",
+    "summary": "Figura de una época dorada, tuvo una dura infancia y peleaba para comprarle una casa a la madre. Bravucón, extravagante y pintoresco, protagonizó combates históricos",
+    "url": "https://www.lanacion.com.ar/deportes/boxeo/mano-de-piedra-duran-una-vida-de-pelicula-cantaba-salsa-tenia-un-leon-en-la-casa-y-casi-se-mata-en-nid26092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/roberto-duran-con-el-leon-wala-lo-tenia-en-la-R7W5XEJYFVFQ3PQ4V3X24FVQCM.jpg?auth=cab3ca7edf084089dd54cd8cf017edad6e7a306f531462f5b3c7230ffc34a3c1&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-26T11:16:25.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "c4813d5635b5b34d",
+    "title": "El sentido invisible: nos alerta del peligro y nos permite disfrutar de muchos placeres, pero pocos lo valoran hasta que desaparece",
+    "summary": "La pérdida del olfato afecta la alimentación, los vínculos, la vida sexual y hasta la capacidad de detectar riesgos cotidianos como humo, gas o comida en mal estado",
+    "url": "https://www.lanacion.com.ar/sociedad/el-sentido-invisible-nos-alerta-del-peligro-y-nos-permite-disfrutar-de-muchos-placeres-pero-pocos-lo-nid26092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/despues-de-perder-el-olfato-en-2022-estela-romera-MMMLZBNDFZERZF73XW2ZDHKGAM.jpeg?auth=145d14a6486cb0de7c119083fba7b73aca9dca14ca8fa2859fbd531fad34c262&width=1200&height=800&quality=70&smart=false&focal=528,808",
+    "publishedAt": "2026-09-26T11:00:00.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "5d21c9af130a9825",
+    "title": "Augusto Cury, candidato a presidente de Brasil: “Las puertas están cerradas tanto para Lula como para Flavio Bolsonaro”",
+    "summary": "En una entrevista exclusiva con LA NACION, el médico psiquiatra, figura disruptiva en el escenario político brasileño reciente, afirma que cree que su partido tiene chances de llegar a la segunda vuelta",
+    "url": "https://www.lanacion.com.ar/el-mundo/augusto-cury-candidato-a-presidente-de-brasil-las-puertas-estan-cerradas-tanto-para-lula-como-para-nid26092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/augusto-PHVK3YU2SZAWXAFTH4YIAZNI7Y.JPG?auth=f273b485daa3cee473da69d7f500439b10789c017d98fa66d15c5d37818e5997&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-26T09:00:01.000Z",
+    "tags": [
+      "laboral",
+      "impositivo"
+    ],
+    "region": "Bariloche"
+  },
+  {
+    "id": "81eb52796e48b5e5",
+    "title": "Javier Cercas: “Europa es el gran bastión de la democracia en el mundo”",
+    "summary": "El Viejo Continente necesita más autocrítica, dice el escritor español, preocupado de que el hartazgo de la gente alimente aun más el crecimiento de la extrema derecha",
+    "url": "https://www.lanacion.com.ar/ideas/javier-cercas-europa-es-el-gran-bastion-de-la-democracia-en-el-mundo-nid26092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/el-escritor-espanol-javier-RENTZHE3KJG6JNGBATPCRK7RHQ.jpg?auth=c9b6992d999dfbf590f054cfb48beb6f9ce30d7fc8a2953c926157e2b6e15d86&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-26T03:12:00.000Z",
+    "tags": [
+      "laboral"
+    ],
+    "region": null
+  },
+  {
+    "id": "ffb36fae5401653b",
+    "title": "Casas prefabricadas chinas en Argentina: cuánto cuestan y dónde se consiguen",
+    "summary": "La combinación de precios más bajos, plazos de entrega acotados y la posibilidad de recibir una estructura lista para montar en un terreno vuelven a estas viviendas una alternativa atractiva frente a la construcción tradicional",
+    "url": "https://www.lanacion.com.ar/propiedades/construccion-y-diseno/casas-prefabricadas-chinas-en-argentina-cuanto-cuestan-y-donde-se-consiguen-nid26092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/las-casas-prefabricadas-de-este-tipo-que-se-traen-THAKRD7RHVCCBJL7JMIYHT6D5Y.jpg?auth=7a7fde52e1fa89a6988457089eb3edc6ab613a48a5953d354e3b26ddef46ab45&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-26T03:11:00.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "2dfd7a57cf57ef3a",
+    "title": "La democracia ante su prueba decisiva: resistir ya no basta",
+    "summary": "Ante el embate autocrático, urge renovar y mejorar la calidad democrática para situarla a la altura de los desafíos del siglo XXI",
+    "url": "https://www.lanacion.com.ar/ideas/la-democracia-ante-su-prueba-decisiva-resistir-ya-no-basta-nid26092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/la-presidenta-interina-de-venezuela-delcy-2XKT2DIDMJGANFMNFX4F4A6GMQ.jpg?auth=01f75fca1d052c77baa28cc233aae641f82180efe635c9f11ac1db0574d6880a&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-26T03:11:00.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "63439f7a60da3b1c",
+    "title": "La delgada línea entre el milagro y la catástrofe",
+    "summary": "La batalla entre Milei y Kicillof en Nueva York cristalizó el estado de incertidumbre sobre el rumbo de la Argentina; ante las reformas sin diálogo y la amenaza de un cambio brusco, el mercado se refugia en la cautela",
+    "url": "https://www.lanacion.com.ar/ideas/la-delgada-linea-entre-el-milagro-y-la-catastrofe-nid25092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/javier-milei-en-nueva-ASTPCXG7OBDPDL6PZCSA2W4YTM.JPG?auth=358b7bc6c82bf75416ce8a0332491c5637fe45810dbc4e7752974908836f4610&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-26T02:48:00.000Z",
+    "tags": [
+      "impositivo"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "bc315ff2fa719194",
+    "title": "El turismo volvió a tener saldo negativo en agosto, pero la brecha se redujo frente a 2025",
+    "summary": "Salieron del país 219.200 turistas más de los que ingresaron; la llegada de extranjeros creció 8,9% interanual y los viajes de residentes al exterior cayeron 18,3%",
+    "url": "https://www.lanacion.com.ar/economia/el-turismo-volvio-a-tener-saldo-negativo-en-agosto-pero-la-brecha-se-redujo-frente-a-2025-nid25092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/brasil-fue-el-destino-mas-elegido-por-los-A6CC3GDGNZGX7DUQXEBLHNLRXQ.jpg?auth=958dd7da7d2c37cc7ce54a96159ce678622eb06da4461240a5e568770e290590&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-25T19:51:58.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "829781b791c1c8dd",
+    "title": "Se va Messi, pero quedan los Salieris: la genialidad se acaba, la brillantez puede mantenerse",
+    "summary": "Aunque el proceso mental del retiro del genio llevará tiempo, no queda otra más que pensarlo sin él",
+    "url": "https://www.lanacion.com.ar/deportes/futbol/se-va-messi-pero-quedan-los-salieris-la-genialidad-se-acaba-la-brillantez-puede-mantenerse-nid25092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/julian-alvarez-lionel-messi-y-lautaro-martinez-la-2GYGILT5MRGPDLT6XZ3WUYGVQE.JPG?auth=b5e97e4977d75617d98a4ebdf5c1bbbf42d5c83cc7f1b34c9a3d1b603167462b&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-25T11:00:03.000Z",
+    "tags": [
+      "contable",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "03891d224a13af03",
+    "title": "El otro negocio de Messi: expande su cadena de hoteles y prepara nuevos proyectos",
+    "summary": "El capitán argentino avanza con sus inversiones fuera de las canchas; la hotelería forma parte de una cartera que también incluye negocios inmobiliarios, tecnología, indumentaria y bebidas",
+    "url": "https://www.lanacion.com.ar/economia/negocios/el-otro-negocio-de-messi-expande-su-cadena-de-hoteles-y-prepara-nuevos-proyectos-nid25092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/argentine-soccer-player-lionel-messi-speaks-at-EGEYLVQOXVBNHBG4SVY6W6DUEA.jpg?auth=a40cb0df36992fc1a0ea77522207cb392aabbfcc053906790a189b130bec9802&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-25T09:59:29.000Z",
+    "tags": [
+      "laboral",
+      "impositivo"
+    ],
+    "region": null
+  },
+  {
+    "id": "cd72dfd1642911ae",
+    "title": "Falsa academia de inversiones: pidieron indagar a 26 sospechosos por una estafa de más de 1000 millones de pesos",
+    "summary": "La presentación fue hecha por el fiscal Andrés Madrea; las víctimas eran captadas a través de redes sociales y grupos de mensajería",
+    "url": "https://www.lanacion.com.ar/seguridad/falsa-academia-de-inversiones-pidieron-indagar-a-26-sospechosos-por-una-estafa-de-mas-de-1000-nid25092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/pidieron-indagar-a-26-sospechosos-por-una-estafa-O26DF7A6JJGUZLCXEKEHBZHBHU.jpg?auth=e576f7d4705b8b54a21e008d3ae9984b1930009cee16e9b8271df1dc9a67fb1c&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-25T09:00:01.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "83b0ccef49cb26fa",
+    "title": "Endeudamiento: no hay soluciones mágicas",
+    "summary": "El desafío consiste en reconocer que detrás de la palabra morosidad conviven millones de situaciones distintas",
+    "url": "https://www.lanacion.com.ar/opinion/endeudamiento-no-hay-soluciones-magicas-nid25092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/marcha-de-movimientos-sociales-contra-el-6KKHER3UG5EZTAH67A7PUUE6QE.JPG?auth=a676064508fdea23924452f24e5982ed163f4536967eb7e95af84a5dea21e1e3&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-25T03:02:00.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "d0e2865a0e1fcdf2",
+    "title": "Dos jueces enviaron exhortos a Gran Bretaña e Israel por la explotación petrolera en Malvinas",
+    "summary": "Ercolini y Lijo quieren saber la composición de las empresas del proyecto Sea Lion; el Gobierno las denunció por actuar de manera “clandestina”",
+    "url": "https://www.lanacion.com.ar/politica/dos-jueces-enviaron-exhortos-a-gran-bretana-e-israel-por-la-explotacion-petrolera-en-malvinas-nid24092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/una-plataforma-de-exploracion-petrolera-en-MB3F7IY4OZDSDIARAVYQAZDIBU.jpeg?auth=8ba81733c8a63314bd38c3775f2180f161062c908b26fce3f0ff91634ca5b6e8&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-24T22:14:24.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "e6a8098b2c354804",
+    "title": "La Corte Suprema ordenó a Facebook eliminar las publicaciones anónimas que acusaban de “abusador” a un estudiante universitario",
+    "summary": "Resolvió así el recurso presentado por el joven, que denunciaba que se lo había sometido a un escrache que dejaba expuesta su intimidad en un asunto que no llegaba a ser de interés público",
+    "url": "https://www.lanacion.com.ar/seguridad/la-corte-suprema-ordeno-a-facebook-eliminar-las-publicaciones-anonimas-que-acusaban-de-abusador-a-un-nid24092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/14-september-2026-china-hong-kong-facebook-app-FGKF73JNDJE4PMDEYKBJLWM2II.jpg?auth=d2e979bfa27556c470b07ed222563d6fccb198845ac71a6472ad9c04e3e56f33&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-24T15:18:31.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": null
+  },
+  {
+    "id": "805c54a9566b06df",
+    "title": "En fotos. Un té victoriano y una tarde a pura moda en la residencia del embajador británico",
+    "summary": "Francisco Ayala, presidente de la Cámara Argentina de la Moda, presentó su colección Jaguares con un té victoriano en el Palacio Madero Unzué",
+    "url": "https://www.lanacion.com.ar/lifestyle/en-fotos-un-te-victoriano-y-una-tarde-a-pura-moda-en-la-residencia-del-embajador-britanico-nid24092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/sociales-en-el-desfile-de-francisco-ayala-en-la-5ZFWH2LHFBBXNBST65X7MCOSGY.JPG?auth=dd1d36a398c43089b54ea8d219cf2cdc7fbb27c8d8a3f226c5e3e213ff812930&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-24T13:32:04.000Z",
+    "tags": [
+      "impositivo"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "29c2cdced4f39b36",
+    "title": "RENOVA: el papel de colores que busca convertir lo cotidiano en diseño",
+    "summary": "La marca portuguesa, reconocida por haber lanzado el primer papel higiénico negro del mundo, llega por primera vez a la Argentina de la mano de PROCOMMERCE con una propuesta que incorpora color, diseño y audacia a productos de uso diario.\n Leer más",
+    "url": "https://caras.perfil.com/noticias/caras-like/renova-el-papel-de-colores-que-busca-convertir-lo-cotidiano-en-diseno.phtml",
+    "source": "Perfil.com",
+    "image": "https://fotos.perfil.com/2026/09/23/trim/1140/641/renova-2332251.jpg",
+    "publishedAt": "2026-09-23T15:47:02.000Z",
+    "tags": [
+      "impositivo",
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
+    "id": "f5e66c56801fbe0d",
+    "title": "Sobreseyeron por prescripción a Guillermo Heisinger, un abogado que fue funcionario del gobierno de Carlos Menem",
+    "summary": "El Tribunal Oral Federal (TOF) N° 5 dejó sin efecto la orden de captura nacional e internacional que se había dictado en julio pasado, cuando elexsecretario de Educación no se presentó a la audiencia donde debían notificarle la pena impuesta",
+    "url": "https://www.lanacion.com.ar/seguridad/sobreseyeron-por-prescripcion-a-guillermo-heisinger-un-abogado-que-fue-funcionario-del-gobierno-de-nid23092026/",
+    "source": "La Nacion",
+    "image": "https://www.lanacion.com.ar/resizer/v2/guillermo-heisinger-fue-sobreseido-por-la-OAR2BUV7TFCFTMHUWFOS6AWP3M.jpg?auth=834909d42af3463f9e54f8ceef31a358eed2d0c1ea97bc6ff03c5f62469cb96f&width=1200&height=800&quality=70&smart=true",
+    "publishedAt": "2026-09-23T13:48:12.000Z",
+    "tags": [
+      "societaria"
+    ],
+    "region": "Argentina"
+  },
+  {
     "id": "c0ee61b9459ba303",
     "title": "Cartas de lectores: Urgencia educativa, principios divinos, cambio de paradigma",
     "summary": "Urgencia educativa",
